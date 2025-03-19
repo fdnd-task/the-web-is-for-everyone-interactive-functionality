@@ -25,6 +25,8 @@ Om de UI states toe te passen in de Liquid templates is het handig als je precie
 Om de states die je zojuist onderzocht hebt te kunnen toepassen in Liquid zal je veel gebruik gaan maken van if/else statements. 
 
 ### Opdracht
+👉 Ga in de liquid documentatie op zoek welke tags en filters je zou kunnen gebruiken om UI states te maken en schrijf ze op het bord
+
 👉 Breid je wireflow uit met elke UI state
 
 👉 Schrijf bij de wireflows ook alvast wat dummy code hoe je die state kunt bereiken
