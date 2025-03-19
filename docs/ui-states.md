@@ -31,7 +31,7 @@ Om de states die je zojuist onderzocht hebt te kunnen toepassen in Liquid zal je
 
 👉 Schrijf bij de wireflows ook alvast wat dummy code hoe je die state kunt bereiken
 
-👉 Ga ze nu maken
+👉 Ga aan de slag met ze maken, vanmiddag is er een practicum waar je mee kan gaan typen met Justus en Dion
 
 💪 Maak de UI states in [partials](https://shopify.github.io/liquid/tags/template/#render)
 
