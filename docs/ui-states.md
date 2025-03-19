@@ -39,4 +39,5 @@ Om de states die je zojuist onderzocht hebt te kunnen toepassen in Liquid zal je
 
 - [Wireframing User Flow with Wireflows](https://balsamiq.com/learn/articles/wireflows/)
 - [UI-Stack - How to fix a bad user interface](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/)
-- [Liquid documentatie](https://shopify.github.io/liquid/) 
+- [Shopify Liquid documentatie](https://shopify.github.io/liquid/)
+- [Officiele Liquid documentatie](https://liquidjs.com/index.html)
