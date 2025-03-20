@@ -10,9 +10,7 @@ Deze week heb je geleerd hoe je data naar Directus kan POSTen met behup van een 
 Elkaar helpen met de POST
 Elkaar helpen met verschillende states tonen in de view
 
-
-
-Vandaag werken we in groepjes aan een code review met peers die ongeveer even ver zijn als dat jij bent. Dit semester werk je meer zelfsturend, en dat geldt ook voor deze code-review. Binnen je groepje presenteer je aan elkaar de gemaakte interactie. 
+Vandaag werken we in groepjes aan een code review met peers die ongeveer even ver zijn als dat jij bent. Jullie gaan binnen deze groep elkaars interactie bekijken en elkaar daarover bevragen. Vervolgens vorm je een duo met een andere student die één niveau verschilt van jou (hoger of lager). Jullie gaan samen kijken naar het werk van de student die het laagste niveau heeft en gaan samen het een niveau hoger te tillen. Let op: kies iemand van een andere opdrachtgever én met wie je normaal niet samenwerkt. 
 
 ## Code Review (op niveau)  
 
