@@ -23,6 +23,7 @@ Bekijk onderstaande vier stappen en bepaal tot welke stap jij bent gekomen:
 
 _Zoek maximaal drie andere studenten die tot dezelfde stap zijn gekomen en ga samen aan een tafel zitten._
 
+
 ### Presenteer aan elkaar de gemaakte interactie
 
 Presenteer binnen je groepje de gemaakte interactie aan elkaar. Neem hiervoor de tijd, minimaal 10 minuten per persoon.  
@@ -30,11 +31,15 @@ Presenteer binnen je groepje de gemaakte interactie aan elkaar. Neem hiervoor de
 Voor degene die presenteert: begin met de user story en de wireflow die je hebt gemaakt. Laat vervolgens de interactie zien in de browser en toon daarna hoe je dit hebt uitgewerkt in de code.  
 Voor degene die luisteren: stel vragen over het gemaakte werk. Denk bijvoorbeeld aan: Waarom heb je gekozen voor deze naamgeving van de routes? Welke UI-states wil je gaan uitwerken (of heb je al gedaan)? Hoe heb je nagedacht over feedback en feedforward?
 
+Maak issues aan van waardevolle feedback of interessante en slimme oplossingen. 
+
+
 ## Code Review (level-up)
 
 Vorm nu een duo met een andere student die één niveau hoger of lager is dan jij. Let op: kies iemand van een andere opdrachtgever én met wie je normaal niet samenwerkt. Iemand helpen is leerzaam, vooral wanneer je in een net iets andere context werkt (lees: een andere opdrachtgever en dus een andere dataset). 
 
-Zorg er samen voor dat jullie beiden minimaal de eerste drie stappen hebben doorlopen. Jullie hebben een POST-route aangemaakt en de data wordt vervolgens opgeslagen in Directus. Komen jullie er samen niet uit? Maak dan gebruik van hulpbronnen. 
+Zorg er samen voor dat jullie beiden alle vier de bovengenoemde stappen hebben doorlopen. Jullie hebben dus een formulier aangemaakt in een liquid view, een POST-route aangemaakt waarvan de data wordt opgeslagen in Directus en jullie hebben minimaal één UI-state gemaakt. Komen jullie er samen niet uit? Maak dan gebruik van hulpbronnen. 
+
 
 ## Huiswerkopdracht  
 
