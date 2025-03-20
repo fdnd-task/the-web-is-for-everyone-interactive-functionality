@@ -8,7 +8,7 @@ Deze week heb je geleerd hoe je data naar Directus kunt POST'en met behulp van e
 
 Vandaag werken we in groepjes aan een code review met peers die ongeveer even ver zijn als jij. Jullie gaan binnen deze groep elkaars interactie bekijken en elkaar daarover bevragen. 
 
-Vervolgens vorm je een duo met een andere student die één niveau hoger of lager is dan jij. Jullie gaan samen kijken naar het werk van de student met het lagere niveau en proberen dit samen naar een hoger niveau te tillen. 
+Vervolgens vorm je een duo met een andere student die één niveau hoger of lager is dan jij en zorg je ervoor dat jullie beiden minimaal tot stap 3 zijn gekomen. 
 
 ## Code Review (op niveau)  
 
