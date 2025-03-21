@@ -22,8 +22,6 @@ Voor het ontwerpen van states met dynamische data gebruiken we de UI stack.  Sco
 
 Voor elke scherm waar een gebruiker iets mee doet moet je verschillende states tonen. Er wordt bijvoorbeeld data geladen, of er kan iets mis gaan. Dan heeft de gebruiker feedback nodig die duidelijk maakt wat er gebeurt. Hiervoor heeft elk scherm 5 states nodig. 
 
-![UI-stack](ui-stack.jpg) *verschillende states van dezelfde pagina.*
-
 1. Loading State
 2. Empty State
 3. Partial State
@@ -31,13 +29,17 @@ Voor elke scherm waar een gebruiker iets mee doet moet je verschillende states t
 5. Ideal state
 
 
+![UI-stack](ui-stack.jpg) *verschillende states van dezelfde pagina.*
+
+
+
 ### Opdracht
 
-Onderzoek met je tafel wat de 5 states van de UI-stack er zijn:
+Onderzoek met je tafel de 5 states van de UI-Stack:
 
 👉 Schrijf de 5 UI-Stack states op het bord
 
-👉 Zoek voor elke state een goed voorbeeld, heb je ook voorbelden waar het niet goed gaat?
+👉 Zoek voor elke state een goed voorbeeld, heb je ook voorbeelden waar het niet goed gaat?
 
 👉 Schrijf kort op waar ze voor gebruikt worden
 
@@ -47,14 +49,13 @@ Onderzoek met je tafel wat de 5 states van de UI-stack er zijn:
 
 ## UI-Stack ontwerpen en bouwen
 
-Om de UI-Stack toe te passen is het handig als je precies weet wat je wilt gaan doen. Daarom beginnen we met het uitbreiden van jouw wireflow met meerder states voordat we gaan bouwen! 
+Om de UI-Stack toe te passen ga je eerst de states ontwerpen zodat je precies weet wat je wil bouwen. Hiervoor ga je je wireflow uitbreiden. 
 
 ### Wireflow uitbreiden met de UI-Stack
 
-Bespreek je wireflow met je buur en bedenk welke schermen de UI-Stack nodig hebben. Voeg de states toe en geef ze een duidelijke titel. 
-dat zie er dan bijvoorbeeld zo uit: 
+Bespreek je wireflow met je buur en bedenk welke schermen de UI-Stack nodig hebben. Wat laat je bijvoorbeeld zien als er nog geen beichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als het de POST goed gaat?
 
-
+Voeg de states toe en geef ze een duidelijke titel. 
 
 
 <!--
@@ -65,7 +66,9 @@ dat zie er dan bijvoorbeeld zo uit:
 
 ### UI-Stack states bouwen in Liquid
 
-Om de states die je zojuist onderzocht hebt te kunnen toepassen in Liquid zal je veel gebruik gaan maken van if/else statements. 
+Omdat we server-side pagina's aan het bouwen zijn gaan we beginnen met het bouwen van een empty-state en ideal-state. De loading-state gaan we in week 3 toevoegen als je de POST client-side gaat maken. 
+
+Om de empty-state te kunnen tonen in Liquid zal je veel gebruik gaan maken van if/else statements. 
 
 
 👉 Schrijf bij de wireflows ook alvast wat dummy code hoe je die state kunt bereiken
@@ -77,6 +80,8 @@ Om de states die je zojuist onderzocht hebt te kunnen toepassen in Liquid zal je
 👉 Ga aan de slag met ze maken, vanmiddag is er een practicum waar je mee kan gaan typen met Justus en Dion
 
 💪 Maak de UI states in [partials](https://shopify.github.io/liquid/tags/template/#render)
+
+
 
 ### Bronnen
 
