@@ -13,7 +13,8 @@ Als je een POST interactie ontwerpt moet je in de interface nog andere states on
 
 ## UI-Stack
 
-Voor het ontwerpen van states met dynamische data gebruiken we de UI stack.  Scott Hurrf schrijft hierover:
+Voor het ontwerpen van states met dynamische data gebruiken we de UI-Stack. 
+In het artikel How to Fix a Bad Interface staat:
 
 > Every screen you interact with in a digital product has multiple personalities.
 > 
@@ -53,7 +54,7 @@ Om de UI-Stack toe te passen ga je eerst de states ontwerpen zodat je precies we
 
 ### Wireflow uitbreiden met de UI-Stack
 
-Bespreek je wireflow met je buur en bedenk welke schermen de UI-Stack nodig hebben. Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als het de POST goed gaat?
+Bespreek je wireflow over je POST funcionaliteit met je buur en bedenk welke states vand e UI-Stack je nodig hebt. Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als het de POST goed gaat?
 
 Voeg de states toe en geef ze een duidelijke titel. 
 
@@ -71,9 +72,9 @@ Omdat we server-side pagina's aan het bouwen zijn gaan we beginnen met het bouwe
 Om de empty-state te kunnen tonen in Liquid zal je gebruik moeten maken van if/else statements. Welke HTMl ga je renderen als er geen data is? Welke HTML ga je renderen als er wel data is? 
 
 
-👉 Schrijf bij de wireflows pseudo-code hoe je die state kan bouwen. Kijk in de liquid documentatie welke tags en filters je zou kunnen gebruiken om UI states te maken en schrijf ze op het bord
+👉 Schrijf bij de wireflows pseudo-code hoe je die state kan bouwen. Kijk in de liquid documentatie welke tags en filters je zou kunnen gebruiken om een empty state te maken en schrijf ze op het bord
 
-👉 Ga aan de slag en probeer de states te bouwen. Vrijdag gaan we de states testen en/of elkaar helpen met de volgende stap.
+👉 Als je het ontwerp en pseudo-code bedacht hebt, kan je proberen de states te bouwen. Vrijdag gaan we de states testen en/of elkaar helpen met de volgende stap.
 
 💪 Maak de UI states in [partials](https://shopify.github.io/liquid/tags/template/#render)
 
