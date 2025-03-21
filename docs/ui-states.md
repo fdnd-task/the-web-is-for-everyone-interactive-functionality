@@ -67,7 +67,7 @@ Voeg de states toe en geef ze een duidelijke titel.
 
 ### UI-Stack states bouwen in Liquid
 
-Omdat we server-side pagina's aan het bouwen zijn gaan we beginnen met het bouwen van een empty-state en ideal-state. De loading-state gaan we in week 3 toevoegen als je de POST client-side gaat maken. 
+Omdat we server-side pagina's aan het bouwen zijn gaan we beginnen met het bouwen van een empty-state. De loading-state gaan we in week 3 toevoegen als je de POST client-side gaat maken. 
 
 Om de empty-state te kunnen tonen in Liquid zal je gebruik moeten maken van if/else statements. Welke HTMl ga je renderen als er geen data is? Welke HTML ga je renderen als er wel data is? 
 
