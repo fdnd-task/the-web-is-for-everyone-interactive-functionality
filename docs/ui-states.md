@@ -82,7 +82,6 @@ Om de empty-state te kunnen tonen in Liquid zal je gebruik moeten maken van if/e
 
 ### Bronnen
 
-- [Wireframing User Flow with Wireflows](https://balsamiq.com/learn/articles/wireflows/)
 - [UI-Stack - How to fix a bad user interface](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/)
 - [Shopify Liquid documentatie](https://shopify.github.io/liquid/)
 - [Officiele Liquid documentatie](https://liquidjs.com/index.html)
