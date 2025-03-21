@@ -54,7 +54,7 @@ Om de UI-Stack toe te passen ga je eerst de states ontwerpen zodat je precies we
 
 ### Wireflow uitbreiden met de UI-Stack
 
-Bespreek je wireflow over je POST funcionaliteit met je buur en bedenk welke states vand e UI-Stack je nodig hebt. Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als het de POST goed gaat?
+Bespreek je wireflow over je POST funcionaliteit met je buur en bedenk welke states van de UI-Stack je nodig hebt. Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als het de POST goed gaat?
 
 Voeg de states toe en geef ze een duidelijke titel. 
 
