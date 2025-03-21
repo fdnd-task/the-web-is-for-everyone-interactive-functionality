@@ -19,7 +19,7 @@ Bekijk onderstaande vier stappen en bepaal tot welke stap jij bent gekomen:
 1. Je hebt **een interactie bedacht en geschetst**, hiervan een user story geschreven en een wireflow getekend.  
 2. Je hebt **een formulier gemaakt in een Liquid-view**.  
 3. Je hebt **een POST-route aangemaakt** in `server.js`, die de **data vervolgens opslaat in Directus**.  
-4. Je hebt **één of meerdere UI-states uitgewerkt in partials**.  
+4. Je hebt **één of meerdere UI-stack states uitgewerkt in partials**.  
 
 _Zoek maximaal drie andere studenten die tot dezelfde stap zijn gekomen en ga samen aan een tafel zitten._
 
