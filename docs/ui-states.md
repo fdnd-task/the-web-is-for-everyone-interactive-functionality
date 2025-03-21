@@ -68,19 +68,16 @@ Voeg de states toe en geef ze een duidelijke titel.
 
 Omdat we server-side pagina's aan het bouwen zijn gaan we beginnen met het bouwen van een empty-state en ideal-state. De loading-state gaan we in week 3 toevoegen als je de POST client-side gaat maken. 
 
-Om de empty-state te kunnen tonen in Liquid zal je veel gebruik gaan maken van if/else statements. 
+Om de empty-state te kunnen tonen in Liquid zal je gebruik moeten maken van if/else statements. Welke HTMl ga je renderen als er geen data is en Welke HTML ga je renderen als er wel data is? 
 
 
-👉 Schrijf bij de wireflows ook alvast wat dummy code hoe je die state kunt bereiken
-
-👉 Ga in de liquid documentatie op zoek welke tags en filters je zou kunnen gebruiken om UI states te maken en schrijf ze op het bord
-
-
+👉 Schrijf bij de wireflows pseudo-code hoe je die state kunt bereiken. Kijk in de liquid documentatie welke tags en filters je zou kunnen gebruiken om UI states te maken en schrijf ze op het bord
 
 👉 Ga aan de slag met ze maken, vanmiddag is er een practicum waar je mee kan gaan typen met Justus en Dion
 
+<!--
 💪 Maak de UI states in [partials](https://shopify.github.io/liquid/tags/template/#render)
-
+-->
 
 
 ### Bronnen
