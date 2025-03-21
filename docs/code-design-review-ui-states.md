@@ -49,6 +49,6 @@ Probeer te achterhalen:
 - Welke website werkte niet?  
 - Welk apparaat (laptop, mobiel, tablet) gebruikten ze?  
 - Welk besturingssysteem (Windows, macOS, Android, iOS)?  
-- Welke browser (Chrome, Safari, Edge, Firefox)?  
+- Welke browser (Chrome, Safari, Edge, Firefox) en versie?  
 
 Neem je onderzoek en de anekdote maandag mee naar de les, zodat je er iets over kunt vertellen!
