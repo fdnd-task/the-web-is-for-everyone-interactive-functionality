@@ -57,7 +57,7 @@ Je kunt hiermee ook controleren of een bepaalde selector ondersteund wordt:
 Of je kunt controleren of custom properties ondersteund worden:
 
 ```css
-@supports (--custom: properties)) {
+@supports (--custom: properties) {
 	...
 }
 ```
