@@ -34,9 +34,9 @@ Die laatste stap kun je het best doen met _feature detection_.
 Met _feature detection_ check je of een browser een bepaalde CSS of JS techniek kan uitvoeren. 
 
 ### @support in CSS
-In CSS kun je voor feature detection `@supports` gebruiken. 
+In CSS kun je voor feature detection `@supports` gebruiken.
 
-Bijvoorbeeld als je een nieuwe techniek `background-clip: text` wil gebruiken, dan kun je met `@support` checken of een browser dit ondersteund. Zo kan je ervoor zorgen dat de website niet stuk gaat als een browser dit niet ondersteund. Want als je in onderstaand voorbeeld geen feature detection zou toepassen dan kan het gebeuren dat de tekst niet te lezen is. 
+Bijvoorbeeld als je een nieuwe techniek `background-clip: text` wil gebruiken, dan kun je met `@support` checken of een browser dit ondersteunt. Zo kan je ervoor zorgen dat de website niet stuk gaat als een browser dit niet ondersteund. Want als je in onderstaand voorbeeld geen feature detection zou toepassen dan kan het gebeuren dat de tekst niet te lezen is.
 
 ```css
 h1 {
@@ -72,10 +72,10 @@ in veel gevallen heb je geen feature detection nodig, vanwege [de _Cascade_ in C
 ```css
 h1 {
 	color: #ff0000;
-	color: #background: color(display-p3 1 0.08 0); /* super red! */;
+	color: color(display-p3 1 0.08 0); /* super red! */;
 }
 ```
-Bijvoorbeeld: Bepaal eerst de kleur in hex en daarna met de `color()` function en het nieuwe kleurenchema `display-P3`. Als een browser dit niet kan uitvoeren is de kleur wel rood. Kan een browser het wel uitvoeren? Dan is de kleur super rood!
+Bijvoorbeeld: Bepaal eerst de kleur in hex en daarna met de `color()` function en het nieuwe kleurenchema `display-P3`. Als een browser dit niet kan uitvoeren, is de kleur wel rood. Kan een browser het wel uitvoeren? Dan is de kleur super rood!
 
 
 #### Bronnen
