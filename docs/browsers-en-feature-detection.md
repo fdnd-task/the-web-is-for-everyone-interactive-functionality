@@ -7,7 +7,7 @@ In Sprint 3 heb je geleerd dat er veel verschillende mensen zijn, en waarom je d
 
 ### Aanpak
 
-Afgelopen maandag hebben we ons wat meer verdiept in _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken.
+Afgelopen maandag hebben we ons wat meer verdiept in _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Vandaag gaan we meer leren over _feature detection_ en dit toepassen op de leertaak. Komende vrijdag krijg je hierop een code review.
 
 
 ## Browsers en engines
