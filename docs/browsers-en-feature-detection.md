@@ -102,3 +102,4 @@ _Op MDN staat welke browsers een bepaalde techniek ondersteunen._
 
 - [Feature detection in JavaScript @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection#javascript)
 - [Progressive Enhancement @ MDN](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement)
+- [Can I Use...](https://caniuse.com/)
