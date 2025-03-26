@@ -50,6 +50,7 @@ Je kunt hiermee ook controleren of een bepaalde selector ondersteund wordt:
 
 ```css
 @supports selector(:has(a)) {
+	...
 }
 ```
 
@@ -57,14 +58,21 @@ Of je kunt controleren of custom properties ondersteund worden:
 
 ```css
 @supports (--custom: properties)) {
+	...
 }
 ```
 
-Neem de eerste twee bronnen hieronder door om je helemaal in te lezen in wat mogelijk is met feature detection.
+Neem de eerste twee bronnen hieronder door om je in te lezen in wat mogelijk is met feature detection.
+
+💡 Tip: in veel gevallen heb geen feature detection nodig, vanwege [de _Cascade_ in CSS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts#cascade). Maak hier slim gebruik van, zodat je code simpeler wordt.
+
+![Browser compatibility](browser-compatibility.png)
+
+_Op MDN kun je van elke browser feature ook zien hoe de ondersteuning is. Hiermee kun je inschatten wat je strategie voor Progressive Enhancement moet worden, en hoe je je werk kunt testen._
 
 💪 In JavaScript kun je ook een aantal patronen gebruiken om _feature detection_ toe te passen. Vooral volgende week gaan we hiermee aan de gang, maar mocht je al _client-side_ JavaScript gebruiken, onderzoek dan ook deze patronen.
 
-👉 Pas feature detection toe op de opdracht uit de leertaak. Installeer zoveel mogelijk browsers waarmee je kunt testen. Test je werk met (oudere) browsers die andere features ondersteunen, zoals Lynx en het de apparaten uit het device lab. Probeer BrowserStack uit. Maak issues van je bevindingen, en onderzoek oplossingen. Misschien moet je je core functionaliteit wel opnieuw uitschetsen hiervoor? Misschien moet je wel een extra stap maken in je HTML?
+👉 Pas feature detection toe op de opdracht uit de leertaak. Installeer zoveel mogelijk browsers waarmee je kunt testen. Test je werk met (oudere) browsers die andere features ondersteunen, zoals Lynx en apparaten uit het device lab. Probeer BrowserStack uit met een GitHub student account. Maak issues van je bevindingen, en onderzoek oplossingen. En los deze ook op. Misschien moet je je core functionaliteit wel opnieuw uitschetsen hiervoor? Misschien moet je wel een extra stap (terug) maken in je HTML?
 
 ### Bronnen
 
