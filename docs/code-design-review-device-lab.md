@@ -1,39 +1,41 @@
-# Interactive functionality
+# Interactive Functionality
 
-## Code/Design Review - Device lab
+## Code/Design Review - Device Lab
 
-Deze week heb je geleerd over  _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Je hebt in de deeltaak _progressive-enhancement_ geleerd hoe je een website kan ontwerpen en maken met behulp van _PE_ zodat het voor iedereen toegankelijk is.
-
+Deze week heb je geleerd over _Progressive Enhancement_; een codeerstrategie waarmee je ervoor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. In de deeltaak _progressive-enhancement_ heb je geleerd hoe je een website kunt ontwerpen en bouwen met behulp van _PE_, zodat deze voor iedereen toegankelijk is. 
 
 ### Aanpak
 
-Je gaat jouw website voor de leertaak vandaag door drie peers laten testen. Je kiest zelf drie testpersonen uit die jouw website gaan testen op verschillende devices en browsers. 
+Je laat jouw website voor de leertaak vandaag door drie peers testen. Je kiest zelf drie testpersonen die jouw website gaan testen op verschillende devices en browsers.  
 
-## Code Review 
+## Code Review  
 
-### Live zetten en drie testpersonen benaderen
-Zorg allereerst dat de laatste aanpassingen op GitHub staan voor de leertaak the-web-is-for-everyone-interactive-functionality en dat de live link werkt. Zet ook je issues aan, mocht je dit nog niet hebben gedaan. 
+### Live zetten en drie testpersonen benaderen  
 
-Noteer jouw naam op het whiteboard. Plaats onder jouw naam een opsomming van drie, nu nog lege, rijen. 
+Zorg er allereerst voor dat de laatste aanpassingen op GitHub staan voor de leertaak _the-web-is-for-everyone-interactive-functionality_ en dat de live link werkt. Zet ook je issues aan, mocht je dit nog niet hebben gedaan.  
 
-Kies vervolgens zelf drie testpersonen. Houd met je keuze rekening met de devices en browsers die jouw testpersoon gebruikt. Zorg ervoor dat je een divers palet hebt aan apparaten, browsers en operation systems. Noteer jouw github handle bij degene die jouw website gaat testen. Iedereen heeft plek voor drie testen.
+Noteer jouw naam op het whiteboard en plaats daaronder een opsomming met drie, nu nog lege, rijen.  
 
-### Drie websites van peers testen
-Ga de drie website die je gaat testen één voor één langs om te kijken waar iets kapot gaat. Let daarbij op het volgende:
-- Test allereerst de website op je eigen devices (laptop, telefoon, tablet bijvoorbeeld). Bekijk de browsers die je normaal gesproken gebruikt. Wat valt op?
-- Test nu ook op browsers die je normaal wat minder vaak gebruikt. Misschien moet je daarvoor een nieuwe browser installeren. Bijvoorbeeld: [Lynx](https://lynx.browser.org/). 
-- Kies minimaal één device uit het Device Lab waar je de website op gaat testen.
+Kies vervolgens drie testpersonen. Houd bij je keuze rekening met de devices en browsers die jouw testpersonen gebruiken. Zorg ervoor dat je een diverse selectie hebt van apparaten, browsers en besturingssystemen. Noteer jouw GitHub-handle bij degene die jouw website gaat testen. Iedereen heeft ruimte voor drie tests.  
 
-### Issues aanmaken
-Maak voor elk probleem wat je tegen komt een issue aan:
-- Benoem in het issue wat er niet werkt en waarop je hebt getest. Geef alle mogelijke informatie (browser, verise, device etc.) die je daarover kunt geven.
-- Vervolgens geef je aan wat de mogelijke oorzaak zou kunnen zijn. Is het bijvoorbeeld CSS Nesting wat niet ondersteund wordt of wordt een Javascript functie aangeroepen in één van de eerste regels waardoor de regels daaronder niet meer worden uitgevoerd.
-- Tenslotte sluit je het issue af met een mogelijke oplossing. Kies daarvoor voor een weloverwogen antwoord. Zeg bijvoorbeeld niet: "Gebruik CSS Nesting niet meer", maar eerder "CSS Nesting zorgt er nu voor dat jouw core functionaliteit niet meer werkt. Schrijf de CSS die belangrijk is om de core functionaliteit werkend te maken niet in CSS Nesting. Eventuele enhancements kunnen wel genest worden."
-- Voeg waar passend ook bronnen toe om jouw oplossing te verduidelijken. 
+### Testen en issues aanmaken  
 
+Test de drie websites die jij gaat beoordelen één voor één en kijk waar iets kapot gaat. Let daarbij op het volgende:  
 
-Tip: Kun je moeilijk achterhalen waarom iets stuk gaat? Je kunt een apparaat uit het Device Lab aansluiten op je computer om het te kunnen inspecteren. Let erop dat je een device eerst op de developermodus zet. 
+- Test eerst de website op je eigen devices (bijvoorbeeld laptop, telefoon, tablet). Gebruik de browsers die je normaal gesproken gebruikt. Wat valt op?  
+- Test vervolgens op browsers die je minder vaak gebruikt. Misschien moet je daarvoor een nieuwe browser installeren, zoals [Lynx](https://lynx.browser.org/).  
+- Kies minimaal één device uit het Device Lab waarop je de website test.  
 
-Bronnen: 
-- [https://developer.chrome.com/docs/devtools/remote-debugging?hl=nl](https://developer.chrome.com/docs/devtools/remote-debugging?hl=nl)
+Maak voor elk probleem dat je tegenkomt een issue aan:  
 
+- Benoem in het issue wat er niet werkt en waarop je hebt getest. Geef alle relevante informatie (browser, versie, device, etc.).  
+- Geef aan wat de mogelijke oorzaak zou kunnen zijn. Ligt het bijvoorbeeld aan CSS Nesting, dat niet wordt ondersteund, of aan een JavaScript-functie die in een van de eerste regels wordt aangeroepen, waardoor de code daaronder niet meer wordt uitgevoerd?  
+- Sluit het issue af met een mogelijke oplossing. Geef een goed onderbouwd antwoord. Zeg bijvoorbeeld niet:  
+  - ❌ *"Gebruik CSS Nesting niet meer."*  
+  - ✅ *"CSS Nesting zorgt ervoor dat jouw core-functionaliteit niet meer werkt. Zorg ervoor dat de CSS die essentieel is voor de core-functionaliteit niet genest is. Eventuele enhancements kunnen wel genest worden."*  
+- Voeg waar nodig bronnen toe om je oplossing te verduidelijken.  
+
+**Tip:** Kun je moeilijk achterhalen waarom iets niet werkt? Je kunt een apparaat uit het Device Lab aansluiten op je computer om het te inspecteren. Let erop dat je het device eerst in de developersmodus zet voordat je het aansluit op jouw laptop.
+
+### Bronnen  
+- [Remote debugging met Chrome DevTools](https://developer.chrome.com/docs/devtools/remote-debugging?hl=nl)
