@@ -18,12 +18,13 @@ Noteer jouw naam op het whiteboard. Plaats onder jouw naam een opsomming van dri
 
 Kies vervolgens zelf drie testpersonen. Houd met je keuze rekening met de devices en browsers die jouw testpersoon gebruikt. Zorg ervoor dat je een divers palet hebt aan apparaten, browsers en operation systems. Noteer jouw github handle bij degene die jouw website gaat testen. Iedereen heeft plek voor drie testen.
 
-### 
+### Drie websites van peers testen
 Ga de drie website die je gaat testen één voor één langs om te kijken waar iets kapot gaat. Let daarbij op het volgende:
 - Test allereerst de website op je eigen devices (laptop, telefoon, tablet bijvoorbeeld). Bekijk de browsers die je normaal gesproken gebruikt. Wat valt op?
 - Test nu ook op browsers die je normaal wat minder vaak gebruikt. Misschien moet je daarvoor een nieuwe browser installeren. Bijvoorbeeld: [Lynx](https://lynx.browser.org/). 
 - Kies minimaal één device uit het Device Lab waar je de website op gaat testen.
 
+### Issues aanmaken
 Maak voor elk probleem wat je tegen komt een issue aan:
 - Benoem in het issue wat er niet werkt en waarop je hebt getest. Geef alle mogelijke informatie (browser, verise, device etc.) die je daarover kunt geven.
 - Vervolgens geef je aan wat de mogelijke oorzaak zou kunnen zijn. Is het bijvoorbeeld CSS Nesting wat niet ondersteund wordt of wordt een Javascript functie aangeroepen in één van de eerste regels waardoor de regels daaronder niet meer worden uitgevoerd.
