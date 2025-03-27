@@ -2,7 +2,7 @@
 
 ## Code/Design Review - Device lab
 
-Deze week heb je geleerd over  _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Je hebt in de deeltaak [progressive-enhancement](https://github.com/fdnd-task/progressive-enhancement/tree/main) geleerd hoe je een website kan ontwerpen en maken met behulp van _Progressive Enhancement_ zodat het voor iedereen toegankelijk is.
+Deze week heb je geleerd over  _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Je hebt in de deeltaak _progressive-enhancement_ geleerd hoe je een website kan ontwerpen en maken met behulp van _PE_ zodat het voor iedereen toegankelijk is.
 
 
 ### Aanpak
