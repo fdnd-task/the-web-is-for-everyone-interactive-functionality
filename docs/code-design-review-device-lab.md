@@ -35,7 +35,7 @@ Maak voor elk probleem dat je tegenkomt een issue aan:
 - Schrijf ook een mogelijke oplossing. Geef een goed onderbouwd antwoord. Zeg bijvoorbeeld niet:  
   - ❌ *"Gebruik CSS Nesting niet meer."*  
   
-maar
+  maar
   - ✅ *"CSS Nesting zorgt ervoor dat jouw core-functionaliteit niet meer werkt. Zorg ervoor dat de CSS die essentieel is voor de core-functionaliteit niet genest is. Eventuele enhancements kunnen wel genest worden."*  
 - Voeg waar nodig bronnen toe om je oplossing te verduidelijken.  
 
