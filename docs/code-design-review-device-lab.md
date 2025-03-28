@@ -13,7 +13,8 @@ Je laat jouw website voor de leertaak vandaag door drie peers testen. Je kiest z
 
 ### Live zetten en drie testpersonen benaderen  
 
-Zorg er allereerst voor dat de laatste aanpassingen op GitHub staan voor de leertaak _the-web-is-for-everyone-interactive-functionality_ en dat de live link werkt. Zet ook je issues aan, mocht je dit nog niet hebben gedaan.  
+Zorg er allereerst voor dat de laatste aanpassingen op GitHub staan voor de leertaak _the-web-is-for-everyone-interactive-functionality_ en dat de live link werkt. Zonder live link kan je niet testen...
+<!--Zet ook je issues aan, mocht je dit nog niet hebben gedaan.-->
 
 Noteer jouw naam op het whiteboard en plaats daaronder een opsomming met drie, nu nog lege, rijen.  
 
