@@ -41,5 +41,14 @@ Maak voor elk probleem dat je tegenkomt een issue aan:
 
 **Tip:** Kun je moeilijk achterhalen waarom iets niet werkt? Je kunt een apparaat uit het Device Lab aansluiten op je computer om het te inspecteren. Let erop dat je het device eerst in de developersmodus zet voordat je het aansluit op jouw laptop.
 
-### Bronnen  
+#### Bronnen  
 - [Remote debugging met Chrome DevTools](https://developer.chrome.com/docs/devtools/remote-debugging?hl=nl)
+
+### Dilemma's noteren
+Schrijf tot slot op het whiteboard een (of meerdere) dilemma's waar jullie nu nog veen antwoord op hebben. 
+bijvoorbeeld: 
+Wat te doen met moderne HTML uit 2024?
+Hoe kan je 'flexbox' toepassen zonder dat een website stuk gaat met een oude browser?
+Bestaat er een goede fallback voor de 'rgba()' functie?
+
+
