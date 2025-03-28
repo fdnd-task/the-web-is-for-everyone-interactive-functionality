@@ -32,7 +32,7 @@ Maak voor elk probleem dat je tegenkomt een issue aan:
 
 - Benoem in het issue wat er niet werkt en waarop je hebt getest. Geef alle relevante informatie (browser, versie, device, etc.).  
 - Geef aan wat de mogelijke oorzaak zou kunnen zijn. Ligt het bijvoorbeeld aan CSS Nesting, dat niet wordt ondersteund, of aan een JavaScript-functie die in een van de eerste regels wordt aangeroepen, waardoor de code daaronder niet meer wordt uitgevoerd?  
-- Sluit het issue af met een mogelijke oplossing. Geef een goed onderbouwd antwoord. Zeg bijvoorbeeld niet:  
+- Schrijf ook een mogelijke oplossing. Geef een goed onderbouwd antwoord. Zeg bijvoorbeeld niet:  
   - ❌ *"Gebruik CSS Nesting niet meer."*  
   - ✅ *"CSS Nesting zorgt ervoor dat jouw core-functionaliteit niet meer werkt. Zorg ervoor dat de CSS die essentieel is voor de core-functionaliteit niet genest is. Eventuele enhancements kunnen wel genest worden."*  
 - Voeg waar nodig bronnen toe om je oplossing te verduidelijken.  
