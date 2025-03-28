@@ -2,7 +2,8 @@
 
 ## Code/Design Review - Device Lab
 
-Deze week heb je geleerd over _Progressive Enhancement_; een codeerstrategie waarmee je ervoor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. In de deeltaak _progressive-enhancement_ heb je geleerd hoe je een website kunt ontwerpen en bouwen met behulp van _PE_, zodat deze voor iedereen toegankelijk is. 
+Deze week heb je geleerd over _Progressive Enhancement_; een codeerstrategie waarmee je ervoor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. 
+In de deeltaak _progressive-enhancement_ heb je geleerd hoe je een UI component kunt ontwerpen en bouwen met behulp van _PE_, zodat deze voor iedereen toegankelijk is. 
 
 ### Aanpak
 
