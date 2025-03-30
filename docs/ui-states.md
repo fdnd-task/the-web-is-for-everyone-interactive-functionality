@@ -24,7 +24,7 @@ In het artikel How to Fix a Bad Interface staat:
 Voor elke scherm waar een gebruiker iets mee doet moet je verschillende states tonen. Er wordt bijvoorbeeld data geladen, of er kan iets mis gaan. Dan heeft de gebruiker feedback nodig die duidelijk maakt wat er gebeurt. Hiervoor heeft een scherm soms wel 5 states nodig. 
 
 1. Loading State
-2. Empty State
+2. Empty (Blank) State
 3. Partial State
 4. Error State
 5. Ideal state
