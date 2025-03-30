@@ -63,7 +63,9 @@ Voeg daarna verschillende states toe aan je wireflow. Gebruik hiervoor de state 
 ![Wireflow met states](wireflow-met-states.jpg) 
 *HIER EEN GOED VOORBEELD TONEN In een Wireflow kan je de verschillende states tonen*
 
-## Server-side vs. client-side
+
+
+## Server-side vs. Client-side
 
 Hier een uitleg/herhaling over het verschil tussen server-side en client-side.
 
@@ -77,13 +79,13 @@ De wireflow uitbreiden met een control-flow
 
 ### Client-side Fetch
 
-Techniek uitleggen, wat is fetch? En uitleggen hoe je dit met partials kan doen.
+Techniek uitleggen, wat is fetch? 
 
 👉 Oefenopdracht om met client-side javascript data te fetchen op directus. 
 
 👉 Oefenopdracht om met (liquid) partials te werken, dus dezelfde route te gebuikern als de server-side code.
 
-## States tonen na een Client-side Fetch
+### States tonen na een Client-side Fetch
 
 👉 Hoe werkt dan de techniek voor het tonen van een loading state? En de succes state? na het laden van data?
 
