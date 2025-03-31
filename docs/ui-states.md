@@ -28,9 +28,9 @@ Voor elke scherm waar een gebruiker iets mee doet moet je verschillende states t
 3. Error State
 4. Ideal state
 
-een 
-1. Empty State, als er nog niets is gepost
-2. Succes State, als een post is gelukt
+en 
+5. Empty State, als er nog niets is gepost
+6. Succes State, als een post is gelukt
 
 
 ![UI-stack](ui-stack.jpg) *verschillende states van dezelfde pagina.*
