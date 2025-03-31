@@ -29,6 +29,7 @@ Voor elke scherm waar een gebruiker iets mee doet moet je verschillende states t
 4. Ideal state
 
 en 
+
 5. Empty State, als er nog niets is gepost
 6. Succes State, als een post is gelukt
 
