@@ -63,7 +63,7 @@ Als het versturen van de data gelukt is, en de browser heeft antwoord gekregen v
 
 Zoek met je tafel verschillende voorbeelden van loading states en success states. Gebruik bijvoorbeeld [Codepen](https://codepen.io/) ter inspiratie, waarop je ook kunt zoeken.
 
-Post in Teams mooie voorbeelden van Loading states en Succes states. 
+Post in Teams mooie voorbeelden van Loading states en Success states.
 
 Bedenk ook hoe je het ontwerp van jouw interactie kunt uitbreiden met deze twee nieuwe states. Voeg hints en relevante bronnen toe aan jouw User Story issue.
 
@@ -71,7 +71,7 @@ Bedenk ook hoe je het ontwerp van jouw interactie kunt uitbreiden met deze twee 
 
 <!--Schets de Wireflow van jouw interactie, als je dat nog niet gedaan hebt in [de eerste week](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/user-generated-content.md#wireflow-breakdown-met-urls-routes-en-post). Toon eerst de *Ideal state*, de flow dat alles goed gaat, en de *e*mpty state*, voor als er nog niets is. -->
 
-Voeg de *Loading state* en *Succes state* toe toe aan je Wireflow. Ontwerp hoe je de gebruiker goede feedback kan geven als er data wordt verstuurd en geladen, en wat je kan tonen als dit gelukt is. Bijvoorbeeld met een animatie op de like, of een highlight op een nieuw bericht, zorg ervoor dat de gebruiker weet dat de interactie is gelukt.
+Voeg de *Loading state* en *Success state* toe toe aan je Wireflow. Ontwerp hoe je de gebruiker goede feedback kan geven als er data wordt verstuurd en geladen, en wat je kan tonen als dit gelukt is. Bijvoorbeeld met een animatie op de Like, of een highlight op een nieuw bericht, zorg ervoor dat de gebruiker weet dat de interactie is gelukt.
 <!--Gebruik hiervoor [de states van de UI-Stack](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/ui-states.md): Empty state, Loading state en Success state.--> Voeg deze nieuwe states toe aan je User Story issue.
 
 
@@ -80,20 +80,6 @@ Voeg de *Loading state* en *Succes state* toe toe aan je Wireflow. Ontwerp hoe j
 In Semester 2 leer je over zowel de server (NodeJS/Express) als de client (de browser). Deze “praten” met elkaar via HTTP en URLs. Een client kan bij een server data ophalen via een `GET` method, en data versturen via een `POST` method.
 
 Server-side weet je precies welke programmeertaal (NodeJS), packages (Express, Liquid) en hardware (via Render bijvoorbeeld) je tot je beschikking hebt. Client-side weet je dat niet; je weet nooit welke browser (versie) of welk apparaat je website bezoekt.
-
-<!--
-
-### Server-side POST Break down
-
-Niet helemaal duidelijk wat je hier wilt..
-
-“Hier een opdracht waarin studenten de wireflow en server-side POST techniek, inclusief formulier en Directus gaan tekenen zoals ze dat al gemaakt. De wireflow uitbreiden met een control-flow”
-
-“Laten we die opdracht er wel bij zetten. Niet 2 wireflows hoor, maar 1 met meer states. En daarbij uitzoeken hoe hun server-side code nou eigenlijk werkt en dat ook noteren. Dat is denk ik wel een mooie reverse engineering opdracht. ”
-
-_HIER EEN GOED VOORBEELD TONEN In de Control Flow toon je de logica en structuur van je code_
-
--->
 
 ### Client-side Fetch
 
@@ -117,10 +103,11 @@ Je kunt niet zomaar naar elke andere website een `fetch()` doen vanuit JavaScrip
 
 Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript kunnen gebruiken om bijvoorbeeld een `POST` te doen naar onze eigen Express server. Naar de routes die we dus zelf aangemaakt hebben. Precies dat wat we nodig hebben voor onze interactie!
 
-👉 Onderzoek onderstaand voorbeeld en pas deze aan naar jouw eigen code. Zorg dat je met client-side JavaScript jouw formulier kunt versturen.
+👉 Onderzoek onderstaand voorbeeld, lees de code comments, en pas de code aan naar jouw eigen project. Zorg dat je met client-side JavaScript jouw formulier kunt versturen.
 
 ```html
 <!-- Bijvoorbeeld voor deze HTML, maar waarschijnlijk is die van jou net anders -->
+
 {% if liked %}
   <!-- Ideal state -->
   <form method="POST" action="/detail/{{ id }}/unlike" data-enhanced="form-{{ id }}">
@@ -134,18 +121,21 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
 {% endif %}
 
 <script type="module">
-// Controleer met een feature detect of fetch() wel ondersteund wordt
-if ('fetch' in window) {
+// We maken hieronder aannames over wat de browser ondersteunt
+// Dus laten we deze eerst testen met Feature Detection
+// https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection
+if ('fetch' in window && 'DOMParser' in window) {
 
-  // Als er ergens op de pagina een formulier wordt gesubmit
+  // Als er ergens op de pagina een formulier wordt gesubmit..
+  // (We maken hier gebruik van Event Delegation)
   document.addEventListener('submit', async function(event) {
 
-    // Hou bij welk formulier dat was
+    // Hou in een variabele bij welk formulier dat was
     const form = event.target
 
     // Als dit formulier geen data-enhanced attribuut heeft, doe dan niks
-    // Dit doen we, zodat we sommige formulieren op de pagina kunnen 'upgraden'
-    // Data attributen mag je zelf verzinnen, dit is dus niet iets speciaals
+    // Dit doen we, zodat we sommige formulieren op de pagina kunnen 'enhancen'
+    // Data attributen mag je zelf verzinnen; dit is dus niet iets speciaals
     // https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes
     if (!form.hasAttribute('data-enhanced')) {
       return
@@ -168,12 +158,13 @@ if ('fetch' in window) {
     const responseText = await response.text()
 
     // Normaal zou de browser die HTML parsen en weergeven, maar daar moeten we nu zelf iets mee
-    // Parse de nieuwe HTML en maak hiervan een nieuw Document Object Model
+    // Parse de nieuwe HTML en maak hiervan een nieuw Document Object Model in het geheugen
     const parser = new DOMParser()
     const responseDOM = parser.parseFromString(responseText, 'text/html')
 
-    // Zoek in die nieuwe DOM onze nieuwe state op
+    // Zoek in die nieuwe DOM onze nieuwe state op, die we via Liquid hebben klaargemaakt
     // We gebruiken hiervoor het data-enhanced attribuut, zodat we weten waar we naar moeten zoeken
+    // (Hierdoor kunnen we ook meerdere formulieren op dezelfde pagina gebruiken)
     const newState = responseDOM.querySelector('[data-enhanced="' + form.getAttribute('data-enhanced') + '"]')
 
     // Overschrijf ons formulier met de nieuwe HTML
@@ -193,17 +184,14 @@ if ('fetch' in window) {
 - [Fetch Standard @ WHATWG](https://fetch.spec.whatwg.org/)
 - [Cross-Origin Resource Sharing (CORS) @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) (geavanceerd)
 
-<!--
+### Extra states toevoegen
 
-### States tonen na een Client-side Fetch
+👉 Breid bovenstaande JavaScript code aan met een Loading state en Success state, zoals je hebt ontworpen. Gebruik hiervoor de technieken die je in Sprint 5 hebt geleerd, zoals de `classList`.
 
-👉 Pas bovenstaande code aan
+💪 De View Transition API leent zich erg goed voor deze enhancement, met name voor de Success state. Onderzoek hoe je deze met Progressive Enhancement in kunt zetten in bovenstaande code. Hou rekening met ondersteuning in verschillende browsers.
 
+#### Bronnen
 
-💪 De View Transition API leent zich erg goed voor https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using
-
-### Client-side Fetch Break down 
-
-👉 Hier een opdracht waarin studenten de wireflow gaan uitbreiden met pseudo-code van de client-side POST met partials (en directus)
-
--->
+- [classList property @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+- [Using the View Transition API @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using)
+- [View Transitions @ 12 Days of Web](https://12daysofweb.dev/2023/view-transitions/)
