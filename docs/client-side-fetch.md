@@ -118,54 +118,76 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
 
 ```html
 <!-- Bijvoorbeeld voor deze HTML, maar waarschijnlijk is die van jou net anders -->
-<form method="POST" action="/detail/34/like" data-enhanced="form-34-like">
-	<button type="submit">Like</button>
-</form>
+{% if liked %}
+  <!-- Ideal state -->
+  <form method="POST" action="/detail/{{ id }}/unlike" data-enhanced="form-{{ id }}">
+    <button type="submit">Unlike</button>
+  </form>
+{% else %}
+  <!-- Empty state -->
+  <form method="POST" action="/detail/{{ id }}/like" data-enhanced="form-{{ id }}">
+    <button type="submit">Like</button>
+  </form>
+{% endif %}
 
 <script type="module">
 // Controleer met een feature detect of fetch() wel ondersteund wordt
-if ('fetch' in window && 'DOMParser' in window) {
+if ('fetch' in window) {
 
-	// Als er ergens op de pagina een formulier wordt gesubmit
-	document.addEventListener('submit', async function(event) {
+  // Als er ergens op de pagina een formulier wordt gesubmit
+  document.addEventListener('submit', async function(event) {
 
-		// Hou bij welk formulier dat was
-		const form = event.target
+    // Hou bij welk formulier dat was
+    const form = event.target
 
-		// Als dit formulier geen data-enhanced attribuut heeft, doe dan niks
-		// Dit doen we, zodat we sommige formulieren op de pagina kunnen 'upgraden'
-		if (!form.hasAttribute('data-enhanced')) {
-		  return
-		}
+    // Als dit formulier geen data-enhanced attribuut heeft, doe dan niks
+    // Dit doen we, zodat we sommige formulieren op de pagina kunnen 'upgraden'
+    // Data attributen mag je zelf verzinnen, dit is dus niet iets speciaals
+    // https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes
+    if (!form.hasAttribute('data-enhanced')) {
+      return
+    }
 
-		// Voorkom de standaard submit van de browser
-		event.preventDefault()
+    // Voorkom de standaard submit van de browser
+    // Let op: hiermee overschrijven we de default Loading state van de browser...
+    event.preventDefault()
 
-		// Doe een fetch naar de server, net als hoe de browser dit normaal zou doen
-		const response = await fetch(form.action, {
-		  method: form.method,
-		  body: new URLSearchParams(new FormData(form))
-		})
+    // Doe een fetch naar de server, net als hoe de browser dit normaal zou doen
+    // Gebruik daarvoor het action en method attribuut van het originele formulier
+    // Inclusief alle formulierelementen
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: new URLSearchParams(new FormData(form))
+    })
 
-		// De server redirect op de normale manier, en geeft HTML terug
-		const responseText = await response.text()
+    // De server redirect op de normale manier, en geeft HTML terug
+    // (De server weet niet eens dat deze fetch via client-side JavaScript gebeurde)
+    const responseText = await response.text()
 
-		// Normaal zou de browser die HTML parsen en weergeven, maar dat moeten we nu zelf doen
-		const parser = new DOMParser()
-		const responseDOM = parser.parseFromString(responseText, 'text/html')
+    // Normaal zou de browser die HTML parsen en weergeven, maar daar moeten we nu zelf iets mee
+    // Parse de nieuwe HTML en maak hiervan een nieuw Document Object Model
+    const parser = new DOMParser()
+    const responseDOM = parser.parseFromString(responseText, 'text/html')
 
-		// Overschrijf ons formulier met het nieuwe formulier
-		form.outerHTML = responseDOM.querySelector('[data-enhanced="' + form.getAttribute('data-enhanced') + '"]').outerHTML
+    // Zoek in die nieuwe DOM onze nieuwe state op
+    // We gebruiken hiervoor het data-enhanced attribuut, zodat we weten waar we naar moeten zoeken
+    const newState = responseDOM.querySelector('[data-enhanced="' + form.getAttribute('data-enhanced') + '"]')
 
-	})
+    // Overschrijf ons formulier met de nieuwe HTML
+    // Hier wil je waarschijnlijk de Loading state vervangen door een Success state
+    form.outerHTML = newState.outerHTML
+
+  })
 }
 </script>
 ```
 
 #### Bronnen
 
-- [Fetch Standard @ WHATWG](https://fetch.spec.whatwg.org/)
+- [Using the Fetch API @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Using data attributes @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes)
 - [Retrieving a FormData object from an HTML form @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects#retrieving_a_formdata_object_from_an_html_form)
+- [Fetch Standard @ WHATWG](https://fetch.spec.whatwg.org/)
 - [Cross-Origin Resource Sharing (CORS) @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) (geavanceerd)
 
 <!--
