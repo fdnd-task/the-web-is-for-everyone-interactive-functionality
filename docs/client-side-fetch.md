@@ -114,7 +114,7 @@ Je kunt niet zomaar naar elke andere website een `fetch()` doen vanuit JavaScrip
 
 Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript kunnen gebruiken om bijvoorbeeld een `POST` te doen naar onze eigen Express server. Naar de routes die we dus zelf aangemaakt hebben. Precies dat wat we nodig hebben voor onze interactie!
 
-👉 Onderzoek onderstaand voorbeeld en pas deze aan naar jouw eigen code.
+👉 Onderzoek onderstaand voorbeeld en pas deze aan naar jouw eigen code. Zorg dat je met client-side JavaScript jouw formulier kunt versturen.
 
 ```html
 <!-- Bijvoorbeeld voor deze HTML, maar waarschijnlijk is die van jou net anders -->
@@ -194,10 +194,10 @@ if ('fetch' in window) {
 
 ### States tonen na een Client-side Fetch
 
-👉 Hoe werkt dan de techniek voor het tonen van een loading state? En de success state? na het laden van data?
+👉 Pas bovenstaande code aan
 
 
-💪 wat kan je nu nog meer doen op de client? View transitions!
+💪 De View Transition API leent zich erg goed voor https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using
 
 ### Client-side Fetch Break down 
 
