@@ -43,7 +43,8 @@ _Daarna_ kan je de interface verbeteren—“enhancen”—met client-side JavaS
 
 Met behulp van de UI-Stack kan je verschillende states van een pagina ontwerpen als je met dynamische data werkt. De _Empty state_ heb je al, die kan je tonen als er bijvoorbeeld nog geen Berichten zijn toegevoegd. Of als er nog geen Like is gegeven. Of als je een product nog niet tot Favoriet hebt gemaakt. De _Ideal state_ heb je ook; een gevuld hartje, een lijstje met reacties, of een gevuld winkelmandje.
 
-<!--Een _Loading state_ en _Success state_ komen er in deze stap bij. Of eigenlijk: we gaan de default states die de browser hiervoor biedt _enhancen_.--> Standaard laat een browser een _loading_ indicator zien terwijl een pagina laadt (vaak in of naast de adresbalk). En als de pagina geladen is, wordt de hele pagina getoond: de _Success state_ (vaak uitgebreid met een extra melding op de pagina). Dat werkt prima, browsers doen dit al jaren, en bezoekers zijn dit gewend.
+<!--Een _Loading state_ en _Success state_ komen er in deze stap bij. Of eigenlijk: we gaan de default states die de browser hiervoor biedt _enhancen_.-->
+Standaard laat een browser een _loading_ indicator zien terwijl een pagina laadt (vaak in of naast de adresbalk). En als de pagina geladen is, wordt de hele pagina getoond: de _Success state_ (vaak uitgebreid met een extra melding op de pagina). Dat werkt prima, browsers doen dit al jaren, en bezoekers zijn dit gewend.
 
 Maar de volledige pagina verversen als we alleen één Like veranderen, of één reactie toevoegen, of één product aan een winkelmandje toevoegen, dat is wat overdreven. Het werkt overal, maar in veel browsers kunnen we dit prettiger maken voor onze eindgebruikers. Waarschijnlijk ben je inmiddels zelf ook wel toe aan deze stap.
 
