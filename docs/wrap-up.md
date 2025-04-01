@@ -27,7 +27,7 @@ Je kan hiervoor je Figma ontwerp gebruiken, maar je kan ook screenshots maken va
 #### Code flow
 Voeg daarna toe hoe de code werkt. Werk eerst de server-side code flow uit, daarna wat je client-side hebt gebouwd als enhancement. 
 
-Toon de URL's, de Request en hoe de Response werkt in jouw code: Welke Routes worden gebruikt, welke data wordt met POST wordt verstuurd en opgeslagen? naar welke URL gaat de fetch en wat gebeurt er daarna? Welke data wordt opgehaald om de pagina te renderen?
+Toon de URL's, de Request en hoe de Response werkt in jouw code: Welke Routes worden gebruikt, welke data wordt met POST verstuurd en opgeslagen? naar welke URL gaat de fetch en wat gebeurt er daarna? Welke data wordt opgehaald om de pagina te renderen?
 
 Toon hoe de client-side scripting werkt, hoe wordt de data gepost met JavaScipt? En wat gebeurt er daarna? 
 
