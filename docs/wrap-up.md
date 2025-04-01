@@ -19,7 +19,7 @@ Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook
 
 ### Kenmerken
 Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Toon screenshots of een video van de UI-stack states die je hebt ontworpen en gebouwd, ideal, empty, loading, succes en misschien een error state.
-EN leg per state uit hoe de code werkt. 
+En leg per state uit hoe de code werkt. 
 
 
 <!--
