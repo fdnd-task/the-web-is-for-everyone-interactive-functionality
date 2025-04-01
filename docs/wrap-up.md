@@ -40,7 +40,7 @@ Toon hoe de client-side scripting werkt, hoe wordt de data gepost met JavaScipt?
 Omdat je een NodeJs project, met Express en Liquid hebt gemaakt, beschrijf je in de Readme ook hoe iemand anders het project kan installeren. Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. Hoe leg je aan iemand anders uit dat je bijvoorbeeld npm hebt gebruikt?
 
 
-## Sprint review Voorbereiden
+## Sprint review voorbereiden
 
 Bespreek met de groep wat je van plan bent aan de opdrachtgever te laten zien en wat je wil weten. 
 
