@@ -18,7 +18,7 @@ In je Readme staat bij *beschrijving* kort beschreven wat voor project het is en
 Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon screenshots of een video. Bijvoorbeeld over de POST, de verschillende states van de UI-stack, en de *enhancements* die je hebt ontworpen en gemaakt.
 
 ### Kenmerken
-Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Dat ga je dit keer doen met een nette utgewerkte screenflow van de interactie en uitleg hoe jouw code werkt. Aan de hand van jouw uitleg moet iemand anders in grote lijnen jouw code kunnen begrijpen. (misschien kan je je code ook nog opschonen, nette witruimte en comments toevoegen, niet gebruikte routes weghalen, ...)
+Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Dat ga je dit keer doen met een nette utgewerkte screenflow van de interactie en uitleg hoe jouw code werkt. Aan de hand van jouw uitleg moet iemand anders in grote lijnen de code kunnen begrijpen. (misschien kan je je code ook nog opschonen, nette witruimte en comments toevoegen, niet gebruikte routes weghalen, ...)
 
 #### Screenflow met UI-stack states
 Maak een goed uitgewerkte screenflow met de verschillende states die je hebt ontworpen, ideal, empty, loading, succes en misschien een error state.
