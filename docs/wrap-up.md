@@ -15,7 +15,7 @@ In de Readme kan je uitleggen waar je aan hebt gewerkt en hoe het is geworden, p
 In je Readme staat bij *beschrijving* kort beschreven wat voor project het is en wat je hebt gemaakt. Voeg hier ook een link toe naar de live website.
 
 ### Gebruik
-Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon screenshots of een video. Bijvoorbeeld over de POST, de verschillende states van de UI-stack, en de *enhancements* die je ontworpen en gemaakt.
+Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon screenshots of een video. Bijvoorbeeld over de POST, de verschillende states van de UI-stack, en de *enhancements* die je hebt ontworpen en gemaakt.
 
 ### Kenmerken
 Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Dat ga je dit keer doen met een nette utgewerkte screenflow van de interactie en uitleg hoe jouw code werkt. Aan de hand van jouw uitleg moet iemand anders in grote lijnen jouw code kunnen begrijpen. (misschien kan je je code ook nog opschonen, nette witruimte en comments toevoegen, niet gebruikte routes weghalen, ...)
