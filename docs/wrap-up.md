@@ -9,7 +9,7 @@ In de wrap up ga je de sprint review voorbereiden. Wat ga je aan de oprachtgever
 
 Je hebt deze sprint een interactie met POST gemaakt, en je bent verder gegaan met de feedback van de opdrachtgever.
 
-In de Readme kan je uitleggen waar je aan hebt gewerkt en hoe het is geworden, je presenteer wat je hebt gemaakt. Ook schrijf je instructies voor de *installatie* en hoe je code werkt bij *kenmerken*. Zo kan iemand anders jouw code forken, clonen en runnen...
+In de Readme kan je uitleggen waar je aan hebt gewerkt en hoe het is geworden, je presenteert wat je hebt gemaakt. Ook schrijf je instructies voor de *installatie* en hoe je code werkt bij *kenmerken*. Zo kan iemand anders jouw code forken, clonen en runnen...
 
 ### Beschrijving
 In je Readme staat bij *beschrijving* kort beschreven wat voor project het is en wat je hebt gemaakt. Voeg hier ook een link toe naar de live website.
