@@ -15,14 +15,18 @@ In de Readme kan je uitleggen waar je aan hebt gewerkt en hoe het is geworden, p
 In je Readme staat bij *beschrijving* kort beschreven wat voor project het is en wat je hebt gemaakt. Voeg hier ook een link toe naar de live website.
 
 ### Gebruik
-Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon screenshots of een video. Bijvoorbeeld over de POST, de verschillende states van de UI-stack, en de *enhancements* die je hebt ontworpen en gemaakt.
+Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon hoe het is geworden.
 
 ### Kenmerken
-Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Dat ga je dit keer doen met een nette utgewerkte screenflow van de interactie en uitleg hoe jouw code werkt. Aan de hand van jouw uitleg moet iemand anders in grote lijnen de code kunnen begrijpen. (misschien kan je je code ook nog opschonen, nette witruimte en comments toevoegen, niet gebruikte routes weghalen, ...)
+Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Toon screenshots of een video van de UI-stack states die je hebt ontworpen en gebouwd, ideal, empty, loading, succes en misschien een error state.
+EN leg per state uit hoe de code werkt. 
 
+
+<!--
 #### Screenflow met UI-stack states
 Maak een goed uitgewerkte screenflow met de verschillende states die je hebt ontworpen, ideal, empty, loading, succes en misschien een error state.
-Je kan hiervoor je Figma ontwerp gebruiken, maar je kan ook screenshots maken van jouw website. 
+Leg per state uit 
+
 
 #### Code flow
 Voeg daarna toe hoe de code werkt. Werk eerst de server-side code flow uit, daarna wat je client-side hebt gebouwd als enhancement. 
@@ -30,6 +34,7 @@ Voeg daarna toe hoe de code werkt. Werk eerst de server-side code flow uit, daar
 Toon de URL's, de Request en hoe de Response werkt in jouw code: Welke Routes worden gebruikt, welke data wordt met POST verstuurd en opgeslagen? naar welke URL gaat de fetch en wat gebeurt er daarna? Welke data wordt opgehaald om de pagina te renderen?
 
 Toon hoe de client-side scripting werkt, hoe wordt de data gepost met JavaScipt? En wat gebeurt er daarna? 
+-->
 
 ### Installatie
 Omdat je een NodeJs project, met Express en Liquid hebt gemaakt, beschrijf je in de Readme ook hoe iemand anders het project kan installeren. Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. Hoe leg je aan iemand anders uit dat je bijvoorbeeld npm hebt gebruikt?
