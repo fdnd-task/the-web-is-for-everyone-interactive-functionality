@@ -9,13 +9,13 @@ In de wrap up ga je de sprint review voorbereiden. Wat ga je aan de oprachtgever
 
 Je hebt deze sprint een interactie met POST gemaakt, en je bent verder gegaan met de feedback van de opdrachtgever.
 
-In de Readme kan je uitleggen waar je aan hebt gewerkt en hoe het is geworden, je presenteert wat je hebt gemaakt. Ook schrijf je instructies voor de *installatie* en hoe je code werkt bij *kenmerken*. Zo kan iemand anders jouw code forken, clonen en runnen...
+In de Readme kan je uitleggen waar je aan hebt gewerkt en hoe het is geworden, presenteer wat je hebt gemaakt. Ook schrijf je instructies voor de *installatie* en hoe je code werkt bij *kenmerken*. Zo kan iemand anders jouw code forken, clonen en runnen...
 
 ### Beschrijving
 In je Readme staat bij *beschrijving* kort beschreven wat voor project het is en wat je hebt gemaakt. Voeg hier ook een link toe naar de live website.
 
 ### Gebruik
-Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon screenshots of een video. Bijvoorbeeld over de POST en de verschillende states van de UI-stack. 
+Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon screenshots of een video. Bijvoorbeeld over de POST, de verschillende states van de UI-stack, en de *enhancements* die je ontworpen en gemaakt.
 
 ### Kenmerken
 Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Dat ga je dit keer doen met een nette utgewerkte screenflow van de interactie en uitleg hoe jouw code werkt. Aan de hand van jouw uitleg moet iemand anders in grote lijnen jouw code kunnen begrijpen. (misschien kan je je code ook nog opschonen, nette witruimte en comments toevoegen, niet gebruikte routes weghalen, ...)
