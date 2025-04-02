@@ -4,6 +4,9 @@
 
 In de wrap up ga je de sprint review voorbereiden. Wat ga je aan de oprachtgever presenteren? Hoe ga je dat doen? En waar wil je feedback op van de opdrachtgever? En je schrijft een goede Readme, voor de opdrachtgever, maar ook voor collega's die jouw code willen bekijken en/of gebruiken ...
 
+### Aanpak
+Eerste schrijf je een nette Readme waarin je laat zien wat he hebt gedaan, en je legt de code uit. Daarna ga je de Readme bespreken met studenten die dezelfde opdracht hebben en bereid je de spritn review voor. 
+
 
 ## Readme voorbereiden
 
@@ -18,15 +21,14 @@ In je Readme staat bij *beschrijving* kort beschreven wat voor project het is en
 Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon hoe het is geworden.
 
 ### Kenmerken
-Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Toon screenshots of een video van de UI-stack states die je hebt ontworpen en gebouwd, ideal, empty, loading, succes en misschien een error state.
-En leg per state uit hoe de code werkt. 
+Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Toon screenshots of een video van de UI-stack states die je hebt ontworpen en gebouwd,en leg per state uit hoe de code werkt. 
 
+Aan de hand van jouw uitleg moet iemand anders in grote lijnen jouw code kunnen begrijpen. (misschien kan je je code ook nog opschonen, nette witruimte en comments toevoegen, niet gebruikte routes weghalen, ...)
 
 <!--
 #### Screenflow met UI-stack states
 Maak een goed uitgewerkte screenflow met de verschillende states die je hebt ontworpen, ideal, empty, loading, succes en misschien een error state.
 Leg per state uit 
-
 
 #### Code flow
 Voeg daarna toe hoe de code werkt. Werk eerst de server-side code flow uit, daarna wat je client-side hebt gebouwd als enhancement. 
@@ -44,10 +46,8 @@ Omdat je een NodeJs project, met Express en Liquid hebt gemaakt, beschrijf je in
 
 Bespreek met de groep wat je van plan bent aan de opdrachtgever te laten zien en wat je wil weten. 
 
-👉 Bedenk met elkaar een logische volgorde voor het presenteren. Wie laat wat wanneer zien? Het is voor de opdrachtgever interessant om verschillende variaties te zien en te vergelijken. Laat per site onderdeel zien wat jullie hebben bedacht en gemaakt.
+👉 Lees elkaars Readme en geef feedback op de teksten en uitleg. (schrijf de feedback in een issue zodat je hier later mee verder kan)
 
-👉 Bespreek ook welke vragen jullie hebben. 
-
-💡 *Zorg dat je tijdens de review zelf mee schrijft. Aantekeningen maken doet iedereen zelf.*
+👉 Bedenk met elkaar een logische volgorde voor het bespreken van jullie websites. Wie laat wat wanneer zien? Welke vragen hebben jullie? 
 
 👉 Voeg aan de readme van het project op de [Agency](https://github.com/fdnd-agency) de links toe van de repo's en live links. Zo kan de opdrachtgever het werk makkelijk terugvinden en bekijken.
