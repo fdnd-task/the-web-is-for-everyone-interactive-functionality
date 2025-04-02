@@ -16,8 +16,8 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.static('public'))
 
 // Stel Liquid in als 'view engine'
-const engine = new Liquid();
-app.engine('liquid', engine.express());
+const engine = new Liquid()
+app.engine('liquid', engine.express())
 
 // Stel de map met Liquid templates in
 // Let op: de browser kan deze bestanden niet rechtstreeks laden (zoals voorheen met HTML bestanden)
@@ -54,7 +54,7 @@ app.post(…, async function (request, response) {
     headers: {
       'Content-Type': 'application/json;charset=UTF-8'
     }
-  });
+  })
 
   // Als de POST niet gelukt is, kun je de response loggen. Sowieso een goede debugging strategie.
   // console.log(fetchResponse)
