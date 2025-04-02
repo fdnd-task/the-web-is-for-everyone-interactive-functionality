@@ -48,15 +48,20 @@ app.post(…, async function (request, response) {
   // Zie https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify over JSON.stringify()
   // Zie https://docs.directus.io/reference/items.html#create-an-item over het toevoegen van gegevens in Directus
   // Zie https://docs.directus.io/reference/items.html#update-an-item over het veranderen van gegevens in Directus
-  const postResponse = await fetch(…, {
+  const fetchResponse = await fetch(…, {
     method: …,
     body: JSON.stringify(…),
     headers: {
       'Content-Type': 'application/json;charset=UTF-8'
     }
   });
+
   // Als de POST niet gelukt is, kun je de response loggen. Sowieso een goede debugging strategie.
-  // console.log(postResponse)
+  // console.log(fetchResponse)
+
+  // Eventueel kun je de JSON van die response nog debuggen
+  // const fetchResponseJSON = await fetchResponse.json()
+  // console.log(fetchResponseJSON)
 
   // Redirect de gebruiker daarna naar een logische volgende stap
   // Zie https://expressjs.com/en/5x/api.html#res.redirect over response.redirect()
