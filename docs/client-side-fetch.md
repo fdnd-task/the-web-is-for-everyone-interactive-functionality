@@ -142,12 +142,21 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
     // Let op: hiermee overschrijven we de default Loading state van de browser...
     event.preventDefault()
 
+    // Verzamel alle formuliervelden van het formulier
+    let formData = new FormData(form)
+
+    // En voeg eventueel de name en value van de submit button toe aan die data
+    // https://developer.mozilla.org/en-US/docs/Web/API/SubmitEvent/submitter
+    if (event.submitter) {
+      formData.append(event.submitter.name, event.submitter.value)
+    }
+
     // Doe een fetch naar de server, net als hoe de browser dit normaal zou doen
     // Gebruik daarvoor het action en method attribuut van het originele formulier
-    // Inclusief alle formulierelementen
+    // Inclusief alle formuliervelden
     const response = await fetch(form.action, {
       method: form.method,
-      body: new URLSearchParams(new FormData(form))
+      body: new URLSearchParams(formData)
     })
 
     // De server redirect op de normale manier, en geeft HTML terug
