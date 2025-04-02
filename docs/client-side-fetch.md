@@ -122,11 +122,6 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
 {% endif %}
 
 <script type="module">
-// We maken hieronder aannames over wat de browser ondersteunt
-// Dus laten we deze eerst testen met Feature Detection
-// https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection
-if ('fetch' in window && 'DOMParser' in window) {
-
   // Als er ergens op de pagina een formulier wordt gesubmit..
   // (We maken hier gebruik van Event Delegation)
   document.addEventListener('submit', async function(event) {
@@ -173,7 +168,6 @@ if ('fetch' in window && 'DOMParser' in window) {
     form.outerHTML = newState.outerHTML
 
   })
-}
 </script>
 ```
 
