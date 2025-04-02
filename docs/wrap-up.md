@@ -5,25 +5,25 @@
 In de wrap up ga je de sprint review voorbereiden. Wat ga je aan de oprachtgever presenteren? Hoe ga je dat doen? En waar wil je feedback op van de opdrachtgever? En je schrijft een goede Readme, voor de opdrachtgever, maar ook voor collega's die jouw code willen bekijken en/of gebruiken ...
 
 ### Aanpak
-Eerste schrijf je een nette Readme waarin je laat zien wat he hebt gedaan, en je legt de code uit. Daarna ga je de Readme bespreken met studenten die dezelfde opdracht hebben en bereid je de spritn review voor. 
+Eerste schrijf je een nette Readme waarin je laat zien wat je hebt gedaan, en je legt de code uit. Daarna ga je de Readme bespreken met studenten die dezelfde opdracht hebben en bereid je de Sprint Review voor. 
 
 
 ## Readme voorbereiden
 
 Je hebt deze sprint een interactie met POST gemaakt, en je bent verder gegaan met de feedback van de opdrachtgever.
 
-In de Readme kan je uitleggen waar je aan hebt gewerkt en hoe het is geworden, presenteer wat je hebt gemaakt. Ook schrijf je instructies voor de *installatie* en hoe je code werkt bij *kenmerken*. Zo kan iemand anders jouw code forken, clonen en runnen...
+In de Readme kan je uitleggen waar je aan hebt gewerkt en hoe het is geworden. Ook schrijf je instructies voor de *installatie* en hoe je code werkt bij *kenmerken*. Zo kan iemand anders jouw code forken, clonen en runnen...
 
 ### Beschrijving
-In je Readme staat bij *beschrijving* kort beschreven wat voor project het is en wat je hebt gemaakt. Voeg hier ook een link toe naar de live website.
+In je Readme staat bij *beschrijving* wat voor project het is en wat je hebt gemaakt. Voeg hier ook een link toe naar de live website.
 
 ### Gebruik
 Bij *gebruik* leg je uit hoe de website werkt en wat je ermee kan. Laat hier ook de user stories zien die je hebt gemaakt en toon hoe het is geworden.
 
 ### Kenmerken
-Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Toon screenshots of een video van de UI-stack states die je hebt ontworpen en gebouwd,en leg per state uit hoe de code werkt. 
+Bij *kenmerken* staat welke technieken zijn gebruikt en hoe. Hier leg je in grote lijnen uit hoe de interactieve toepassing werkt met NodeJS, Express, Liquid en Directus en Client-side scripting. Toon screenshots of een video van de UI-stack states die je hebt ontworpen en gebouwd, en leg per state uit hoe de code werkt. 
 
-Aan de hand van jouw uitleg moet iemand anders in grote lijnen jouw code kunnen begrijpen. (misschien kan je je code ook nog opschonen, nette witruimte en comments toevoegen, niet gebruikte routes weghalen, ...)
+Aan de hand van jouw uitleg moet iemand anders in grote lijnen de code kunnen begrijpen. (misschien kan je je code ook nog opschonen, nette witruimte en comments toevoegen, niet gebruikte routes weghalen, ...)
 
 <!--
 #### Screenflow met UI-stack states
@@ -39,7 +39,7 @@ Toon hoe de client-side scripting werkt, hoe wordt de data gepost met JavaScipt?
 -->
 
 ### Installatie
-Omdat je een NodeJs project, met Express en Liquid hebt gemaakt, beschrijf je in de Readme ook hoe iemand anders het project kan installeren. Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. Hoe leg je aan iemand anders uit dat je bijvoorbeeld npm hebt gebruikt?
+Omdat je een NodeJs project, met Express en Liquid hebt gemaakt, beschrijf je in de Readme ook hoe iemand anders het project kan installeren. Bij *installatie* staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. Hoe leg je aan iemand anders uit dat je bijvoorbeeld NPM hebt gebruikt?
 
 
 ## Sprint review voorbereiden
