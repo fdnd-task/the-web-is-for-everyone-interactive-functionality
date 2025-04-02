@@ -111,17 +111,18 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
 
 {% if liked %}
   <!-- Ideal state -->
-  <form method="POST" action="/detail/{{ id }}/unlike" data-enhanced="form-{{ id }}">
+  <form method="POST" action="/detail/{{ id }}/unlike" data-enhanced="formulier-{{ id }}">
     <button type="submit">Unlike</button>
   </form>
 {% else %}
   <!-- Empty state -->
-  <form method="POST" action="/detail/{{ id }}/like" data-enhanced="form-{{ id }}">
+  <form method="POST" action="/detail/{{ id }}/like" data-enhanced="formulier-{{ id }}">
     <button type="submit">Like</button>
   </form>
 {% endif %}
 
 <script type="module">
+
   // Als er ergens op de pagina een formulier wordt gesubmit..
   // (We maken hier gebruik van Event Delegation)
   document.addEventListener('submit', async function(event) {
@@ -129,10 +130,10 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
     // Hou in een variabele bij welk formulier dat was
     const form = event.target
 
-    // Als dit formulier geen data-enhanced attribuut heeft, doe dan niks
+    // Als dit formulier geen data-enhanced attribuut heeft, doe dan niks speciaals (laat het formulier normaal versturen)
     // Dit doen we, zodat we sommige formulieren op de pagina kunnen 'enhancen'
-    // Data attributen mag je zelf verzinnen; dit is dus niet iets speciaals
-    // https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes
+    // Door ze bijvoorbeeld data-enhanced="true" of data-enhanced="formulier-3" te geven.
+    // Data attributen mag je zelf verzinnen: https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes
     if (!form.hasAttribute('data-enhanced')) {
       return
     }
@@ -158,8 +159,9 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
     const parser = new DOMParser()
     const responseDOM = parser.parseFromString(responseText, 'text/html')
 
-    // Zoek in die nieuwe DOM onze nieuwe state op, die we via Liquid hebben klaargemaakt
-    // We gebruiken hiervoor het data-enhanced attribuut, zodat we weten waar we naar moeten zoeken
+    // Zoek in die nieuwe HTML DOM onze nieuwe UI state op, die we via Liquid hebben klaargemaakt
+    // We gebruiken hiervoor het eerdere data-enhanced attribuut, zodat we weten waar we naar moeten zoeken
+    // In de nieuwe HTML zoeken we bijvoorbeeld naar data-enhanced="true" of data-enhanced="formulier-3"
     // (Hierdoor kunnen we ook meerdere formulieren op dezelfde pagina gebruiken)
     const newState = responseDOM.querySelector('[data-enhanced="' + form.getAttribute('data-enhanced') + '"]')
 
@@ -168,6 +170,7 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
     form.outerHTML = newState.outerHTML
 
   })
+
 </script>
 ```
 
