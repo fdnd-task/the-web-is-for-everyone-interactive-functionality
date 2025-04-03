@@ -40,9 +40,9 @@ en
 
 ### Opdracht
 
-Onderzoek met je tafel de 5 states van de UI-Stack:
+Onderzoek met je tafel de states van de UI-Stack:
 
-👉 Schrijf de 5 UI-Stack states op het bord
+👉 Schrijf de UI-Stack states op het bord
 
 👉 Zoek voor elke state een goed voorbeeld, heb je ook voorbeelden waar het niet goed gaat?
 
@@ -54,7 +54,7 @@ Onderzoek met je tafel de 5 states van de UI-Stack:
 
 ## UI-Stack ontwerpen en bouwen
 
-Om de UI-Stack toe te passen ga je eerst de states ontwerpen, zodat je precies weet wat je wilt bouwen. Hiervoor ga je je Wireflow uitbreiden. 
+Je hebt al een wireflow van jouw interactie. Eigenlijk is dat al de *ideal* state. Vandaag ga je je wireflow uitbreiden met andere states van de UI-Stack.
 
 ### Wireflow uitbreiden met de UI-Stack
 
