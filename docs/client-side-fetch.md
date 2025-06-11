@@ -76,7 +76,7 @@ Voeg de *Loading state* en *Success state* toe toe aan je Wireflow. Ontwerp hoe 
 <!--Gebruik hiervoor [de states van de UI-Stack](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/ui-states.md): Empty state, Loading state en Success state.--> Voeg deze nieuwe states toe aan je User Story issue.
 
 
-## Server-side vs. Client-side (om 10:30 uur)
+## Server-side vs. Client-side
 
 In Semester 2 leer je over zowel de server (NodeJS/Express) als de client (de browser). Deze “praten” met elkaar via HTTP en URLs. Een client kan bij een server data ophalen via een `GET` method, en data versturen via een `POST` method.
 
