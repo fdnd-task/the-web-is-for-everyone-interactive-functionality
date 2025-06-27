@@ -1,6 +1,6 @@
 # Interactive functionality
 
-## Client-Side Fetch met Server-side partials 
+## Client-Side Fetch met Server-side Rendering 
 Over het client-side fetchen van data volgens het principe van Progressive Enhancement
 
 ### Aanpak
