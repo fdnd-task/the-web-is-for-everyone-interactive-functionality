@@ -102,9 +102,9 @@ Vet hè?
 
 🚨 Je kunt niet zomaar naar elke andere website een `fetch()` doen vanuit JavaScript in een browser. Daarvoor is dit te krachtig. Standaard werkt dit alleen voor URLs van hetzelfde _origin_ (domein). Als websites dit wel toe willen staan, moeten ze dit expliciet aangeven, via zogenaamde _Cross-Origin Resource Sharing (CORS) headers_. Directus laat dit bijvoorbeeld wel toe, waardoor bovenstaand voorbeeld werkt.
 
-Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript kunnen gebruiken om bijvoorbeeld een `POST` te doen naar onze eigen Express server. Naar de routes die we dus zelf aangemaakt hebben. Precies dat wat we nodig hebben voor onze interactie!
+Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript kunnen gebruiken om bijvoorbeeld een `POST` te doen naar _onze eigen_ Express server (op hetzelfde _origin_). Naar de routes die we dus zelf aangemaakt hebben in onze server. Precies dat wat we nodig hebben voor onze interactie!
 
-👉 Onderzoek onderstaand voorbeeld, lees de code comments, en pas de code aan naar jouw eigen project. Zorg dat je met client-side JavaScript jouw formulier kunt versturen.
+👉 Onderzoek onderstaand voorbeeld, en lees de code comments:
 
 ```html
 <!-- Bijvoorbeeld voor deze HTML, maar waarschijnlijk is die van jou net anders -->
@@ -183,12 +183,15 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
 </script>
 ```
 
+👉 Pas de code aan naar jouw eigen project. Zorg dat je met client-side JavaScript jouw formulier kunt versturen. Je kunt dit script natuurlijk ook in een extern JavaScript bestand zetten en via `<script src="..." type="module"></script>` inladen.
+
 #### Bronnen
 
 - [Using the Fetch API @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Using data attributes @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes)
 - [Retrieving a FormData object from an HTML form @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects#retrieving_a_formdata_object_from_an_html_form)
 - [Fetch Standard @ WHATWG](https://fetch.spec.whatwg.org/)
+- [Meer over `type="module"` en JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script#module) (geavanceerd)
 - [Cross-Origin Resource Sharing (CORS) @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) (geavanceerd)
 
 ### Extra states toevoegen
