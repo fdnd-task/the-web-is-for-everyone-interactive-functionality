@@ -196,12 +196,12 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
 
 ### Extra states toevoegen
 
-👉 Breid bovenstaande JavaScript code aan met een Loading state en Success state, zoals je hebt ontworpen. Gebruik hiervoor de technieken die je in Sprint 5 hebt geleerd, zoals de `classList`.
+👉 Breid bovenstaande JavaScript code uit met een _Loading state_ en _Success state_, zoals je hebt ontworpen. Gebruik hiervoor de technieken die je in Sprint 5 hebt geleerd, zoals de `classList`.
 
-💪 De View Transition API leent zich erg goed voor deze enhancement, met name voor de Success state. Onderzoek hoe je deze met Progressive Enhancement in kunt zetten in bovenstaande code. Hou rekening met ondersteuning in verschillende browsers.
+💪 De View Transition API leent zich erg goed voor deze enhancement, met name voor de Success state. Onderzoek hoe je deze met Feature Detection en Progressive Enhancement in kunt zetten in bovenstaande code. Hou rekening met ondersteuning in verschillende browsers.
 
 #### Bronnen
 
 - [classList property @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
-- [Using the View Transition API @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using)
-- [View Transitions @ 12 Days of Web](https://12daysofweb.dev/2023/view-transitions/)
+- [Using the View Transition API @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using) (geavanceerd)
+- [View Transitions @ 12 Days of Web](https://12daysofweb.dev/2023/view-transitions/) (geavanceerd)
