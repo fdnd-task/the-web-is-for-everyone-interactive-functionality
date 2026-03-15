@@ -16,7 +16,7 @@ Hierna gaan we een Wireflow schetsen met nette URLs, routes aanmaken, een HTML f
 Komende vrijdag ga je je interactie testen tijdens de code/design review.
 
 
-## Interactieve functionaliteit schetsen
+## Interactieve functionaliteit bedenken en schetsen
 
 Tot nu toe heb je minimaal een overzichtspagina en een detailpagina gemaakt voor de opdrachtgever. Je hebt hiervoor `GET` requests gebruikt. Voor je eigen routes én voor de fetches naar Directus. Hier komen deze sprint `POST` requests bij. Maar hiervoor moeten we eerst bepalen _wat_ we willen gaan maken.
 
