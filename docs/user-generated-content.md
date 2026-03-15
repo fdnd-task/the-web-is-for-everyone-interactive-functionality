@@ -58,7 +58,7 @@ Annoteer je Wireflow met hints voor je dynamische data, en bedenk ook hoe je aan
 
 Voeg je Wireflow toe aan je User Story issue en vraag hierop feedback.
 
-We gaan straks verder met het aanmaken van routes, het maken van het formulier, en het opslaan van gegevens in Directus. Vanmiddag is er een practicum om je hierbij te helpen.
+We gaan straks verder met het aanmaken van routes, het maken van het formulier, en het opslaan van gegevens in Directus.
 
 ## Routes
 
