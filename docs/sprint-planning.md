@@ -25,4 +25,4 @@ Pak de feedback van de Sprint Review erbij, maak issues van de taken waar je mee
 
 ## Prototypen User Generated Content
 
-Nu je weet wat (ongeveer) de bedoeling is deze sprint, ga je verder met de workshop "User Generated Content".
+Nu je weet wat (ongeveer) de bedoeling is deze sprint, gaan we verder met de workshop "User Generated Content".
