@@ -15,7 +15,7 @@ Hierna gaan we een Wireflow schetsen met nette URLs, routes aanmaken, een HTML f
 
 Komende vrijdag ga je je interactie testen tijdens de code/design review.
 
-## Progressive Enhancement
+### Progressive Enhancement
 
 Progressive Enhancement is een coding strategie, waarmee je er voor kunt zorgen dat je website het _altijd_ doet, voor _iedereen_. Het zorgt er ook voor dat je minder hoeft te testen. Tijdens deze sprint gaan we je in verschillende workshops deze strategie aanleren, zodat je dit uiteindelijk kunt dromen:
 
