@@ -10,6 +10,17 @@ Als je een interactie ontwerpt moet je voor de gebruiker feedback ontwerpen. Je 
 
 Als je een POST interactie ontwerpt moet je in de interface nog andere states ontwerpen. Het kan zijn dat er nog geen data is, dat er data geladen wordt, of dat er iets fout gaat. Hiervoor gebruiken we de UI-Stack... Eerst ga je onderzoeken wat states en de UI-Stack zijn, daarna ga je de states ontwerpen en bouwen. 
 
+<!-- 
+Een lijst kan gevuld zijn
+Een lijst kan nog leeg zijn, er zit nog niet in
+Een lijst kan gedeeltelijk vol zijn, maar nog niet volledig, iemand moet nog iets doen? 
+
+Group aanmaken maar er zijn nog geen users...
+Lijst met likes op een foto maar je foto is nog niet gelikt ...
+
+
+-->
+
 
 ## UI-Stack
 
@@ -56,15 +67,23 @@ Onderzoek met je tafel de states van de UI-Stack:
 
 Als het goed is hebt je al een wireflow van jouw interactie. Eigenlijk is dat al de *ideal* state. Vandaag ga je je wireflow uitbreiden met andere states van de UI-Stack.
 
+
+
 ### Wireflow/Screenflow uitbreiden met de UI-Stack
 
 Bespreek je Wireflow over je POST funcionaliteit met je buur en bedenk welke states van de UI-Stack je nodig hebt. Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als de POST goed gaat?
 
-Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg. Maak daarna een interactief prototype in Figma van de interactie 
+Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg. 
 
 
 <!--
 👉 Breid je wireflow uit met elke UI state
+
+Welke states kunnen ze nu gaan maken? 
+Empty state
+Partial state?
+Ideal state
+
 -->
 
 
