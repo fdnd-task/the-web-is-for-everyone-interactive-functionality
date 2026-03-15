@@ -48,7 +48,7 @@ Stap 1 heb je net gezet; bepalen _wat_ je gaat maken. Een interactie met de serv
 
 Stap 2, de simpelste techniek hiervoor, is in dit geval een `<form>` in HTML, met waarschijnlijk een submit button. Dit werkt in elke browser, op elk apparaat, overal, voor iedereen. En dat is je doel als frontender.
 
-Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we deze interactie uitbreiden met extra _enhancements_. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen.
+Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we deze interactie uitbreiden met extra _enhancements_. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen. Het is helemaal ok als je in stap 2 nog niet jouw uiteindelijke ontwerp  hebt kunnen maken.
 
 
 ## Wireflow breakdown met URLs, routes en POST 
