@@ -15,6 +15,16 @@ Hierna gaan we een Wireflow schetsen met nette URLs, routes aanmaken, een HTML f
 
 Komende vrijdag ga je je interactie testen tijdens de code/design review.
 
+## Progressive Enhancement
+
+Progressive Enhancement is een coding strategie, waarmee je er voor kunt zorgen dat je website het _altijd_ doet, voor _iedereen_. Het zorgt er ook voor dat je minder hoeft te testen. Tijdens deze sprint gaan we je in verschillende workshops deze strategie aanleren, zodat je dit uiteindelijk kunt dromen:
+
+1) Bouw de functionaliteit robuust, met de simpelste techniek (HTML en Server-Side Rendering)​
+2) Voeg Mobile First CSS voor de huisstijl toe​
+3) Enhance de functionaliteit geleidelijk voor een betere User Experience​ (De leukste stap. Met moderne CSS, client-side JS en verschillende strategieën.)
+
+Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we je een aantal strategieën leren om dit geleidelijk goed te doen. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen. Het is helemaal ok als je vandaag nog niet jouw uiteindelijke ontwerp hebt kunnen maken.
+
 
 ## Interactieve functionaliteit bedenken en schetsen
 
@@ -31,22 +41,9 @@ Schrijf voor jouw functionaliteit een User Story, en maak hiervoor een nieuw iss
 Heb je voor jouw functionaliteit een aanpassing in de database nodig? Plaats dan een link naar dit issue op Teams, of tag in je issue een docent die dit op kan pakken. Het kan even duren voordat dit gedaan is, maar je kunt alvast verder met de volgende stappen.
 
 
-## Progressive Enhancement
+## Bouw de functionaliteit robuust, met de simpelste techniek (HTML en Server-Side Rendering)​
 
-Progressive Enhancement is een coding strategie, waarmee je er voor kunt zorgen dat je website het _altijd_ doet, voor _iedereen_. Het zorgt er ook voor dat je minder hoeft te testen. Tijdens deze sprint gaan we je in verschillende workshops deze strategie aanleren, zodat je dit uiteindelijk kunt dromen:
-
-1) Bepaal eerst de _core functionality_ van wat je gaat maken. (Let op: *Dit is de moeilijkste stap!* De core functionality is datgene wat de eindgebruiker _sowieso_ moet kunnen doen, ook als die geen muis heeft, geen kleur kan zien, haar browser geen animaties ondersteunt, of bijvoorbeeld nog niet de allerlaatste browser heeft geïnstalleerd.)
-2) Bouw die functionaliteit met de _simpelste techniek_ (meestal HTML, met een klein beetje Mobile First CSS voor de huisstijl)
-3) Voeg daarna _geleidelijk_ _extra enhancements_ toe, met CSS en client-side JS, om de User Experience te verbeteren! (de leukste stap, waar veel frontenders meteen heen springen, zonder goed na te denken over hoe ze dat doen)
-
-Stap 1 heb je net gezet; bepalen _wat_ je gaat maken. Een interactie die op de server uitgevoerd wordt in dit geval.
-
-Stap 2, de simpelste techniek hiervoor, is een `<form>` in HTML, met waarschijnlijk een submit button. Dit werkt in elke browser, op elk apparaat, overal, voor iedereen. En dat is je doel als frontender.
-
-Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we deze interactie uitbreiden met extra _enhancements_. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen. Het is helemaal ok als je in stap 2 nog niet jouw uiteindelijke ontwerp hebt kunnen maken, maar alleen de core functionality. Vergelijk dit met je HTML prototype zonder styling uit Semester 1.
-
-
-## Bouw jouw interactie met de simpelste techniek in HTML
+De simpelste techniek voor User Generated Content is een `<form>` in HTML, met waarschijnlijk een submit button. Dit werkt in elke browser, op elk apparaat, overal, voor iedereen. En dat is je doel als frontender.
 
 Deze _simpelste techniek_ voor eindgebruikers—een `<form>`, HTTP methods en URLs—, gecombineerd met onze Directus JSON API en Express, brengt best wat complexiteit met zich mee. Daarom gaan we deze interactie eerst weer uittekenen.
 
