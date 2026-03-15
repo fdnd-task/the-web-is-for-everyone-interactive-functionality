@@ -62,7 +62,7 @@ We gaan straks verder met het aanmaken van routes, het maken van het formulier, 
 
 ## Routes
 
-Gebruik de hints uit je Wireflow schets en de bronnen hieronder om jouw `POST` route(s) aan te maken in `server.js`. Je kunt hiervoor nieuwe issues aanmaken.
+Gebruik de hints uit je Wireflow schets, de voorbeeldcode die je van ons hebt gekregen en de bronnen hieronder om jouw `POST` route(s) aan te maken in `server.js`. Je kunt hiervoor nieuwe issues aanmaken.
 
 Neem bestanden of stukken code die je mee wilt nemen uit je vorige repository mee. Misschien wil je wel een deel opnieuw gaan bouwen.
 
