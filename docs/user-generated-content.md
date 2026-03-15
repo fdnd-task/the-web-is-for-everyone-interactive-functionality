@@ -51,7 +51,7 @@ Stap 2, de simpelste techniek hiervoor, is in dit geval een `<form>` in HTML. Di
 Later deze sprint (en in Sprint 11 nog meer) gaan we deze interactie uitbreiden met extra _enhancements_. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen.
 
 
-## Wireflow breakdown met url's, routes en POST 
+## Wireflow breakdown met URLs, routes en POST 
 
 Deze _simpelste techniek_ voor eindgebruikers—een `<form>`, HTTP methods en URLs—, gecombineerd met onze Directus JSON API en Express, brengt best wat complexiteit met zich mee. Daarom gaan we deze interactie eerst weer uittekenen.
 
