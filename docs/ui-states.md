@@ -54,13 +54,13 @@ Onderzoek met je tafel de states van de UI-Stack:
 
 ## UI-Stack ontwerpen en bouwen
 
-Je hebt al een wireflow van jouw interactie. Eigenlijk is dat al de *ideal* state. Vandaag ga je je wireflow uitbreiden met andere states van de UI-Stack.
+Als het goed is hebt je al een wireflow van jouw interactie. Eigenlijk is dat al de *ideal* state. Vandaag ga je je wireflow uitbreiden met andere states van de UI-Stack.
 
-### Wireflow uitbreiden met de UI-Stack
+### Screenflow uitbreiden met de UI-Stack
 
 Bespreek je Wireflow over je POST funcionaliteit met je buur en bedenk welke states van de UI-Stack je nodig hebt. Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als de POST goed gaat?
 
-Voeg de states toe en geef ze een duidelijke titel en korte uitleg.
+Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg.
 
 
 <!--
