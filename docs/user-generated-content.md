@@ -54,7 +54,7 @@ Schets een Wireflow van jouw interactie. Gebruik hiervoor [de workshops uit Spri
 
 Annoteer je Wireflow met hints voor je dynamische data, en bedenk ook hoe je aan kunt geven dat je een `POST` afhandelt.
 
-💪 Na het afhandelen van een `POST`, wil je bezoekers doorsturen (_redirecten_, met een `303` _status code_); kun je dat ook aangeven in je Wireflow?
+💪 Na het afhandelen van een `POST`, wil je bezoekers doorsturen naar de pagina waarop ze kunnen zien wat er veranderd is (_redirecten_, met een `303` _status code_); kun je dat ook aangeven in je Wireflow?
 
 Voeg je Wireflow toe aan je User Story issue en vraag hierop feedback.
 
