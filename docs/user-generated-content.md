@@ -87,7 +87,7 @@ Als je een opfrisser wilt van hoe je formulieren afhandelt, zie dan de bronnen u
 
 ### Opslaan in Directus
 
-In `server.js` staat wat code uitgecomment. Gebruik deze om stap voor stap data op te slaan in Directus. De exacte code verschilt per project en per onderwerp, dus hiervoor zul je zelf aan de slag moeten.
+In `server.js` staat wat code uitgecomment. Gebruik deze om stap voor stap data op te slaan in Directus. De exacte code verschilt per project en per onderwerp, dus hiervoor zul je zelf aan de slag moeten. Hier kunnen we je goed bij helpen.
 
 Jullie hebben dit eerder gedaan in de team-squad-page opdracht in Sprint 7, dus pak je code daarvan erbij.
 
