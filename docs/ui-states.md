@@ -56,11 +56,11 @@ Onderzoek met je tafel de states van de UI-Stack:
 
 Als het goed is hebt je al een wireflow van jouw interactie. Eigenlijk is dat al de *ideal* state. Vandaag ga je je wireflow uitbreiden met andere states van de UI-Stack.
 
-### Screenflow uitbreiden met de UI-Stack
+### Wireflow/Screenflow uitbreiden met de UI-Stack
 
 Bespreek je Wireflow over je POST funcionaliteit met je buur en bedenk welke states van de UI-Stack je nodig hebt. Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als de POST goed gaat?
 
-Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg.
+Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg. Maak daarna een interactief prototype in Figma van de interactie 
 
 
 <!--
@@ -71,7 +71,7 @@ Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg.
 
 ### UI-Stack states bouwen in Liquid
 
-Omdat we server-side pagina's aan het bouwen zijn, gaan we beginnen met het bouwen van een empty-state. De loading-state heb je pas nodig als je de POST client-side gaat maken in week 3 van deze sprint (de 3e laag van Progressive Enhancement).
+Omdat we server-side pagina's aan het bouwen zijn, gaan we beginnen met het bouwen van een empty-state. De loading-state heb je pas nodig als je de POST client-side gaat maken in sprint 10.
 
 Om de empty-state te kunnen tonen in Liquid zul je gebruik moeten maken van _if/else statements_. Welke HTML moet gerenderd worden als er geen data is? Welke HTML moet gerenderd worden als er wel data gePOST is? 
 
