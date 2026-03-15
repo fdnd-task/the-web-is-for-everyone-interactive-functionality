@@ -16,8 +16,10 @@ Media queries volgens het principe van PE
 - 
 
 
+## Figma uitbreiden met User prefs:
+
 In Figma voor alle uitzodneringen een ontwerp maken
-KLeurenblindheid weer uitdiepen????
+Kleurenblindheid weer uitdiepen????
 En check ook je contrast als je je scherm op zw-wit zet
 
 -->
