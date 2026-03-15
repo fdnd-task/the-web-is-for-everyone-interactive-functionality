@@ -37,15 +37,16 @@ Deze leertaak wordt behandeld in Sprint 9. Er worden verschillende workshops aan
 - [Deeltaak Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement/)
 - [Browsers en Feature detection](browsers-en-feature-detection.md)
 - [Code/Design-Review - Device Lab](code-design-review-device-lab.md)
-- [Client-Side Fetch met Server-Side partials](client-side-fetch.md)
+- [User Preferences](user-preferences.md)
 - [Wrap-up](wrap-up.md)
 
 ## Definition of done
 
 Deze opdracht is done als:
 
-- [ ] Jouw gebruikers kunnen iets achterlaten of toevoegen op jouw website (user generated content)
-- [ ] Je website is online gepubliceerd
-- [ ] Je hebt interactieve functionaliteit ontworpen en gemaakt met NodeJS, Express, Liquid en een REST API en HTML, CSS en client-side JS
-- [ ] Je hebt je werk getest in verschillende browsers en devices en de tests gedocumenteerd in je issues
-- [ ] Je hebt in de Readme bij 'Kenmerken' uitgelegd wat Progressive Enhancement is en hoe je dit hebt toegepast
+- [ ] Je hebt interactieve functionaliteit voor user generated content met verschillende UI states ontworpen en gebouwd
+- [ ] Je hebt NodeJS, Express, Liquid, een REST API, HTML, CSS en client-side JS gecombineerd volgens het principe van Progressive Enhancement
+- [ ] Je hebt user preference media features toegevoegd in je ontwerp en website volgens het principe van Progressive Enhancement
+- [ ] Je hebt rekening gehouden met eindgebruikers door je werk te testen in verschillende browsers en devices en de testresultaten te verwerken
+- [ ] Je hebt je ontwerpkeuzes en eigen ideeën aan de hand van Progressive Enhancement begrijpelijk uitgelegd in je Readme
+

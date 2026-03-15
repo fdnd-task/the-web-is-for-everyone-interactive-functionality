@@ -16,9 +16,9 @@ Hierna gaan we een Wireflow schetsen met nette URLs, routes aanmaken, een HTML f
 Komende vrijdag ga je je interactie testen tijdens de code/design review.
 
 
-## Interactieve functionaliteit schetsen
+## Interactieve functionaliteit bedenken en schetsen
 
-Tot nu toe heb je een overzichtspagina en een detailpagina gemaakt voor de opdrachtgever. Je hebt hiervoor `GET` requests gebruikt. Voor je eigen routes en voor de fetches naar Directus. Hier komen deze sprint `POST` requests bij. Maar hiervoor moeten we eerst bepalen _wat_ we willen gaan maken.
+Tot nu toe heb je minimaal een overzichtspagina en een detailpagina gemaakt voor de opdrachtgever. Je hebt hiervoor `GET` requests gebruikt. Voor je eigen routes én voor de fetches naar Directus. Hier komen deze sprint `POST` requests bij. Maar hiervoor moeten we eerst bepalen _wat_ we willen gaan maken.
 
 Wil je een opfrisser over het verschil tussen `GET` en `POST`, lees dan eerst eens de bron uit Sprint 7.
 
@@ -26,7 +26,7 @@ Overleg met studenten die dezelfde opdrachtgever hebben welke functionaliteit je
 
 Maak een snelle schets van jouw idee, zodat je deze kunt overbrengen aan een ander aan je tafel. Deze leertaak is individueel, maar probeer samen in te schatten of een bepaald idee haalbaar is, en hoe. Analyseer samen jullie Directus database, en noteer voor jezelf mogelijke problemen en knelpunten die je verwacht voor jouw idee. Als je een aanpassing in de database nodig hebt, kunnen we dat voor jullie doen, net als bij de WHOIS API. Het is hiervoor handig als je zelf al bedenkt wat je nog nodig hebt. Als jouw idee misschien te ingewikkeld is, hou dan een ander idee achter de hand. Overleg uiteindelijk met een docent over de haalbaarheid.
 
-Schrijf voor jouw functionaliteit een User Story, en maak hiervoor een nieuw issue aan. Gebruik hiervoor eventueel de workshop uit Sprint 5. Leg in je issue kort uit wat je nodig gaat hebben, en voeg je eerste schets(en) toe.
+Schrijf voor jouw functionaliteit een User Story, en maak hiervoor een nieuw issue aan. Gebruik hiervoor eventueel de workshop uit Sprint 5. Leg in je issue kort uit wat je nodig gaat hebben, en voeg je eerste schets(en) toe. Voeg ook een hifi ontwerp in Figma toe aan het issue.
 
 Heb je voor jouw functionaliteit een aanpassing in de database nodig? Plaats dan een link naar dit issue op Teams, of tag in je issue een docent die dit op kan pakken. Het kan even duren voordat dit gedaan is, maar je kunt alvast verder met de volgende stappen.
 
@@ -38,9 +38,9 @@ Heb je voor jouw functionaliteit een aanpassing in de database nodig? Plaats dan
 
 ## Progressive Enhancement
 
-Progressive Enhancement is een coding strategie, waarmee je er voor kunt zorgen dat je website het altijd doet, voor iedereen. Tijdens deze sprint gaan we je in verschillende workshops deze strategie aanleren, zodat je dit uiteindelijk kunt dromen:
+Progressive Enhancement is een design en coding strategie, waarmee je er voor kunt zorgen dat je website het _altijd_ doet, voor _iedereen_. Tijdens deze sprint gaan we je in verschillende workshops deze strategie aanleren, zodat je dit uiteindelijk kunt dromen:
 
-1) Bepaal eerst de _core functionality_ van wat je gaat maken
+1) Bepaal eerst de _core functionality_ van wat je gaat maken. Let op: *Dit is moeilijk!* De core functionality is datgene wat de eindgebruiker _sowieso_ moet kunnen doen, ook als die geen muis heeft, geen kleur kan zien, haar browser geen animaties ondersteunt, of bijvoorbeeld nog niet de allerlaatste browser heeft geïnstalleerd.
 2) Bouw die functionaliteit met de _simpelste techniek_ (meestal HTML, met een klein beetje Mobile First CSS voor de huisstijl)
 3) Voeg daarna _extra enhancements_ toe met CSS en client-side JS, om de User Experience te verbeteren! (de leukste stap, waar veel frontenders meteen heen springen)
 
@@ -51,7 +51,7 @@ Stap 2, de simpelste techniek hiervoor, is in dit geval een `<form>` in HTML. Di
 Later deze sprint (en in Sprint 11 nog meer) gaan we deze interactie uitbreiden met extra _enhancements_. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen.
 
 
-## Wireflow breakdown met url's, routes en POST 
+## Wireflow breakdown met URLs, routes en POST 
 
 Deze _simpelste techniek_ voor eindgebruikers—een `<form>`, HTTP methods en URLs—, gecombineerd met onze Directus JSON API en Express, brengt best wat complexiteit met zich mee. Daarom gaan we deze interactie eerst weer uittekenen.
 

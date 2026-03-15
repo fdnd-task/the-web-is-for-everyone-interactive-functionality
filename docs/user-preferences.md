@@ -1,6 +1,6 @@
 # Interactive functionality
 
-## Client-Side Fetch met Server-side partials 
+## Client-Side Fetch met Server-side Rendering 
 Over het client-side fetchen van data volgens het principe van Progressive Enhancement
 
 ### Aanpak
@@ -76,7 +76,7 @@ Voeg de *Loading state* en *Success state* toe toe aan je Wireflow. Ontwerp hoe 
 <!--Gebruik hiervoor [de states van de UI-Stack](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/ui-states.md): Empty state, Loading state en Success state.--> Voeg deze nieuwe states toe aan je User Story issue.
 
 
-## Server-side vs. Client-side (om 10:30 uur)
+## Server-side vs. Client-side
 
 In Semester 2 leer je over zowel de server (NodeJS/Express) als de client (de browser). Deze “praten” met elkaar via HTTP en URLs. Een client kan bij een server data ophalen via een `GET` method, en data versturen via een `POST` method.
 
@@ -100,11 +100,11 @@ console.log(teamResponseJSON)
 
 Vet hè?
 
-Je kunt niet zomaar naar elke andere website een `fetch()` doen vanuit JavaScript in een browser. Daarvoor is dit te krachtig. Standaard werkt dit alleen voor URLs van hetzelfde _origin_ (domein). Als websites dit wel toe willen staan, moeten ze dit expliciet aangeven, via zogenaamde _Cross-Origin Resource Sharing (CORS) headers_. Directus laat dit bijvoorbeeld wel toe, waardoor bovenstaand voorbeeld werkt.
+🚨 Je kunt niet zomaar naar elke andere website een `fetch()` doen vanuit JavaScript in een browser. Daarvoor is dit te krachtig. Standaard werkt dit alleen voor URLs van hetzelfde _origin_ (domein). Als websites dit wel toe willen staan, moeten ze dit expliciet aangeven, via zogenaamde _Cross-Origin Resource Sharing (CORS) headers_. Directus laat dit bijvoorbeeld wel toe, waardoor bovenstaand voorbeeld werkt.
 
-Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript kunnen gebruiken om bijvoorbeeld een `POST` te doen naar onze eigen Express server. Naar de routes die we dus zelf aangemaakt hebben. Precies dat wat we nodig hebben voor onze interactie!
+Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript kunnen gebruiken om bijvoorbeeld een `POST` te doen naar _onze eigen_ Express server (op hetzelfde _origin_). Naar de routes die we dus zelf aangemaakt hebben in onze server. Precies dat wat we nodig hebben voor onze interactie!
 
-👉 Onderzoek onderstaand voorbeeld, lees de code comments, en pas de code aan naar jouw eigen project. Zorg dat je met client-side JavaScript jouw formulier kunt versturen.
+👉 Onderzoek onderstaand voorbeeld, en lees de code comments:
 
 ```html
 <!-- Bijvoorbeeld voor deze HTML, maar waarschijnlijk is die van jou net anders -->
@@ -183,22 +183,25 @@ Het goede nieuws is vooral dat we een `fetch()` in onze client-side JavaScript k
 </script>
 ```
 
+👉 Pas de code aan naar jouw eigen project. Zorg dat je met client-side JavaScript jouw formulier kunt versturen. Je kunt dit script natuurlijk ook in een extern JavaScript bestand zetten en via `<script src="..." type="module"></script>` inladen.
+
 #### Bronnen
 
 - [Using the Fetch API @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Using data attributes @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes)
 - [Retrieving a FormData object from an HTML form @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects#retrieving_a_formdata_object_from_an_html_form)
 - [Fetch Standard @ WHATWG](https://fetch.spec.whatwg.org/)
+- [Meer over `type="module"` en JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script#module) (geavanceerd)
 - [Cross-Origin Resource Sharing (CORS) @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) (geavanceerd)
 
 ### Extra states toevoegen
 
-👉 Breid bovenstaande JavaScript code aan met een Loading state en Success state, zoals je hebt ontworpen. Gebruik hiervoor de technieken die je in Sprint 5 hebt geleerd, zoals de `classList`.
+👉 Breid bovenstaande JavaScript code uit met een _Loading state_ en _Success state_, zoals je hebt ontworpen. Gebruik hiervoor de technieken die je in Sprint 5 hebt geleerd, zoals de `classList`.
 
-💪 De View Transition API leent zich erg goed voor deze enhancement, met name voor de Success state. Onderzoek hoe je deze met Progressive Enhancement in kunt zetten in bovenstaande code. Hou rekening met ondersteuning in verschillende browsers.
+💪 De View Transition API leent zich erg goed voor deze enhancement, met name voor de Success state. Onderzoek hoe je deze met Feature Detection en Progressive Enhancement in kunt zetten in bovenstaande code. Hou rekening met ondersteuning in verschillende browsers.
 
 #### Bronnen
 
 - [classList property @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
-- [Using the View Transition API @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using)
-- [View Transitions @ 12 Days of Web](https://12daysofweb.dev/2023/view-transitions/)
+- [Using the View Transition API @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using) (geavanceerd)
+- [View Transitions @ 12 Days of Web](https://12daysofweb.dev/2023/view-transitions/) (geavanceerd)
