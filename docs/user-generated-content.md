@@ -18,7 +18,7 @@ Komende vrijdag ga je je interactie testen tijdens de code/design review.
 
 ## Interactieve functionaliteit schetsen
 
-Tot nu toe heb je minimaal een overzichtspagina en een detailpagina gemaakt voor de opdrachtgever. Je hebt hiervoor `GET` requests gebruikt. Voor je eigen routes en voor de fetches naar Directus. Hier komen deze sprint `POST` requests bij. Maar hiervoor moeten we eerst bepalen _wat_ we willen gaan maken.
+Tot nu toe heb je minimaal een overzichtspagina en een detailpagina gemaakt voor de opdrachtgever. Je hebt hiervoor `GET` requests gebruikt. Voor je eigen routes én voor de fetches naar Directus. Hier komen deze sprint `POST` requests bij. Maar hiervoor moeten we eerst bepalen _wat_ we willen gaan maken.
 
 Wil je een opfrisser over het verschil tussen `GET` en `POST`, lees dan eerst eens de bron uit Sprint 7.
 
