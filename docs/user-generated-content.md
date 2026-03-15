@@ -46,9 +46,11 @@ Stap 2, de simpelste techniek hiervoor, is een `<form>` in HTML, met waarschijnl
 Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we deze interactie uitbreiden met extra _enhancements_. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen. Het is helemaal ok als je in stap 2 nog niet jouw uiteindelijke ontwerp hebt kunnen maken, maar alleen de core functionality. Vergelijk dit met je HTML prototype zonder styling uit Semester 1.
 
 
-## Wireflow breakdown met URLs, routes en POST 
+## Bouw jouw interactie met de simpelste techniek in HTML
 
 Deze _simpelste techniek_ voor eindgebruikers—een `<form>`, HTTP methods en URLs—, gecombineerd met onze Directus JSON API en Express, brengt best wat complexiteit met zich mee. Daarom gaan we deze interactie eerst weer uittekenen.
+
+### Wireflow breakdown met URLs
 
 Schets een Wireflow van jouw interactie. Gebruik hiervoor [de workshops uit Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/filteren-en-sorteren.md#wireflow-schetsen) en [Sprint 8](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/templating-met-json.md#wireframe-met-statische-en-dynamische-data-en-componenten), en pas deze toe op het formulier dat je nu ontwerpt. Bedenk nette URLs voor je pagina's en routes, en schrijf deze erbij.
 
@@ -60,13 +62,13 @@ Voeg je Wireflow toe aan je User Story issue en vraag hierop feedback.
 
 We gaan straks verder met het aanmaken van routes, het maken van het formulier, en het opslaan van gegevens in Directus.
 
-## Routes
+### Routes
 
 Gebruik de hints uit je Wireflow schets, de voorbeeldcode die je van ons hebt gekregen (in comments in `server.js`) en de bronnen hieronder om jouw `POST` route(s) aan te maken in `server.js`. Je kunt hiervoor nieuwe issues aanmaken.
 
 Neem bestanden of stukken code die je mee wilt nemen uit je vorige repository mee. Misschien wil je wel een deel opnieuw gaan bouwen.
 
-### Bronnen
+#### Bronnen
 
 - [GET vs POST @ Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/user-generated-content.md#get-vs-post)
 - [`app.post()` @ Express](https://expressjs.com/en/5x/api.html#app.post.method)
@@ -74,25 +76,25 @@ Neem bestanden of stukken code die je mee wilt nemen uit je vorige repository me
 - [Routing @ Sprint 8](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/routing-request-response.md#routing)
 
 
-## Formulier maken
+### Formulier maken
 
 Bouw je formulier in een Liquid view.
 
 Als je een opfrisser wilt van hoe je formulieren afhandelt, zie dan de bronnen uit Sprint 7.
 
-### Bronnen
+#### Bronnen
 
 - [Oefenen met een POST @ Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/user-generated-content.md#oefenen-met-een-post)
 - [Maak één squad page @ Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/user-generated-content.md#maak-%C3%A9%C3%A9n-squad-page)
 
 
-## Opslaan in Directus
+### Opslaan in Directus
 
 In `server.js` staat wat code uitgecomment. Gebruik deze om stap voor stap data op te slaan in Directus. De exacte code verschilt per project en per onderwerp, dus hiervoor zul je zelf aan de slag moeten.
 
 Jullie hebben dit eerder gedaan in de team-squad-page opdracht in Sprint 7, dus pak je code daarvan erbij.
 
-### Bronnen
+#### Bronnen
 
 
 - [Create an item @ Directus](https://docs.directus.io/reference/items.html#create-an-item)
