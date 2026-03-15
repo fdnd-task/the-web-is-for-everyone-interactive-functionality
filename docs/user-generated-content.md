@@ -20,20 +20,15 @@ Komende vrijdag ga je je interactie testen tijdens de code/design review.
 
 Tot nu toe heb je minimaal een overzichtspagina en een detailpagina gemaakt voor de opdrachtgever. Je hebt hiervoor `GET` requests gebruikt. Voor je eigen routes én voor de fetches naar Directus. Hier komen deze sprint `POST` requests bij. Maar hiervoor moeten we eerst bepalen _wat_ we willen gaan maken.
 
-Wil je een opfrisser over het verschil tussen `GET` en `POST`, lees dan eerst eens de bron uit Sprint 7.
+Wil je een opfrisser over het verschil tussen `GET` en `POST`, lees dan eerst eens [de bron uit Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/user-generated-content.md#get-vs-post).
 
 Overleg met studenten die dezelfde opdrachtgever hebben welke functionaliteit je zou kunnen maken, waarbij je gegevens in jullie Directus database aan moet passen of toe moet voegen. Wat wordt dus jouw _User Generated Content_ deze sprint? Misschien heeft het ontwerp van je opdrachtgever al een duidelijk idee (een wish list, likes, comments, een vragenlijst die je in kunt vullen, etc). Misschien is er tijdens de laatste Sprint Review een idee ontstaan, dat je wilt gaan maken. Of misschien wil je hiervoor zelf wel iets compleet nieuws verzinnen en laten zien tijdens de komende Sprint Review. Alles mag.
 
 Maak een snelle schets van jouw idee, zodat je deze kunt overbrengen aan een ander aan je tafel. Deze leertaak is individueel, maar probeer samen in te schatten of een bepaald idee haalbaar is, en hoe. Analyseer samen jullie Directus database, en noteer voor jezelf mogelijke problemen en knelpunten die je verwacht voor jouw idee. Als je een aanpassing in de database nodig hebt, kunnen we dat voor jullie doen, net als bij de WHOIS API. Het is hiervoor handig als je zelf al bedenkt wat je nog nodig hebt. Als jouw idee misschien te ingewikkeld is, hou dan een ander idee achter de hand. Overleg uiteindelijk met een docent over de haalbaarheid.
 
-Schrijf voor jouw functionaliteit een User Story, en maak hiervoor een nieuw issue aan. Gebruik hiervoor eventueel de workshop uit Sprint 5. Leg in je issue kort uit wat je nodig gaat hebben, en voeg je eerste schets(en) toe. Voeg ook een hifi ontwerp in Figma toe aan het issue.
+Schrijf voor jouw functionaliteit een User Story, en maak hiervoor een nieuw issue aan. Gebruik hiervoor eventueel [de workshop uit Sprint 5](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/user-interface-design.md#user-story). Leg in je issue kort uit wat je nodig gaat hebben, en voeg je eerste schets(en) toe. Voeg ook een hifi ontwerp in Figma toe aan het issue.
 
 Heb je voor jouw functionaliteit een aanpassing in de database nodig? Plaats dan een link naar dit issue op Teams, of tag in je issue een docent die dit op kan pakken. Het kan even duren voordat dit gedaan is, maar je kunt alvast verder met de volgende stappen.
-
-### Bronnen
-
-- [GET vs POST @ Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/user-generated-content.md#get-vs-post)
-- [User Story @ Sprint 5](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/user-interface-design.md#user-story)
 
 
 ## Progressive Enhancement
@@ -55,7 +50,7 @@ Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we deze interactie uitbr
 
 Deze _simpelste techniek_ voor eindgebruikers—een `<form>`, HTTP methods en URLs—, gecombineerd met onze Directus JSON API en Express, brengt best wat complexiteit met zich mee. Daarom gaan we deze interactie eerst weer uittekenen.
 
-Schets een Wireflow van jouw interactie. Gebruik hiervoor de workshops uit Sprint 7 en 8, en pas deze toe op het formulier dat je nu ontwerpt. Bedenk nette URLs voor je pagina's en routes, en schrijf deze erbij.
+Schets een Wireflow van jouw interactie. Gebruik hiervoor [de workshops uit Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/filteren-en-sorteren.md#wireflow-schetsen) en [Sprint 8](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/templating-met-json.md#wireframe-met-statische-en-dynamische-data-en-componenten), en pas deze toe op het formulier dat je nu ontwerpt. Bedenk nette URLs voor je pagina's en routes, en schrijf deze erbij.
 
 Annoteer je Wireflow met hints voor je dynamische data, en bedenk ook hoe je aan kunt geven dat je een `POST` afhandelt.
 
@@ -64,12 +59,6 @@ Annoteer je Wireflow met hints voor je dynamische data, en bedenk ook hoe je aan
 Voeg je Wireflow toe aan je User Story issue en vraag hierop feedback.
 
 We gaan straks verder met het aanmaken van routes, het maken van het formulier, en het opslaan van gegevens in Directus. Vanmiddag is er een practicum om je hierbij te helpen.
-
-### Bronnen
-
-- [Wireflow schetsen @ Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/filteren-en-sorteren.md#wireflow-schetsen)
-- [Wireflow en dynamische data @ Sprint 8](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/templating-met-json.md#wireflow-en-dynamische-data)
-
 
 ## Routes
 
