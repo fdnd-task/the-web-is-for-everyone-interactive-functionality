@@ -37,7 +37,7 @@ Deze leertaak wordt behandeld in Sprint 9. Er worden verschillende workshops aan
 - [Deeltaak Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement/)
 - [Browsers en Feature detection](browsers-en-feature-detection.md)
 - [Code/Design-Review - Device Lab](code-design-review-device-lab.md)
-- [Client-Side Fetch met Server-Side partials](client-side-fetch.md)
+- [User Preferences](user-preferences.md)
 - [Wrap-up](wrap-up.md)
 
 ## Definition of done
