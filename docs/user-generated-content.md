@@ -37,13 +37,13 @@ Progressive Enhancement is een design en coding strategie, waarmee je er voor ku
 
 1) Bepaal eerst de _core functionality_ van wat je gaat maken. (Let op: *Dit is de moeilijkste stap!* De core functionality is datgene wat de eindgebruiker _sowieso_ moet kunnen doen, ook als die geen muis heeft, geen kleur kan zien, haar browser geen animaties ondersteunt, of bijvoorbeeld nog niet de allerlaatste browser heeft geïnstalleerd.)
 2) Bouw die functionaliteit met de _simpelste techniek_ (meestal HTML, met een klein beetje Mobile First CSS voor de huisstijl)
-3) Voeg daarna _extra enhancements_ toe met CSS en client-side JS, om de User Experience te verbeteren! (de leukste stap, waar veel frontenders meteen heen springen)
+3) Voeg daarna _geleidelijk_ _extra enhancements_ toe, met CSS en client-side JS, om de User Experience te verbeteren! (de leukste stap, waar veel frontenders meteen heen springen, zonder goed na te denken over hoe ze dat doen)
 
-Stap 1 heb je net gezet; bepalen _wat_ je gaat maken. Een interactie met de server in dit geval.
+Stap 1 heb je net gezet; bepalen _wat_ je gaat maken. Een interactie die op de server uitgevoerd wordt in dit geval.
 
-Stap 2, de simpelste techniek hiervoor, is in dit geval een `<form>` in HTML, met waarschijnlijk een submit button. Dit werkt in elke browser, op elk apparaat, overal, voor iedereen. En dat is je doel als frontender.
+Stap 2, de simpelste techniek hiervoor, is een `<form>` in HTML, met waarschijnlijk een submit button. Dit werkt in elke browser, op elk apparaat, overal, voor iedereen. En dat is je doel als frontender.
 
-Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we deze interactie uitbreiden met extra _enhancements_. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen. Het is helemaal ok als je in stap 2 nog niet jouw uiteindelijke ontwerp  hebt kunnen maken.
+Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we deze interactie uitbreiden met extra _enhancements_. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen. Het is helemaal ok als je in stap 2 nog niet jouw uiteindelijke ontwerp hebt kunnen maken, maar alleen de core functionality.
 
 
 ## Wireflow breakdown met URLs, routes en POST 
@@ -62,7 +62,7 @@ We gaan straks verder met het aanmaken van routes, het maken van het formulier, 
 
 ## Routes
 
-Gebruik de hints uit je Wireflow schets, de voorbeeldcode die je van ons hebt gekregen en de bronnen hieronder om jouw `POST` route(s) aan te maken in `server.js`. Je kunt hiervoor nieuwe issues aanmaken.
+Gebruik de hints uit je Wireflow schets, de voorbeeldcode die je van ons hebt gekregen (in comments in `server.js`) en de bronnen hieronder om jouw `POST` route(s) aan te maken in `server.js`. Je kunt hiervoor nieuwe issues aanmaken.
 
 Neem bestanden of stukken code die je mee wilt nemen uit je vorige repository mee. Misschien wil je wel een deel opnieuw gaan bouwen.
 
