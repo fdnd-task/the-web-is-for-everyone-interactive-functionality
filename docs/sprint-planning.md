@@ -16,7 +16,7 @@ Fork en Clone deze leertaak. Net als altijd, beginnen we weer met een nieuwe rep
 
 Voordat je gaat beginnen kan je al een grove planning maken van de taken die je gaat uitvoeren. 
 Lees de workshops _User Generated Content_, _UI states_ en de deeltaak _Progressive Enhancement_ door en bekijk met je tafel welke taken er in de workshops staan. 
-schrijf de taken op het whiteboatd. Kan je hier ook al uren aan hangen? Hoe lang denk je dat je met die taken bezig bent? 
+Schrijf de taken op het whiteboard. Kan je hier ook al uren aan hangen? Hoe lang denk je dat je met die taken bezig bent? 
 
 
 
