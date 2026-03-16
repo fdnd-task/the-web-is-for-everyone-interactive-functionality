@@ -51,7 +51,7 @@ Heb je voor jouw functionaliteit een aanpassing in de database nodig? Plaats dan
 ​
 De simpelste techniek voor User Generated Content is een `<form>` in HTML, met waarschijnlijk een submit button. Dit werkt in elke browser, op elk apparaat, overal, voor iedereen. Deze _simpelste techniek_ voor eindgebruikers—een `<form>`, HTTP methods en URLs—, gecombineerd met onze Directus JSON API en Express, brengt best wat complexiteit met zich mee. Daarom gaan we deze interactie eerst weer uittekenen.
 
-Schets een Wireflow van jouw interactie. Maak je ontwerp in Figma zodat je netjes de huisstijl kan toepassen en gorede feedback en feedforward kan vormgeven. 
+Schets een Wireflow van jouw interactie. Maak je ontwerp in Figma zodat je netjes de huisstijl kan toepassen en goede feedback en feedforward kan vormgeven. 
 <!-- Gebruik hiervoor [de workshops uit Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/filteren-en-sorteren.md#wireflow-schetsen) en [Sprint 8](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/templating-met-json.md#wireframe-met-statische-en-dynamische-data-en-componenten), en pas deze toe op het formulier dat je nu ontwerpt. --> 
 
 Een Wireflow toont een aantal schermen van een interactie. Het is nuttig om uit te denken wat een gebruiker te zien krijgt als die iets op een pagina doet. 
@@ -66,13 +66,13 @@ Onderzoek hoe je de interactie in HTML kan maken, en voeg dit als breakdown toe 
 
 💪 Na het afhandelen van een `POST`, wil je bezoekers doorsturen naar de pagina waarop ze kunnen zien wat er veranderd is (_redirecten_, met een `303` _status code_); kun je dat ook aangeven in je Wireflow?
 
-Voeg je Wireflow toe aan je User Story issue en vraag bespreek je ontwerp met een docent.
+👉 Voeg je Wireflow toe aan je User Story issue en bespreek je ontwerp met een docent.
 
 <!-- We gaan straks verder met het aanmaken van routes, het maken van het formulier, en het opslaan van gegevens in Directus. -->
 
 ## Bouw de functionaliteit robuust, met de simpelste techniek
 
-De eerste stap is je POST interactie bouwen met de meest betrouwbare techniek, HTML en Server-Side Rendering. Zo zorg je ervoor dat je interactie het altijd doet.
+De eerste stap is je POST interactie bouwen met de meest betrouwbare techniek; HTML en Server-Side Rendering. Zo zorg je ervoor dat je interactie het altijd doet.
 
 
 ### Routes
