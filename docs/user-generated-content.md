@@ -9,9 +9,13 @@ Deze workshop gaat over het POSTen en bewaren van data op de server, en hoe je d
 
 Vandaag gaan we—net als in Sprint 7 bij de squad page—gegevens _opslaan_ in Directus. Maar deze keer voor het project van jullie opdrachtgever.
 
-Net als bij de squad page moeten we daarvoor eerst bedenken welke interactieve functionaliteit we willen toevoegen, en wat dus de _User Generated Content_ wordt. Als de database van jullie project hiervoor aangepast moet worden, kunnen we dat meteen doen.
+Eerst ga je bedenken welke interactieve functionaliteit je gaat maken. Wat voor POST? Als de database van jullie project hiervoor aangepast moet worden, kunnen we dat meteen doen.
 
-Hierna gaan we een Wireflow schetsen met nette URLs, routes aanmaken, een HTML formulier maken en de data opslaan in Directus. Je kunt daarna verder met het uitwerken van je ontwerp in code.
+Hierna ga je de interactie schetsen met een Wireflow, en URLs en routes bedenken.
+
+Daarna kan je verder met het uitwerken van je ontwerp in code.
+Daarvoor ga je Progressive Enhancement toepassen: Eerst de HTML, formulier met Routes en de data opslaan in de database. 
+Als dat goed werkt dan ga je de interactieve functionaliteit mooi maken. 
 
 Komende vrijdag ga je je interactie testen tijdens de code/design review.
 
