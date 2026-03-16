@@ -77,7 +77,7 @@ De eerste stap is je POST interactie bouwen met de meest betrouwbare techniek; H
 
 ### Routes
 
-Gebruik de hints uit je Wireflow schets, de voorbeeldcode die je van ons hebt gekregen (in comments in `server.js`) en de bronnen hieronder om jouw `POST` route(s) aan te maken in `server.js`. Je kunt hiervoor nieuwe issues aanmaken.
+Gebruik de hints uit je Wireflow schets, de voorbeeldcode die je van ons hebt gekregen (in comments in `server.js`) en de bronnen hieronder om jouw `POST` route(s) aan te maken in `server.js`. Voeg je plan toe aan je issue, en koppel de commits aan je issue.
 
 Neem bestanden of stukken code die je mee wilt nemen uit je vorige repository mee. Misschien wil je wel een deel opnieuw gaan bouwen.
 
@@ -91,7 +91,7 @@ Neem bestanden of stukken code die je mee wilt nemen uit je vorige repository me
 
 ### Formulier maken
 
-Bouw je formulier in een Liquid view.
+Bouw je formulier in een Liquid view. Koppel je commits aan je user story issue.
 
 Als je een opfrisser wilt van hoe je formulieren afhandelt, zie dan de bronnen uit Sprint 7.
 
