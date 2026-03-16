@@ -70,7 +70,7 @@ Voeg je Wireflow toe aan je User Story issue en vraag bespreek je ontwerp met ee
 
 <!-- We gaan straks verder met het aanmaken van routes, het maken van het formulier, en het opslaan van gegevens in Directus. -->
 
-## Bouw de functionaliteit robuust
+## Bouw de functionaliteit robuust, met de simpelste techniek
 
 De eerste stap is je POST interactie bouwen met de meest betrouwbare techniek, HTML en Server-Side Rendering. Zo zorg je ervoor dat je interactie het altijd doet.
 
