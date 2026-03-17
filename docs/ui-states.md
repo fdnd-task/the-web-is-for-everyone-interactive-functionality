@@ -2,24 +2,22 @@
 
 ## UI states voor POST interactie
 
-Over het ontwerpen en bouwen verschillende states van de UI-Stack.
+Als je een interactie ontwerpt moet je voor de gebruiker feedback ontwerpen. Je weet dat je met feedback en feedforward ervoor kan zorgen dat gebruikers weten wat ze moeten doen. Dit doe je o.a. met de juiste labels, teksten en button states.  
+
+Omdat we deze sprint met het POSTen van data werken, wordt de _state_ van je website belangrijk. De _state_ geeft aan of er al informatie is opgeslagen of nog niet.  Een goed voorbeedld hiervan is de winkelwagen van een bol.com. 
+
+![shopping card](shoppingcart.png)
+
+Als je een product toegevoegd kan je dat aan de winkelwagentje zien: 
+
+![shopping card full](shoppingcart-full.png)
+
 
 ### Aanpak
 
-Als je een interactie ontwerpt moet je voor de gebruiker feedback ontwerpen. Je weet dat je met feedback en feedforward ervoor kan zorgen dat gebruikers weten wat ze moeten doen. Dit doe je o.a. met de juiste labels, teksten en button states.  
-
-Als je een POST interactie ontwerpt moet je in de interface nog andere states ontwerpen. Het kan zijn dat er nog geen data is, dat er data geladen wordt, of dat er iets fout gaat. Hiervoor gebruiken we de UI-Stack... Eerst ga je onderzoeken wat states en de UI-Stack zijn, daarna ga je de states ontwerpen en bouwen. 
-
-<!-- 
-Een lijst kan gevuld zijn
-Een lijst kan nog leeg zijn, er zit nog niet in
-Een lijst kan gedeeltelijk vol zijn, maar nog niet volledig, iemand moet nog iets doen? 
-
-Group aanmaken maar er zijn nog geen users...
-Lijst met likes op een foto maar je foto is nog niet gelikt ...
+Vandaag gaan we eerst onderzoeken wat de Ui stack is. Daarna ga je het toepassen op je eigen opdracht. 
 
 
--->
 
 
 ## UI-Stack
@@ -84,7 +82,16 @@ Empty state
 Partial state?
 Ideal state
 
+Een lijst kan gevuld zijn
+Een lijst kan nog leeg zijn, er zit nog niet in
+Een lijst kan gedeeltelijk vol zijn, maar nog niet volledig, iemand moet nog iets doen? 
+
+Group aanmaken maar er zijn nog geen users...
+Lijst met likes op een foto maar je foto is nog niet gelikt ...
+
+
 -->
+
 
 
 
