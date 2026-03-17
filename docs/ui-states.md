@@ -2,7 +2,7 @@
 
 ## UI states voor POST interactie
 
-Over het ontwerpen en bouwen verschillende states van de UI-Stack.
+Over het ontwerpen en bouwen van verschillende states van de UI-Stack.
 
 ### Aanpak
 
