@@ -34,7 +34,7 @@ Hoe ver ben je met de opzet van je opdracht en de POST interactie? Schrijf op he
 
 
 
-## UI-Stack
+## UI-Stack onderzoeken
 
 Voor het ontwerpen van states met dynamische data gebruiken we de UI-Stack. 
 In het artikel How to Fix a Bad Interface staat:
