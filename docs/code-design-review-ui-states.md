@@ -6,17 +6,16 @@ Deze week heb je geleerd hoe je data naar Directus kunt POST'en met behulp van e
 
 ### Aanpak
 
-Vandaag kan je het programma aanpassen op jouw wensen voor een code/design review. Er zijn twee rondes en je kan bepalen of je aanhaakt bij het reguliere programma of dat je wat extra uitleg nodig hebt en een practicum gaat bijwonen. Bepaal zelf wat nodig is voor jouw eigen ontwikkeling. Het reguliere programma wordt hieronder toegelicht. 
+Vandaag heb je de mogelijkheid om het programma af te stemmen op jouw wensen voor een code/design review. Er zijn twee rondes, en je kiest zelf of je aansluit bij het reguliere programma of extra uitleg volgt in de vorm van een practicum. Bepaal wat het beste past bij jouw ontwikkeling. Het reguliere programma wordt hieronder toegelicht.
 
 ## Design Review UI-stack states 
 
 ### Presenteer de gemaakte interactie
 
-Je gaat in een groep van ongeveer 6 studenten en 2 docenten jouw werk presenteren. Begin met de user story en de wireflow die je hebt gemaakt. Laat vervolgens de UI states zien in de browser en toon daarna hoe je dit hebt uitgewerkt in de code.  
+Je gaat in een groep van ongeveer 6 studenten en 2 docenten jouw werk presenteren. Begin met de user story en de wireflow die je hebt gemaakt. Laat vervolgens de UI-stack states zien in de browser en toon daarna hoe je dit hebt uitgewerkt in de code. Je krijgt feedback op jouw ontwerpkeuzes. Maak issues aan van waardevolle feedback of interessante en slimme oplossingen.
  
-Voor degene die luisteren: stel vragen over het gemaakte werk. Denk bijvoorbeeld aan: Waarom heb je gekozen voor deze naamgeving van de routes? Welke UI-states wil je gaan uitwerken (of heb je al gedaan)? Hoe heb je nagedacht over feedback en feedforward?
+Voor degene die luisteren: stel vragen over het gemaakte werk. Denk bijvoorbeeld aan: Waarom heb je gekozen voor deze naamgeving van de routes? Welke UI-stack states wil je gaan uitwerken (of heb je al gedaan)? Hoe heb je nagedacht over feedback en feedforward?
 
-Maak issues aan van waardevolle feedback of interessante en slimme oplossingen.
 
 ## User test 
 
