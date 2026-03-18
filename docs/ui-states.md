@@ -10,7 +10,7 @@ Een goed voorbeedld hiervan is de winkelwagen van bol.com.
 
 ![shopping card](shoppingcart.png)
 
-Als je een product toegevoegd kan je dat aan de winkelwagentje zien: 
+Als een product is toegevoegd kan je dat aan het winkelwagentje zien: 
 
 ![shopping card full](shoppingcart-full.png)
 
