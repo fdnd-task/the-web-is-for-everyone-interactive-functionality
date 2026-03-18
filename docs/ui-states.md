@@ -17,9 +17,19 @@ Als je een product toegevoegd kan je dat aan de winkelwagentje zien:
 
 ### Aanpak
 
-Vandaag gaan we eerst onderzoeken wat de UI stack is. 
+Vandaag gaan we eerst onderzoeken wat de UI-stack is. 
 Daarna ga je het toepassen op je eigen opdracht. 
-Ook gaan we de vorderingen bespreken om te kijken waar je hulp bij nodig hebt.
+
+Ook gaan we je vorderingen bespreken om te kijken waar je hulp bij nodig hebt.
+Hoe ver ben je met de opzet van je opdracht en de POST interactie? Schrijf op het whiteboard je naam en hoe ver je bent met jouw opdracht: 1,2,3,4,5,6:
+
+1. Repo met Server.js, Get routes en views opgezet in je nieuwe repo
+2. POST Interactie bedenken en schetsen
+3. Interactie ontwerpen met een Wireflow en breakdown
+4. Bouw de functionaliteit in HTML en server-side: Routes
+5. Bouw de functionaliteit in HTML en server-side: Formulier maken,
+6. Bouw de functionaliteit in HTML en server-side: Opslaan in Directus
+7. ...
 
 
 
@@ -84,6 +94,8 @@ En wat ziet een gebruiker als de POST goed gaat?
 Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg. 
 Omdat dit states zijn van dezelfde pagina teken je ze niet in de flow van de interactie. 
 Dat ziet er bijvoorbeeld zo uit: 
+
+![UI-stack Wireflow](UI-stack-wireflow.png) 
 
 
 
