@@ -4,7 +4,9 @@
 
 Als je een interactie ontwerpt moet je voor de gebruiker feedback ontwerpen. Je weet dat je met feedback en feedforward ervoor kan zorgen dat gebruikers weten wat ze moeten doen. Dit doe je o.a. met de juiste labels, teksten en button states.  
 
-Omdat we deze sprint met het POSTen van data werken, wordt de _state_ van je website belangrijk. De _state_ geeft aan of er al informatie is opgeslagen of nog niet.  Een goed voorbeedld hiervan is de winkelwagen van een bol.com. 
+Omdat we deze sprint met het POSTen van data werken, wordt de _state_ van je website belangrijk. 
+De _state_ geeft aan of er al informatie is opgeslagen of nog niet.  
+Een goed voorbeedld hiervan is de winkelwagen van bol.com. 
 
 ![shopping card](shoppingcart.png)
 
@@ -15,7 +17,9 @@ Als je een product toegevoegd kan je dat aan de winkelwagentje zien:
 
 ### Aanpak
 
-Vandaag gaan we eerst onderzoeken wat de Ui stack is. Daarna ga je het toepassen op je eigen opdracht. 
+Vandaag gaan we eerst onderzoeken wat de UI stack is. 
+Daarna ga je het toepassen op je eigen opdracht. 
+Ook gaan we de vorderingen bespreken om te kijken waar je hulp bij nodig hebt.
 
 
 
@@ -29,8 +33,10 @@ In het artikel How to Fix a Bad Interface staat:
 > 
 > [How to fix a bad user interface](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/)
 
-
-Voor elke scherm waar een gebruiker iets mee doet moet je verschillende states tonen. Er wordt bijvoorbeeld data geladen, of er kan iets mis gaan. Dan heeft de gebruiker feedback nodig die duidelijk maakt wat er gebeurt. Hiervoor heeft een scherm soms wel 4-6 states nodig. 
+Voor elke scherm waar een gebruiker iets mee doet moet je verschillende states tonen. 
+Er wordt bijvoorbeeld data geladen, of er kan iets mis gaan. 
+Dan heeft de gebruiker feedback nodig die duidelijk maakt wat er gebeurt. 
+Hiervoor heeft een scherm soms wel 4-6 states nodig. 
 
 1. Loading State
 2. Partial State
@@ -63,15 +69,22 @@ Onderzoek met je tafel de states van de UI-Stack:
 
 ## UI-Stack ontwerpen en bouwen
 
-Als het goed is hebt je al een wireflow van jouw interactie. Eigenlijk is dat al de *ideal* state. Vandaag ga je je wireflow uitbreiden met andere states van de UI-Stack.
-
+Als het goed is hebt je al een wireflow van jouw interactie. 
+Eigenlijk is dat al de *ideal* state. 
+Vandaag ga je je wireflow uitbreiden met andere states van de UI-Stack.
 
 
 ### Wireflow/Screenflow uitbreiden met de UI-Stack
 
-Bespreek je Wireflow over je POST funcionaliteit met je buur en bedenk welke states van de UI-Stack je nodig hebt. Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? En wat ziet een gebruiker als de POST goed gaat?
+Bespreek je Wireflow over je POST funcionaliteit met je buur en bedenk welke states van de UI-Stack je nodig hebt. 
+Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? 
+Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? 
+En wat ziet een gebruiker als de POST goed gaat?
 
 Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg. 
+Omdat dit states zijn van dezelfde pagina teken je ze niet in de flow van de interactie. 
+Dat ziet er bijvoorbeeld zo uit: 
+
 
 
 <!--
@@ -97,9 +110,11 @@ Lijst met likes op een foto maar je foto is nog niet gelikt ...
 
 ### UI-Stack states bouwen in Liquid
 
-Omdat we server-side pagina's aan het bouwen zijn, gaan we beginnen met het bouwen van een empty-state. De loading-state heb je pas nodig als je de POST client-side gaat maken in sprint 10.
+Omdat we server-side pagina's aan het bouwen zijn, gaan we beginnen met het bouwen van een empty-state. 
+De loading-state heb je pas nodig als je de POST client-side gaat maken in sprint 10.
 
-Om de empty-state te kunnen tonen in Liquid zul je gebruik moeten maken van _if/else statements_. Welke HTML moet gerenderd worden als er geen data is? Welke HTML moet gerenderd worden als er wel data gePOST is? 
+Om de empty-state te kunnen tonen in Liquid zul je gebruik moeten maken van _if/else statements_. 
+Welke HTML moet gerenderd worden als er geen data is? Welke HTML moet gerenderd worden als er wel data gePOST is? 
 
 
 👉 Schrijf bij de Wireflows pseudo-code hoe je die state kan bouwen. Kijk in de Liquid documentatie welke tags en filters je zou kunnen gebruiken om een empty state te maken en schrijf ze op het bord
