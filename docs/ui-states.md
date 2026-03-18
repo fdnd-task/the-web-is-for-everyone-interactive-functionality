@@ -10,7 +10,7 @@ Een goed voorbeedld hiervan is de winkelwagen van bol.com.
 
 ![shopping card](shoppingcart.png)
 
-Als je een product toegevoegd kan je dat aan de winkelwagentje zien: 
+Als een product is toegevoegd kan je dat aan het winkelwagentje zien: 
 
 ![shopping card full](shoppingcart-full.png)
 
@@ -27,14 +27,14 @@ Hoe ver ben je met de opzet van je opdracht en de POST interactie? Schrijf op he
 2. POST Interactie bedenken en schetsen
 3. Interactie ontwerpen met een Wireflow en breakdown
 4. Bouw de functionaliteit in HTML en server-side: Routes
-5. Bouw de functionaliteit in HTML en server-side: Formulier maken,
+5. Bouw de functionaliteit in HTML en server-side: Formulier maken
 6. Bouw de functionaliteit in HTML en server-side: Opslaan in Directus
 7. ...
 
 
 
 
-## UI-Stack
+## UI-Stack onderzoeken
 
 Voor het ontwerpen van states met dynamische data gebruiken we de UI-Stack. 
 In het artikel How to Fix a Bad Interface staat:
