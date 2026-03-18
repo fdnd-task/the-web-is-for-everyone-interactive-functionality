@@ -27,7 +27,7 @@ Hoe ver ben je met de opzet van je opdracht en de POST interactie? Schrijf op he
 2. POST Interactie bedenken en schetsen
 3. Interactie ontwerpen met een Wireflow en breakdown
 4. Bouw de functionaliteit in HTML en server-side: Routes
-5. Bouw de functionaliteit in HTML en server-side: Formulier maken,
+5. Bouw de functionaliteit in HTML en server-side: Formulier maken
 6. Bouw de functionaliteit in HTML en server-side: Opslaan in Directus
 7. ...
 
