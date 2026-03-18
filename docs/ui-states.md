@@ -6,7 +6,7 @@ Als je een interactie ontwerpt moet je voor de gebruiker feedback ontwerpen. Je 
 
 Omdat we deze sprint met het POSTen van data werken, wordt de _state_ van je website belangrijk. 
 De _state_ geeft aan of er al informatie is opgeslagen of nog niet.  
-Een goed voorbeedld hiervan is de winkelwagen van bol.com. 
+Een goed voorbeeld hiervan is de winkelwagen van bol.com. 
 
 ![shopping card](shoppingcart.png)
 
