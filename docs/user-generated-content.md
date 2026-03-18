@@ -105,7 +105,7 @@ Als je een opfrisser wilt van hoe je formulieren afhandelt, zie dan de bronnen u
 
 In `server.js` staat wat code uitgecomment. Gebruik deze om stap voor stap data op te slaan in Directus. De exacte code verschilt per project en per onderwerp, dus hiervoor zul je zelf aan de slag moeten. Hier kunnen we je goed bij helpen.
 
-Jullie hebben dit eerder gedaan in de team-squad-page opdracht in Sprint 7, dus pak je code daarvan erbij.
+Jullie hebben dit eerder gedaan in de [team-squad-page opdracht in Sprint 7](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/user-generated-content.md#oefening-3-een-formulier-met-een-post-%C3%A9n-een-server-%C3%A9n-directus), dus pak je code daarvan erbij.
 
 #### Bronnen
 
