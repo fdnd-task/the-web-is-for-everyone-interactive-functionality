@@ -6,7 +6,7 @@ Deze week heb je geleerd hoe je data naar Directus kunt POST'en met behulp van e
 
 ### Aanpak
 
-Vandaag heb je de mogelijkheid om het programma af te stemmen op jouw wensen voor een code/design review. Er zijn twee rondes, en je kiest zelf of je aansluit bij het reguliere programma of extra uitleg volgt in de vorm van een practicum. Bepaal wat het beste past bij jouw ontwikkeling. Het reguliere programma wordt hieronder toegelicht.
+Vandaag heb je de mogelijkheid om het programma af te stemmen op jouw wensen. Er zijn twee rondes, en je kiest zelf of je aansluit bij het reguliere programma of extra uitleg volgt in de vorm van een practicum. Bepaal wat het beste past bij jouw ontwikkeling. Het reguliere programma wordt hieronder toegelicht.
 
 ## Design Review UI-stack states 
 
