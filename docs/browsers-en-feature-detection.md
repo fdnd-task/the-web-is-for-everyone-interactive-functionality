@@ -7,7 +7,7 @@ In Sprint 3 heb je geleerd dat er veel verschillende mensen zijn, en waarom je d
 
 ### Aanpak
 
-Afgelopen maandag hebben we ons wat meer verdiept in _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Vandaag gaan we meer leren over _feature detection_ en dit toepassen op de leertaak. Komende vrijdag krijg je hierop een code review.
+Afgelopen maandag hebben we ons wat meer verdiept in _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Vandaag gaan we meer leren over _Baseline CSS_ en _feature detection_ en dit toepassen op de leertaak. Komende vrijdag krijg je hierop een code review.
 
 
 ## Browsers en engines
@@ -20,6 +20,76 @@ In het college van vanochtend kwamen onderstaande bronnen langs.
 - [WorldWideWeb Rebuild](https://worldwideweb.cern.ch/)
 - [Lynx](https://lynx.browser.org/)
 - [BrowserStack for GitHub Students](https://www.browserstack.com/github-students)
+
+<!--
+experimental flag safari, chrome, firefox
+
+masonry in Safari TP
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
+
+cross document view transitions in safari TP
+https://webkit.org/blog/15978/release-notes-for-safari-technology-preview-204/
+
+styling details
+https://developer.chrome.com/blog/styling-details
+
+attr() https://developer.chrome.com/blog/chrome-133-beta
+scroll-state() https://bsky.app/profile/nerdy.dev/post/3lfslpmu6f226
+Scroll-State Queries & Anchor https://css-carousel-gallery.netlify.app/horizontal/list
+
+
+-->
+
+## Baseline CSS
+
+Baseline?
+https://web.dev/baseline
+
+
+Baseline has two stages:
+Newly available: The feature is supported by all of the core browsers, and is therefore interoperable.
+Widely available: 30 months have passed since the newly interoperable date. The feature can be used by most sites without worrying about support.
+
+
+
+Duidelijk, industry standard, bestaande onderzoeken, iets minder arbitrair dan “wat op ons shitty device lab werkt”, past zich door de tijd aan (houdbaar), komt veel terug in artikelen en caniuse. Enige nadeel dat het Google branded is (en dat baseline zelf (nog) geen rekening houdt met polyfills, toegankelijkheid, backwards compatibility, bugs, dus dat de werkelijkheid iets complexer is..)
+ 
+https://basewatch.dev
+
+BaseWatch — Get Notified When CSS Features Reach Baseline
+Track CSS, JS & HTML browser support. Get email alerts when features hit your chosen support threshold. Free, no account needed.
+
+ 
+<!--
+
+We kunnen ook best promoten dat je in stap 2 super basic CSS schrijf die het altijd doet
+2. Voeg Mobile First CSS voor de huisstijl toe
+En pas daarna custom-properties, nesting, bla bla bla, in stap 3 = enhancements.
+Desnoods een los CSS file als eerste inladen, dan maak je gebruik van de Cascade, super basic old skool CSS als een soort reset, nee geen reset maar een .. ander woord voor verzinnen.
+2. Voeg Basic CSS voor de huisstijl toe die het altijd doet
+Als onderdeel van de PE strategie
+
+<head>
+    ...
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css"> nesting. custom props, alles gebruiken maar wel met feature detection
+</head>
+KH: Dat is je one column layout toch?
+KR: Ja maar meer dan dat. CSS die het altijd doet. Als we daar bekende termen schrijven kan het ook weer verwarrend zijn. Ik weet niet wat voor CSS ze voor de one column gebruiken, ik denk met custom props …
+KH: Geen enkele css doet het ‘altijd’.
+KH: Huisstijl op een Kindle wordt al moeilijk.
+KH: Elke regel css is een enhancement
+KR: We kunnen ze leren dat ze (altijd) een basic css maken met old skool technieken, en daarna nieuwe technieken als enhancements toepassen. En daar over nadenken. En er achter komen dat zelfs stap 2 al een enhancement is. En stap 1 ook niet op elke browser hetzelfde. En wat er gebeurt met popup in een crappy browser. En dat de switch input ook niet maar terugvalt naar een standaard input. En … en …
+KR: Het gaat mij nu over het poneren van de term ‘basic’ zodat we ze kunnen leren, en niet afleren, custom props te gebruiken en nesting, maar dat dat stap 3 is?
+KR: En dan liever niet dezelfde termen gebruiken, want dan denken studenten dat ze dat al goed doen. Omdat ze dat al hebben geleerd. Goed plan?
+KH: Dan moeten we ze weer zoveel afleren over styleguides opzetten enzo, wat ze nu met custom props doen
+KH: Veel liever dat ze nu nog een stap maken met nog net iets langer over HTML nadenken
+KH: Die tweede stap is niet houdbaar in het echt
+KH: Door alle framework shit die ze straks gaan doen
+KR: Maar dan creëren we juist de goede vragen. Juist ook in frameworks. Hey geen basic css? Nee compile . Werkt dat dan? Mwuah soms, vaak, eigenlijk niet, niet goed genoeg, …
+KH: Ik ben vooral bang dat als we ze nu iets nieuws aanleren ze geen van beide goed gaan doen
+
+-->
 
 
 ## Feature detection
