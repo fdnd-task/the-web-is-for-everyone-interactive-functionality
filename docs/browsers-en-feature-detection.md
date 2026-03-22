@@ -26,9 +26,14 @@ In het college van vanochtend kwamen onderstaande bronnen langs.
 
 Progressive Enhancement is een coding strategie, waarbij je je website opbouwd in lagen. Zo zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
 
+<!--
 1) Bepaal eerst de _core functionality_ van wat je gaat maken
 2) Bouw die functionaliteit met de _simpelste techniek_ (meestal HTML, met een klein beetje Mobile First CSS voor de huisstijl)
 3) Voeg daarna _extra enhancements_ toe met CSS en client-side JS, om de User Experience te verbeteren (de leukste stap!)
+-->
+1) Bouw de functionaliteit robuust, met de simpelste techniek​ (HTML en Server-Side Rendering)​
+2) Voeg Baseline CSS voor de huisstijl toe​
+3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience​ (De leukste stap. Met moderne CSS en client-side JS.)
 
 in de 3e laag kun je _feature detection_ gebruiken.
 Met _feature detection_ check je of een browser een bepaalde CSS of JS techniek kan uitvoeren. 
