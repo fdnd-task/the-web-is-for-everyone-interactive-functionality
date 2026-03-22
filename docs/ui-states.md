@@ -86,7 +86,7 @@ Vandaag ga je je wireflow uitbreiden met andere states van de UI-Stack.
 
 ### Wireflow/Screenflow uitbreiden met de UI-Stack
 
-Bespreek je Wireflow over je POST funcionaliteit met je buur en bedenk welke states van de UI-Stack je nodig hebt. 
+Bespreek je Wireflow over je POST functionaliteit met je buur en bedenk welke states van de UI-Stack je nodig hebt. 
 Wat laat je bijvoorbeeld zien als er nog geen berichten zijn gepost? 
 Wat zou er mis kunnen gaan met posten en wat voor feedback geef je dan aan de gebruiker? 
 En wat ziet een gebruiker als de POST goed gaat?
