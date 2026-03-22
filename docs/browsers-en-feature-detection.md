@@ -107,6 +107,17 @@ Scroll-State Queries & Anchor https://css-carousel-gallery.netlify.app/horizonta
 -->
 
 
+### CSS Cascade 
+in veel gevallen heb je geen feature detection nodig, vanwege [de _Cascade_ in CSS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts#cascade). Door slim gebruik te maken van de _cascade_ zorg je ervoor dat je code simpeler wordt en dat je website niet stuk gaat. Een browser negeert CSS die niet kan worden uitgevoerd en zal zo'n regel dus 'gewoon' overslaan. Wanneer je iets kan oplossen met de cascade doe dit dan!
+
+```css
+h1 {
+	color: #ff0000;
+	color: color(display-p3 1 0.08 0); /* super red! */;
+}
+```
+Bijvoorbeeld: Bepaal eerst de kleur in hex en daarna met de `color()` function en het nieuwe kleurenchema `display-P3`. Als een browser dit niet kent zal het die regel negeren, maar is de kleur wel rood. Kan een browser het wel uitvoeren? Dan is de kleur super rood!
+
 ### @support in CSS
 In CSS kun je voor feature detection `@supports` gebruiken.
 
@@ -139,17 +150,6 @@ Of je kunt controleren of custom properties ondersteund worden:
 	...
 }
 ```
-
-### CSS Cascade 
-in veel gevallen heb je geen feature detection nodig, vanwege [de _Cascade_ in CSS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts#cascade). Door slim gebruik te maken van de _cascade_ zorg je ervoor dat je code simpeler wordt en dat je website niet stuk gaat. Een browser negeert CSS die niet kan worden uitgevoerd en zal zo'n regel dus 'gewoon' overslaan. Wanneer je iets kan oplossen met de cascade doe dit dan!
-
-```css
-h1 {
-	color: #ff0000;
-	color: color(display-p3 1 0.08 0); /* super red! */;
-}
-```
-Bijvoorbeeld: Bepaal eerst de kleur in hex en daarna met de `color()` function en het nieuwe kleurenchema `display-P3`. Als een browser dit niet kent zal het die regel negeren, maar is de kleur wel rood. Kan een browser het wel uitvoeren? Dan is de kleur super rood!
 
 
 #### Bronnen
