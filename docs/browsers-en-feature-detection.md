@@ -21,24 +21,7 @@ In het college van vanochtend kwamen onderstaande bronnen langs.
 - [Lynx](https://lynx.browser.org/)
 - [BrowserStack for GitHub Students](https://www.browserstack.com/github-students)
 
-<!--
-experimental flag safari, chrome, firefox
 
-masonry in Safari TP
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
-
-cross document view transitions in safari TP
-https://webkit.org/blog/15978/release-notes-for-safari-technology-preview-204/
-
-styling details
-https://developer.chrome.com/blog/styling-details
-
-attr() https://developer.chrome.com/blog/chrome-133-beta
-scroll-state() https://bsky.app/profile/nerdy.dev/post/3lfslpmu6f226
-Scroll-State Queries & Anchor https://css-carousel-gallery.netlify.app/horizontal/list
-
-
--->
 
 ## Baseline CSS
 
@@ -103,6 +86,26 @@ KH: Ik ben vooral bang dat als we ze nu iets nieuws aanleren ze geen van beide g
 Als je je website in robuust hebt opgezet in HTML en Server-Side Rendering, en je hebt je ​Baseline CSS goed staan, kan je je code _geleidelijk_ uitbreiden voor een betere User Experience. Deze 3e stap noemen we _enhancen_. 
 
 Je wil natuurlijk een website die goede feedback geeft met subtiele animaties en prettige interacties. Alleen kunnen niet alle browser dit laten zien. Daarom kun je in de 3e laag _feature detection_ gebruiken om te checken of een browser een bepaalde CSS of JS techniek kan uitvoeren. Als dit niet zo is, dan valt de website terug naar een laag die het wel goed doet. Misschien niet zo mooi, fancy en flitsend, maar het werkt wel ... 
+
+<!--
+We gaan nu oefenen met een paar moderen CSS technieken die het niet in alle browsers doen, maar nog in experimental flag safari, chrome, firefox zitten ... (wat betekent dat nou weer?) 
+
+masonry in Safari TP
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
+
+cross document view transitions in safari TP
+https://webkit.org/blog/15978/release-notes-for-safari-technology-preview-204/
+
+styling details
+https://developer.chrome.com/blog/styling-details
+
+attr() https://developer.chrome.com/blog/chrome-133-beta
+scroll-state() https://bsky.app/profile/nerdy.dev/post/3lfslpmu6f226
+Scroll-State Queries & Anchor https://css-carousel-gallery.netlify.app/horizontal/list
+
+
+-->
+
 
 ### @support in CSS
 In CSS kun je voor feature detection `@supports` gebruiken.
