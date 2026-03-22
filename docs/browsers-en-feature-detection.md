@@ -42,7 +42,13 @@ Scroll-State Queries & Anchor https://css-carousel-gallery.netlify.app/horizonta
 
 ## Baseline CSS
 
-Baseline?
+Progressive Enhancement is een coding strategie, waarbij je je website opbouwt in lagen. Zo zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
+
+1) Bouw de functionaliteit robuust, met de simpelste techniek​ in HTML en met Server-Side Rendering​
+2) Voeg Baseline CSS voor de huisstijl toe​
+3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience​
+
+### Baseline?
 https://web.dev/baseline
 
 
@@ -94,19 +100,9 @@ KH: Ik ben vooral bang dat als we ze nu iets nieuws aanleren ze geen van beide g
 
 ## Feature detection
 
-Progressive Enhancement is een coding strategie, waarbij je je website opbouwt in lagen. Zo zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
+Als je je website in robuust hebt opgezet in HTML en Server-Side Rendering, en je hebt je ​Baseline CSS goed staan, kan je je code _geleidelijk_ uitbreiden voor een betere User Experience. Deze 3e stap noemen we _enhancen_. 
 
-<!--
-1) Bepaal eerst de _core functionality_ van wat je gaat maken
-2) Bouw die functionaliteit met de _simpelste techniek_ (meestal HTML, met een klein beetje Mobile First CSS voor de huisstijl)
-3) Voeg daarna _extra enhancements_ toe met CSS en client-side JS, om de User Experience te verbeteren (de leukste stap!)
--->
-1) Bouw de functionaliteit robuust, met de simpelste techniek​ in HTML en met Server-Side Rendering​
-2) Voeg Baseline CSS voor de huisstijl toe​
-3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience​ (De leukste stap. Met moderne CSS en client-side JS.)
-
-in de 3e laag kun je _feature detection_ gebruiken.
-Met _feature detection_ check je of een browser een bepaalde CSS of JS techniek kan uitvoeren. 
+Je wil natuurlijk een website die goede feedback geeft met subtiele animaties en prettige interacties. Alleen kunnen niet alle browser dit laten zien. Daarom kun je in de 3e laag _feature detection_ gebruiken om te checken of een browser een bepaalde CSS of JS techniek kan uitvoeren. Als dit niet zo is, dan valt de website terug naar een laag die het wel goed doet. Misschien niet zo mooi, fancy en flitsend, maar het werkt wel ... 
 
 ### @support in CSS
 In CSS kun je voor feature detection `@supports` gebruiken.
