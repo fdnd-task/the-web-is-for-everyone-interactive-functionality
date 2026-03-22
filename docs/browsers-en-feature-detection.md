@@ -94,7 +94,7 @@ KH: Ik ben vooral bang dat als we ze nu iets nieuws aanleren ze geen van beide g
 
 ## Feature detection
 
-Progressive Enhancement is een coding strategie, waarbij je je website opbouwd in lagen. Zo zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
+Progressive Enhancement is een coding strategie, waarbij je je website opbouwt in lagen. Zo zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
 
 <!--
 1) Bepaal eerst de _core functionality_ van wat je gaat maken
