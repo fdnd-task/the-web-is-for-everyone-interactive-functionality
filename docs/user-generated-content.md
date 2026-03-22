@@ -24,7 +24,7 @@ Komende vrijdag ga je je interactie testen tijdens de code/design review.
 Progressive Enhancement is een coding strategie, waarmee je er voor kunt zorgen dat je website het _altijd_ doet, voor _iedereen_. Het zorgt er ook voor dat je minder hoeft te testen. Tijdens deze sprint gaan we je in verschillende workshops deze strategie aanleren, zodat je dit uiteindelijk kunt dromen:
 
 1) Bouw de functionaliteit robuust, met de simpelste techniek (HTML en Server-Side Rendering)​
-2) Voeg basic CSS voor de huisstijl toe​
+2) Voeg Baseline CSS voor de huisstijl toe​
 3) _Enhance_ de functionaliteit geleidelijk voor een betere User Experience​ (De leukste stap. Met moderne CSS en client-side JS.)
 
 Later deze sprint (en in Sprint 10 en 11 nog meer) gaan we je een aantal strategieën leren om dit enhancen geleidelijk goed te doen. Voor nu richten we ons op de eerste twee stappen van _Progressive Enhancement_, zodat we die goed onder de knie krijgen. Het is helemaal ok als je vandaag nog niet jouw uiteindelijke ontwerp hebt kunnen maken.
