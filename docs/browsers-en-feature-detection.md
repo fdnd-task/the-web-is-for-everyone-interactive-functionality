@@ -7,19 +7,20 @@ In Sprint 3 heb je geleerd dat er veel verschillende mensen zijn, en waarom je d
 
 ### Aanpak
 
-Afgelopen maandag hebben we ons wat meer verdiept in _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Vandaag gaan we meer leren over _Baseline CSS_ en _feature detection_ en dit toepassen op de leertaak. Komende vrijdag krijg je hierop een code review.
+Deze sprint hebben we ons wat meer verdiept in _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Vandaag gaan we meer leren over _Baseline CSS_ en _feature detection_ en dit toepassen op de leertaak. Komende vrijdag krijg je hierop een code review.
 
 
 ## Browsers en engines
 
 <!-- 
 
->>> Stuk toevoegen over browsers en browser engines. EN een heel klein stukje geschiedenis van de browser ..r en dat plaatje van wikipedia met al die browsers <<<
+>>> Stukje toevoegen over browsers en browser engines. E
+n een heel klein stukje geschiedenis van de browser ... en dat plaatje van wikipedia met al die browsers <<<
 
 -->
 
 
-In het college van vanochtend kwamen onderstaande bronnen langs.
+In het college van vandaag kwamen onderstaande bronnen langs.
 
 - [Rendering Engine @ MDN](https://developer.mozilla.org/en-US/docs/Glossary/Engine/Rendering)
 - [How browser rendering works – behind the scenes](https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/)
@@ -30,7 +31,7 @@ In het college van vanochtend kwamen onderstaande bronnen langs.
 
 
 
-## Baseline CSS
+## Baseline
 
 Progressive Enhancement is een coding strategie, waarbij je je website opbouwt in lagen. Zo zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
 
@@ -40,30 +41,34 @@ Progressive Enhancement is een coding strategie, waarbij je je website opbouwt i
 
 Voor stap 2 moet je (altijd) onderzoeken welke Baseline CSS je nodig hebt om dit component te stylen in de huisstijl. ​
 
-### Baseline?
+### Web Platform Baseline
 
-<!-- 
-
->>> Baseline uitleggen in relatie tot browsers engines... <<<
-
-Duidelijk, industry standard, bestaande onderzoeken, iets minder arbitrair dan “wat op ons shitty device lab werkt”, past zich door de tijd aan (houdbaar), komt veel terug in artikelen en caniuse. Enige nadeel dat het Google branded is (en dat baseline zelf (nog) geen rekening houdt met polyfills, toegankelijkheid, backwards compatibility, bugs, dus dat de werkelijkheid iets complexer is..)
-
-https://web.dev/baseline
-
-Baseline has two stages:
-Newly available: The feature is supported by all of the core browsers, and is therefore interoperable.
-Widely available: 30 months have passed since the newly interoperable date. The feature can be used by most sites without worrying about support.
-Prior to being Newly available, a feature has Limited availability when it's not yet supported across browsers.
+Met de _Web Platform Baseline_ kan je bepalen hoe je technieken kan gebruiken voor je website. Op [caniuse.com](https://caniuse.com/wf-popover) kan je bekijken wat de baseline van een technische feature is. Bijvoorbeeld het HTML `popover` element is sinds 2025 in de fase _Baseline Newly_, het wordt nu 13 maanden ondersteund in de grote browsers ... 
+![Basekline voor het HTML popover element is sinds 2025 'newly'](basline-popover.png) 
 
 
--->
+Baseline bestaat uit 3 fases: 
+
+#### Limited
+Als een techniek nieuw is en nog niet door veel browser wordt ondersteund. Je kan de techniek als _enahancement_ gebruiken voor je website. Het zou kunnen de techniek en hoe de browsers het implementeren nog gaat veranderen.
+
+#### Newly
+Een technische feature wordt ondersteund door de grote browsers Chrome, Edge, Safari and Firefox. Je kan de techniek als _enahancement_ gebruiken voor je website.
+
+#### Widely
+Als een feature meer dan 30 maanden wordt ondersteund door de grote browsers kan je de techniek veilig gebruiken.
+
+
+#### Bronnen
+[What is Baseline?](https://web-platform-dx.github.io/web-features/)
+
 
 
 
 ## Feature detection
 
 <!-- 
-Feature dtection (kort) uitleggen. In relatie tot 'enhancements' .. 
+Feature detection (kort) uitleggen. In relatie tot 'enhancements' .. 
 In de deeltaak staan verschillende strategieen. 
 
 -->
@@ -71,6 +76,19 @@ In de deeltaak staan verschillende strategieen.
 Als je je website in robuust hebt opgezet in HTML en Server-Side Rendering, en je hebt je ​Baseline CSS goed staan, kan je je code _geleidelijk_ uitbreiden voor een betere User Experience. Deze 3e stap noemen we _enhancen_. 
 
 Je wil natuurlijk een website die goede feedback geeft met subtiele animaties en prettige interacties. Alleen kunnen niet alle browser dit laten zien. Daarom kun je in de 3e laag _feature detection_ gebruiken om te checken of een browser een bepaalde CSS of JS techniek kan uitvoeren. Als dit niet zo is, dan valt de website terug naar een laag die het wel goed doet. Misschien niet zo mooi, fancy en flitsend, maar het werkt wel ... 
+
+### Strategieën
+
+Er zijn verschillende strategieën voor feature detection:
+
+- De Cascade
+- Feature detection in CSS: @supports
+- Media Queries in CSS: @media
+- Feature detection in JS
+- Verberg UI waar je JS voor nodig hebt, en toon deze met JS
+- Gebruik binnen HTML zelf Progressive Enhancement
+- Polyfills
+
 
 <!--
 Hier een lijstje met feature detection strategieen laten zien. Deze staan verder uitgewerkt in de deeltaak. 
@@ -80,14 +98,6 @@ HTML slaat over.
 CSS negeert.
 JS stopt.
 
-- De Cascade
-- Feature detection in CSS: @supports
-- Media Queries in CSS: @media
-- Feature detection in JS
-- Verberg UI waar je JavaScript voor nodig hebt, en toon deze met JavaScript
-- Gebruik binnen HTML zelf Progressive Enhancement
-- Polyfills
-- ...
 
 
 
