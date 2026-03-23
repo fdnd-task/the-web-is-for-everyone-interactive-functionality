@@ -14,8 +14,7 @@ Deze sprint hebben we ons wat meer verdiept in _Progressive Enhancement_; een co
 
 <!-- 
 
->>> Stukje toevoegen over browsers en browser engines. E
-n een heel klein stukje geschiedenis van de browser ... en dat plaatje van wikipedia met al die browsers <<<
+>>> Stukje toevoegen over browsers en browser engines. En een heel klein stukje geschiedenis van de browser ... en dat plaatje van wikipedia met al die browsers <<<
 
 -->
 
@@ -39,7 +38,7 @@ Progressive Enhancement is een coding strategie, waarbij je je website opbouwt i
 2) Voeg Baseline CSS voor de huisstijl toe​
 3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience
 
-Voor stap 2 moet je (altijd) onderzoeken welke Baseline CSS je nodig hebt om dit component te stylen in de huisstijl. ​
+Voor stap 2 moet je (altijd) onderzoeken welke Baseline CSS je nodig hebt om je website te stylen in de huisstijl. ​
 
 ### Web Platform Baseline
 
@@ -63,15 +62,19 @@ Als een feature meer dan 30 maanden wordt ondersteund door de grote browsers kan
 [What is Baseline?](https://web-platform-dx.github.io/web-features/)
 
 
+### Opdracht 
+
+<!--
+
+>>> Hoe maak je een baseline.css? 
+Ook iets doen met comments, dates en acceptatiecriteria?
+En in de opdracht voor de leertaak de Baseline uitelggen? <<<
+
+-->
+
 
 
 ## Feature detection
-
-<!-- 
-Feature detection (kort) uitleggen. In relatie tot 'enhancements' .. 
-In de deeltaak staan verschillende strategieen. 
-
--->
 
 Als je je website in robuust hebt opgezet in HTML en Server-Side Rendering, en je hebt je ​Baseline CSS goed staan, kan je je code _geleidelijk_ uitbreiden voor een betere User Experience. Deze 3e stap noemen we _enhancen_. 
 
@@ -91,7 +94,10 @@ Er zijn verschillende strategieën voor feature detection:
 
 
 <!--
-Hier een lijstje met feature detection strategieen laten zien. Deze staan verder uitgewerkt in de deeltaak. 
+Feature detection (kort) uitleggen. In relatie tot 'enhancements' .. 
+In de deeltaak staan verschillende strategieen. 
+
+
 
 Even uitleggen hoe feature detection werk in HTML, in CSS en in JS. 
 HTML slaat over.
@@ -99,6 +105,10 @@ CSS negeert.
 JS stopt.
 
 
+
+Er zijn verschillende strategiën
+Voorbeelden voor verschillende enhancements in kleine opdrachtjes laten doen, en testen op de verschillende browsers
+Voorbeeld @support demo op kopo-github/PE
 
 
 In de workshop gaan we kleine opdrachtjes doen om hier mee te oefenen.
