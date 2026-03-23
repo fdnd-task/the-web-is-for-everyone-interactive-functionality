@@ -29,11 +29,15 @@ Progressive Enhancement is een coding strategie, waarbij je je website opbouwt i
 
 1) Bouw de functionaliteit robuust, met de simpelste techniek​ in HTML en met Server-Side Rendering​
 2) Voeg Baseline CSS voor de huisstijl toe​
-3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience​
+3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience
+
+Voor stap 2 moet je (altijd) onderzoeken welke Baseline CSS je nodig hebt om dit component te stylen in de huisstijl. ​
 
 ### Baseline?
-https://web.dev/baseline
 
+Duidelijk, industry standard, bestaande onderzoeken, iets minder arbitrair dan “wat op ons shitty device lab werkt”, past zich door de tijd aan (houdbaar), komt veel terug in artikelen en caniuse. Enige nadeel dat het Google branded is (en dat baseline zelf (nog) geen rekening houdt met polyfills, toegankelijkheid, backwards compatibility, bugs, dus dat de werkelijkheid iets complexer is..)
+
+https://web.dev/baseline
 
 Baseline has two stages:
 Newly available: The feature is supported by all of the core browsers, and is therefore interoperable.
@@ -41,12 +45,6 @@ Widely available: 30 months have passed since the newly interoperable date. The 
 Prior to being Newly available, a feature has Limited availability when it's not yet supported across browsers.
 
 
-Duidelijk, industry standard, bestaande onderzoeken, iets minder arbitrair dan “wat op ons shitty device lab werkt”, past zich door de tijd aan (houdbaar), komt veel terug in artikelen en caniuse. Enige nadeel dat het Google branded is (en dat baseline zelf (nog) geen rekening houdt met polyfills, toegankelijkheid, backwards compatibility, bugs, dus dat de werkelijkheid iets complexer is..)
- 
-https://basewatch.dev
-
-BaseWatch — Get Notified When CSS Features Reach Baseline
-Track CSS, JS & HTML browser support. Get email alerts when features hit your chosen support threshold. Free, no account needed.
 
  
 <!--
