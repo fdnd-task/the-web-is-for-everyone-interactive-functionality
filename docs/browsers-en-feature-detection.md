@@ -49,10 +49,10 @@ Met de _Web Platform Baseline_ kan je bepalen hoe je technieken kan gebruiken vo
 Baseline bestaat uit 3 fases: 
 
 #### Limited
-Als een techniek nieuw is en nog niet door veel browser wordt ondersteund. Je kan de techniek als _enahancement_ gebruiken voor je website. Het zou kunnen de techniek en hoe de browsers het implementeren nog gaat veranderen.
+Als een techniek nieuw is en nog niet door veel browser wordt ondersteund. Je kan de techniek als _enhancement_ gebruiken voor je website. Het zou kunnen de techniek en hoe de browsers het implementeren nog gaat veranderen.
 
 #### Newly
-Een technische feature wordt ondersteund door de grote browsers Chrome, Edge, Safari and Firefox. Je kan de techniek als _enahancement_ gebruiken voor je website.
+Een technische feature wordt ondersteund door de grote browsers Chrome, Edge, Safari and Firefox. Je kan de techniek als _enhancement_ gebruiken voor je website.
 
 #### Widely
 Als een feature meer dan 30 maanden wordt ondersteund door de grote browsers kan je de techniek veilig gebruiken.
