@@ -35,6 +35,8 @@ Voor stap 2 moet je (altijd) onderzoeken welke Baseline CSS je nodig hebt om dit
 
 ### Baseline?
 
+Baselibne uitleggen in relatie tot browsers engines...
+
 Duidelijk, industry standard, bestaande onderzoeken, iets minder arbitrair dan “wat op ons shitty device lab werkt”, past zich door de tijd aan (houdbaar), komt veel terug in artikelen en caniuse. Enige nadeel dat het Google branded is (en dat baseline zelf (nog) geen rekening houdt met polyfills, toegankelijkheid, backwards compatibility, bugs, dus dat de werkelijkheid iets complexer is..)
 
 https://web.dev/baseline
