@@ -12,6 +12,13 @@ Afgelopen maandag hebben we ons wat meer verdiept in _Progressive Enhancement_; 
 
 ## Browsers en engines
 
+<!-- 
+
+>>> Stuk toevoegen over browsers en browser engines. EN een heel klein stukje geschiedenis van de browser ..r en dat plaatje van wikipedia met al die browsers <<<
+
+-->
+
+
 In het college van vanochtend kwamen onderstaande bronnen langs.
 
 - [Rendering Engine @ MDN](https://developer.mozilla.org/en-US/docs/Glossary/Engine/Rendering)
@@ -35,7 +42,9 @@ Voor stap 2 moet je (altijd) onderzoeken welke Baseline CSS je nodig hebt om dit
 
 ### Baseline?
 
-Baselibne uitleggen in relatie tot browsers engines...
+<!-- 
+
+>>> Baseline uitleggen in relatie tot browsers engines... <<<
 
 Duidelijk, industry standard, bestaande onderzoeken, iets minder arbitrair dan “wat op ons shitty device lab werkt”, past zich door de tijd aan (houdbaar), komt veel terug in artikelen en caniuse. Enige nadeel dat het Google branded is (en dat baseline zelf (nog) geen rekening houdt met polyfills, toegankelijkheid, backwards compatibility, bugs, dus dat de werkelijkheid iets complexer is..)
 
@@ -47,38 +56,8 @@ Widely available: 30 months have passed since the newly interoperable date. The 
 Prior to being Newly available, a feature has Limited availability when it's not yet supported across browsers.
 
 
-
- 
-<!--
-
-We kunnen ook best promoten dat je in stap 2 super basic CSS schrijf die het altijd doet
-2. Voeg Mobile First CSS voor de huisstijl toe
-En pas daarna custom-properties, nesting, bla bla bla, in stap 3 = enhancements.
-Desnoods een los CSS file als eerste inladen, dan maak je gebruik van de Cascade, super basic old skool CSS als een soort reset, nee geen reset maar een .. ander woord voor verzinnen.
-2. Voeg Basic CSS voor de huisstijl toe die het altijd doet
-Als onderdeel van de PE strategie
-
-<head>
-    ...
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="style.css"> nesting. custom props, alles gebruiken maar wel met feature detection
-</head>
-KH: Dat is je one column layout toch?
-KR: Ja maar meer dan dat. CSS die het altijd doet. Als we daar bekende termen schrijven kan het ook weer verwarrend zijn. Ik weet niet wat voor CSS ze voor de one column gebruiken, ik denk met custom props …
-KH: Geen enkele css doet het ‘altijd’.
-KH: Huisstijl op een Kindle wordt al moeilijk.
-KH: Elke regel css is een enhancement
-KR: We kunnen ze leren dat ze (altijd) een basic css maken met old skool technieken, en daarna nieuwe technieken als enhancements toepassen. En daar over nadenken. En er achter komen dat zelfs stap 2 al een enhancement is. En stap 1 ook niet op elke browser hetzelfde. En wat er gebeurt met popup in een crappy browser. En dat de switch input ook niet maar terugvalt naar een standaard input. En … en …
-KR: Het gaat mij nu over het poneren van de term ‘basic’ zodat we ze kunnen leren, en niet afleren, custom props te gebruiken en nesting, maar dat dat stap 3 is?
-KR: En dan liever niet dezelfde termen gebruiken, want dan denken studenten dat ze dat al goed doen. Omdat ze dat al hebben geleerd. Goed plan?
-KH: Dan moeten we ze weer zoveel afleren over styleguides opzetten enzo, wat ze nu met custom props doen
-KH: Veel liever dat ze nu nog een stap maken met nog net iets langer over HTML nadenken
-KH: Die tweede stap is niet houdbaar in het echt
-KH: Door alle framework shit die ze straks gaan doen
-KR: Maar dan creëren we juist de goede vragen. Juist ook in frameworks. Hey geen basic css? Nee compile . Werkt dat dan? Mwuah soms, vaak, eigenlijk niet, niet goed genoeg, …
-KH: Ik ben vooral bang dat als we ze nu iets nieuws aanleren ze geen van beide goed gaan doen
-
 -->
+
 
 
 ## Feature detection
