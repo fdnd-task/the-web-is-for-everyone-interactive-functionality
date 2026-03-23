@@ -75,6 +75,11 @@ Je wil natuurlijk een website die goede feedback geeft met subtiele animaties en
 <!--
 Hier een lijstje met feature detection strategieen laten zien. Deze staan verder uitgewerkt in de deeltaak. 
 
+Even uitleggen hoe feature detection werk in HTML, in CSS en in JS. 
+HTML slaat over.
+CSS negeert.
+JS stopt.
+
 - De Cascade
 - Feature detection in CSS: @supports
 - Media Queries in CSS: @media
