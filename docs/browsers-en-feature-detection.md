@@ -14,7 +14,7 @@ Deze sprint hebben we ons wat meer verdiept in _Progressive Enhancement_; een co
 
 <!-- 
 
->>> Stukje toevoegen over browsers en browser engines. En een heel klein stukje geschiedenis van de browser ... en dat plaatje van wikipedia met al die browsers <<<
+>>> Stukje toevoegen over browsers en browser engines? En een heel klein stukje geschiedenis van de browser ... en dat plaatje van wikipedia met al die browsers <<<
 
 -->
 
@@ -32,43 +32,53 @@ In het college van vandaag kwamen onderstaande bronnen langs.
 
 ## Baseline
 
-Progressive Enhancement is een coding strategie, waarbij je je website opbouwt in lagen. Zo zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
+Als je je website ontwerpt en bouwt volgens het principe van Progressive Enhancement zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
 
 1) Bouw de functionaliteit robuust, met de simpelste techniek​ in HTML en met Server-Side Rendering​
 2) Voeg Baseline CSS voor de huisstijl toe​
 3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience
 
-Voor stap 2 moet je (altijd) onderzoeken welke Baseline CSS je nodig hebt om je website te stylen in de huisstijl. ​
+Bovenop de laag met HTML en Server-Side rendering voeg je eerst de Baseline CSS toe voor de huisstijl. Daarna ga je features toevoegen als enhancements. De Baseline CSS bestaat uit CSS die door alle grote browsers goed worden ondersteund en dus _widely_ ondersteund zijn. 
 
 ### Web Platform Baseline
 
-Met de _Web Platform Baseline_ kan je bepalen hoe je technieken kan gebruiken voor je website. Op [caniuse.com](https://caniuse.com/wf-popover) kan je bekijken wat de baseline van een technische feature is. Bijvoorbeeld het HTML `popover` element is sinds 2025 in de fase _Baseline Newly_, het wordt nu 13 maanden ondersteund in de grote browsers ... 
-![Basekline voor het HTML popover element is sinds 2025 'newly'](basline-popover.png) 
+Met de _Web Platform Baseline_ kan je bepalen hoe je technieken kan gebruiken voor je website. Op [caniuse.com](https://caniuse.com/?search=Nesting) kan je bekijken wat de baseline van een technische feature is. 
+Bijvoorbeeld CSS `nesting` is sinds 2023 in de fase _Baseline Newly_, het wordt nu 27 maanden ondersteund in alle grote browsers ... nog 3 maanden en je kan dit veilig gebruiken in produktie:
+![Baseline voor CSS nesting is sinds 2023 'newly'](basline-nesting.png)
+
+<!-- Bijvoorbeeld het HTML `popover` element is sinds 2025 in de fase _Baseline Newly_, het wordt nu 13 maanden ondersteund in de grote browsers ... nog 17 maanden en je kan dit veilig gebruiken:
+![Baseline voor het HTML popover element is sinds 2025 'newly'](basline-popover.png)  -->
 
 
-Baseline bestaat uit 3 fases: 
+#### Baseline bestaat uit 3 fases: 
 
-#### Limited
-Als een techniek nieuw is en nog niet door veel browser wordt ondersteund. Je kan de techniek als _enhancement_ gebruiken voor je website. Het zou kunnen de techniek en hoe de browsers het implementeren nog gaat veranderen.
+##### Limited
+Als een techniek nieuw is en nog niet door veel browser wordt ondersteund. Je kan de techniek als _enhancement_ gebruiken voor je website. Het zou kunnen dat de techniek en hoe de browsers het implementeren nog gaat veranderen.
 
-#### Newly
+##### Newly
 Een technische feature wordt ondersteund door de grote browsers Chrome, Edge, Safari and Firefox. Je kan de techniek als _enhancement_ gebruiken voor je website.
 
-#### Widely
+##### Widely
 Als een feature meer dan 30 maanden wordt ondersteund door de grote browsers kan je de techniek veilig gebruiken.
 
 
 #### Bronnen
-[What is Baseline?](https://web-platform-dx.github.io/web-features/)
+- [What is Baseline?](https://web-platform-dx.github.io/web-features/)
+- [How to use Baseline](https://web.dev/how-to-use-baseline)
+
 
 
 ### Opdracht 
 
 <!--
 
->>> Hoe maak je een baseline.css? 
-Ook iets doen met comments, dates en acceptatiecriteria?
-En in de opdracht voor de leertaak de Baseline uitelggen? <<<
+Hoe maak je de Baseline css? 
+Basic CSS voor de huisstijl uitzoeken of het Baseline is. 
+
+Comments toevoegen met dates en acceptatiecriteria?
+En in de opdracht voor de leertaak de Baseline uitleggen?
+
+de Baseline opdracht: Onderzoek voor de one column layout huisstijl styling de CSS die je hebt gebruikt en check of het Baseline Widely is. Zo niet maak een issue dat je hier iets aan moet doen. Comment in de CSS de Baseline voor de One Column Layout styling >> hier gaan ze tegen het probleem van nesting aanlopen. Goed idee? Nesting is op 27 vd 30 maanden, dus …
 
 -->
 
@@ -76,39 +86,54 @@ En in de opdracht voor de leertaak de Baseline uitelggen? <<<
 
 ## Feature detection
 
-Als je je website in robuust hebt opgezet in HTML en Server-Side Rendering, en je hebt je ​Baseline CSS goed staan, kan je je code _geleidelijk_ uitbreiden voor een betere User Experience. Deze 3e stap noemen we _enhancen_. 
+Als je je website robuust hebt opgezet in HTML en Server-Side Rendering, en je hebt je ​Baseline CSS goed staan, kan je je code _geleidelijk_ uitbreiden voor een betere User Experience. Deze 3e stap noemen we _enhancen_. 
 
 Je wil natuurlijk een website die goede feedback geeft met subtiele animaties en prettige interacties. Alleen kunnen niet alle browser dit laten zien. Daarom kun je in de 3e laag _feature detection_ gebruiken om te checken of een browser een bepaalde CSS of JS techniek kan uitvoeren. Als dit niet zo is, dan valt de website terug naar een laag die het wel goed doet. Misschien niet zo mooi, fancy en flitsend, maar het werkt wel ... 
 
 ### Strategieën
 
-Er zijn verschillende strategieën voor feature detection:
+Er zijn verschillende strategieën voor feature detection. 
 
-- De Cascade
+- Gebruik binnen HTML zelf Progressive Enhancement
+- CSS Cascade
 - Feature detection in CSS: @supports
 - Media Queries in CSS: @media
 - Feature detection in JS
 - Verberg UI waar je JS voor nodig hebt, en toon deze met JS
-- Gebruik binnen HTML zelf Progressive Enhancement
 - Polyfills
 
 
 <!--
-Feature detection (kort) uitleggen. In relatie tot 'enhancements' .. 
-In de deeltaak staan verschillende strategieen. 
-
-
-
 Even uitleggen hoe feature detection werk in HTML, in CSS en in JS. 
 HTML slaat over.
 CSS negeert.
 JS stopt.
+-->
+
+
+Deze staan deels uitgelegd in de deeltaak over [Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement/):
 
 
 
+### Opdracht
+
+
+<!--
 Er zijn verschillende strategiën
 Voorbeelden voor verschillende enhancements in kleine opdrachtjes laten doen, en testen op de verschillende browsers
 Voorbeeld @support demo op kopo-github/PE
+
+Voor de enhancement laag + feature detection: per tafel hebben ze morgen al browsers op het whiteboard staan. Dan gaan ze demo’s bouwen met nieuwe technieken, we selecteren er een stuk of 6 voor. En de demo testen ze bij elkaar op de verschillende browsers en schrijven een  of  per browser of de feature ondersteund wordt en dus een feature detection nodig heeft. 
+
+
+Voor de Feature detection demo’s  zat ik te denken aan bv:
+- attr()
+- scroll-state queries
+- Anchor Positioning
+- View Transitions
+- styling details
+- masonry layout
+- ..
 
 
 In de workshop gaan we kleine opdrachtjes doen om hier mee te oefenen.
@@ -118,14 +143,16 @@ We gaan nu oefenen met een paar moderen CSS technieken die het niet in alle brow
 masonry in Safari TP
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
 
-cross document view transitions in safari TP
+Cross document view transitions in safari TP
 https://webkit.org/blog/15978/release-notes-for-safari-technology-preview-204/
 
-styling details
+Styling details
 https://developer.chrome.com/blog/styling-details
 
 attr() https://developer.chrome.com/blog/chrome-133-beta
+
 scroll-state() https://bsky.app/profile/nerdy.dev/post/3lfslpmu6f226
+
 Scroll-State Queries & Anchor https://css-carousel-gallery.netlify.app/horizontal/list
 
 -->
@@ -140,7 +167,7 @@ Om meer te leren over wat mogelijk is met feature detection kan je deze bronnen 
 
 
 
-
+<!--
 ### Browser features
 Op MDN kun je van elke browser feature ook zien hoe de ondersteuning is. Hiermee kun je inschatten wat je strategie voor Progressive Enhancement moet worden, en hoe je je werk kunt testen
 
@@ -152,6 +179,7 @@ _Op MDN staat welke browsers een bepaalde techniek ondersteunen._
 💪 In JavaScript kun je ook een aantal patronen gebruiken om _feature detection_ toe te passen. Vooral in sprint 10 gaan we hiermee aan de gang, maar mocht je al _client-side_ JavaScript gebruiken, onderzoek dan ook deze patronen met onderstaande bronnen.
 
 👉 Pas feature detection toe op de opdracht uit de leertaak. Installeer zoveel mogelijk browsers waarmee je kunt testen. Test je werk met (oudere) browsers die andere features ondersteunen, zoals Lynx en apparaten uit het device lab. Probeer BrowserStack uit met een GitHub student account. Maak issues van je bevindingen, en onderzoek oplossingen. En los deze ook op. Misschien moet je je core functionaliteit wel opnieuw uitschetsen hiervoor? Misschien moet je wel een extra stap (terug) maken in je HTML?
+-->
 
 
 #### Bronnen
