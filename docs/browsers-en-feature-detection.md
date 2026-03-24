@@ -92,27 +92,24 @@ Er zijn verschillende strategieën voor _feature detection_.
 - Gebruik binnen HTML zelf Progressive Enhancement
 - Polyfills
 
-
-Deze strategieën deels uitgelegd in de deeltaak over [Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement/)
-
+Deze strategieën zijn uitgelegd in de deeltaak over [Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement/)
 
 #### Verschil HTML, CSS, JS
 Het is belangrijk om te begrijpen dat browsers anders omgaan met HTML, CSS en JS. 
 
 Als een HTML element niet wordt herkend door een browser zal standaard een `<div>` worden gerenderd.
 
-Als een browser CSS niet ondersteund zal dit worden genegeerd. (Daarom is de Cascade ook zo'n een strategie om toe te passen als je moderne CSS technieken wil gebruiken)
+Als een browser CSS niet ondersteunt zal dit worden genegeerd. (Daarom is de Cascade ook zo'n goede strategie om toe te passen als je moderne CSS technieken wil gebruiken)
 
-Als een browser JavaScript niet kent of er zit een bug in de code, krijg je een error en stopt het script. Dit betekent dat code onder de error niet wordt uitgevoerd. (Als je dan de HTML goed hebt staan, valt de website automatisch terug naar de laag die het wel goed doet!)
-
+Als een browser JS niet ondersteunt of er zit een bug in de code, krijg je een error en stopt het script. Dit betekent dat code onder de error niet wordt uitgevoerd. (Als je dan de HTML goed hebt staan, valt de website automatisch terug naar de laag die het wel goed doet!)
 
 ### Opdracht Feature Detection
 
-Onderzoek met je tafel onderstaande moderne CSS technieken. Bouw een demo in je Learning Journal en test deze op de browsers die jullie op het whiteboard hebben geschreven. Schrijf een ✅ achter de browsers die een feature ondersteunen, schrijf een ❌ als een browser de feature niet ondersteunt. 
+Onderzoek met je tafel onderstaande moderne CSS technieken. Bouw een demo in je Learning Journal en test deze op de browsers die jullie op het whiteboard hebben geschreven. Schrijf een ✅ achter de browsers die een feature ondersteunt, schrijf een ❌ als een browser de feature niet ondersteunt. 
 
 💪 Probeer de CSS als enhancement te coderen met behulp van een van de Feature detection strategieën.
 
-Verdeel deze CSS technieken met je tafel, zorg ervoor dat jullie alle technieken hebben getest en uitgeprobeerd:
+Verdeel deze CSS technieken met je tafel, zorg ervoor dat jullie alle technieken hebben uitgeprobeerd en getest:
 
 - Attr() CSS function 
 - Scroll-State Container Queries
