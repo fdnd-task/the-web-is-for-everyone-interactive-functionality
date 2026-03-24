@@ -29,13 +29,13 @@ In het college van vandaag over Browsers kwamen onderstaande bronnen langs.
 
 ## Baseline
 
-Als je je website ontwerpt en bouwt volgens het principe van Progressive Enhancement zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteund, je website terugvalt naar een laag die wel werkt:
+Als je je website ontwerpt en bouwt volgens het principe van Progressive Enhancement zorg je ervoor dat als iets stuk gaat, of als een browser een techniek niet ondersteunt, je website terugvalt naar een laag die wel werkt:
 
 1) Bouw de functionaliteit robuust, met de simpelste techniek​ in HTML en met Server-Side Rendering​
 2) Voeg Baseline CSS voor de huisstijl toe​
 3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience
 
-Bovenop de laag met HTML en Server-Side rendering voeg je de Baseline CSS toe voor de huisstijl. Daarna ga je features toevoegen als enhancements. De Baseline CSS bestaat uit CSS die door alle grote browsers goed worden ondersteund en dus _widely_ ondersteund zijn.
+Bovenop de laag met HTML en Server-Side rendering voeg je de Baseline CSS toe voor de huisstijl. Daarna ga je features toevoegen als enhancements. De Baseline CSS bestaat uit CSS die door alle grote browsers goed wordt ondersteund en dus _Widely Available_ zijn.
 
 ### Web Platform Baseline
 
@@ -69,9 +69,9 @@ Je hebt in semster 1 al geleerd om te beginnen met een HTML prototype en daarna 
 
 Om ervoor te zorgen dat zoveel mogelijk browsers de huisstijl goed laten zien moet je ervoor zorgen dat deze CSS voldoet aan _Baseline Widely Available_.
 
-Onderzoek de elementen in jouw stylesheet voor de huisstijl voldoet aan de Baseline. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen, formulier elementen en interactieve elementen met link-related pseudo-classes (`:hover`, `:link`, `:visited`, `:active`, `:focus`). Hoe zit het met het gebruik van _Custom Properties_? En kan je _Nesting_ al veilig gebruiken? 
+Onderzoek of de elementen in jouw stylesheet voor de huisstijl voldoen aan de Baseline. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen, formulier elementen en interactieve elementen met link-related pseudo-classes (`:hover`, `:link`, `:visited`, `:active`, `:focus`). Hoe zit het met het gebruik van _Custom Properties_? En kan je _Nesting_ al veilig gebruiken? 
 
-Voldoet een selector, property, value, unit of ander onderdeel van de CSS niet aan de _Basline Widely_? Maak dan een issue aan om later te onderzoeken hoe je dit beter kan maken.
+Voldoet een _selector_, _property_, _value_, _unit_ of ander onderdeel van de CSS niet aan de _Basline Widely_? Maak dan een issue aan om later te onderzoeken hoe je dit beter kan maken.
 
 
 ## Feature detection
