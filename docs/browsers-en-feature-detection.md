@@ -84,54 +84,46 @@ Je wil natuurlijk een website die goede feedback geeft met subtiele animaties en
 
 Er zijn verschillende strategieën voor _feature detection_. 
 
-- Gebruik binnen HTML zelf Progressive Enhancement
 - CSS Cascade
 - Feature detection in CSS: @supports
 - Media Queries in CSS: @media
 - Feature detection in JS
 - Verberg UI waar je JS voor nodig hebt, en toon deze met JS
+- Gebruik binnen HTML zelf Progressive Enhancement
 - Polyfills
 
 
+Deze strategieën deels uitgelegd in de deeltaak over [Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement/)
 
 
-<!--
-Even uitleggen hoe feature detection werk in HTML, in CSS en in JS. 
-HTML slaat over.
-CSS negeert.
-JS stopt.
--->
+#### Verschil HTML, CSS, JS
+Het is belangrijk om te begrijpen dat browsers anders omgaan met HTML, CSS en JS. 
+
+Als een HTML element niet wordt herkend door een browser zal standaard een `<div>` worden gerenderd. 
+
+Als een browser CSS niet ondersteund zal dit worden genegeerd, daarom is de Cascade een goede manier om gebruik van te maken voor nieuwe features. 
+
+Als een browser JavaScript niet kent of er zit een bug in de code, krijg je een error en stopt het script. Dit betekent dat code onder de error niet wordt uitgevoerd. En als je dan de HTML goed hebt staan, valt de website automatisch terug naar de laag die het wel goed doet!
 
 
-Deze staan deels uitgelegd in de deeltaak over [Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement/):
+### Opdracht Feature Detection
 
+Onderzoek met je tafel onderstaande moderne CSS technieken. Bouw een demo in je Learning Journal en test deze op de browsers die jullie op het whiteboard hebben geschreven. Schrijf een ✅ achter de browsers die een feature ondersteunen, schrijf een ❌ als een browser de feature niet ondersteunt. 
 
+💪 Probeer de CSS als enhancement te coderen met behulp van een van de Feature detection strategieën.
 
-### Opdracht
+Verdeel deze CSS technieken met je tafel, zorg ervoor dat jullie alle technieken hebben getest en uitgeprobeerd:
 
-
-<!--
-Er zijn verschillende strategiën
-Voorbeelden voor verschillende enhancements in kleine opdrachtjes laten doen, en testen op de verschillende browsers
-Voorbeeld @support demo op kopo-github/PE
-
-Voor de enhancement laag + feature detection: per tafel hebben ze morgen al browsers op het whiteboard staan. Dan gaan ze demo’s bouwen met nieuwe technieken, we selecteren er een stuk of 6 voor. En de demo testen ze bij elkaar op de verschillende browsers en schrijven een  of  per browser of de feature ondersteund wordt en dus een feature detection nodig heeft. 
-
-
-Voor de Feature detection demo’s  zat ik te denken aan bv:
-- attr()
-- scroll-state queries
+- Attr() CSS function 
+- Scroll-State Container Queries
 - Anchor Positioning
 - View Transitions
-- styling details
-- masonry layout
-- ..
+- Styling Details
+- Masonry layout
+- Scroll-button() CSS pseudo-element
 
 
-In de workshop gaan we kleine opdrachtjes doen om hier mee te oefenen.
-
-We gaan nu oefenen met een paar moderen CSS technieken die het niet in alle browsers doen, maar nog in experimental flag safari, chrome, firefox zitten ... (wat betekent dat nou weer?) 
-
+<!--
 masonry in Safari TP
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
 
@@ -156,27 +148,5 @@ Scroll-State Queries & Anchor https://css-carousel-gallery.netlify.app/horizonta
 Om meer te leren over wat mogelijk is met feature detection kan je deze bronnen lezen: 
 - [Implementing feature detection @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection)
 - [@supports in CSS @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports)
-
-
-
-<!--
-### Browser features
-Op MDN kun je van elke browser feature ook zien hoe de ondersteuning is. Hiermee kun je inschatten wat je strategie voor Progressive Enhancement moet worden, en hoe je je werk kunt testen
-
-![Browser compatibility](browser-compatibility.png)
-_Op MDN staat welke browsers een bepaalde techniek ondersteunen._
-
-
-## Opdracht
-💪 In JavaScript kun je ook een aantal patronen gebruiken om _feature detection_ toe te passen. Vooral in sprint 10 gaan we hiermee aan de gang, maar mocht je al _client-side_ JavaScript gebruiken, onderzoek dan ook deze patronen met onderstaande bronnen.
-
-👉 Pas feature detection toe op de opdracht uit de leertaak. Installeer zoveel mogelijk browsers waarmee je kunt testen. Test je werk met (oudere) browsers die andere features ondersteunen, zoals Lynx en apparaten uit het device lab. Probeer BrowserStack uit met een GitHub student account. Maak issues van je bevindingen, en onderzoek oplossingen. En los deze ook op. Misschien moet je je core functionaliteit wel opnieuw uitschetsen hiervoor? Misschien moet je wel een extra stap (terug) maken in je HTML?
--->
-
-
-#### Bronnen
-
 - [Feature detection in JavaScript @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection#javascript)
-- [Progressive Enhancement @ MDN](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement)
-- [Progressive Enhancement Resources](https://github.com/voorhoede/progressive-enhancement-resources)
 - [Can I Use...](https://caniuse.com/)
