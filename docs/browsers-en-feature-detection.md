@@ -99,11 +99,11 @@ Deze strategieën deels uitgelegd in de deeltaak over [Progressive Enhancement](
 #### Verschil HTML, CSS, JS
 Het is belangrijk om te begrijpen dat browsers anders omgaan met HTML, CSS en JS. 
 
-Als een HTML element niet wordt herkend door een browser zal standaard een `<div>` worden gerenderd. 
+Als een HTML element niet wordt herkend door een browser zal standaard een `<div>` worden gerenderd.
 
-Als een browser CSS niet ondersteund zal dit worden genegeerd, daarom is de Cascade een goede manier om gebruik van te maken voor nieuwe features. 
+Als een browser CSS niet ondersteund zal dit worden genegeerd. (Daarom is de Cascade ook zo'n een strategie om toe te passen als je moderne CSS technieken wil gebruiken)
 
-Als een browser JavaScript niet kent of er zit een bug in de code, krijg je een error en stopt het script. Dit betekent dat code onder de error niet wordt uitgevoerd. En als je dan de HTML goed hebt staan, valt de website automatisch terug naar de laag die het wel goed doet!
+Als een browser JavaScript niet kent of er zit een bug in de code, krijg je een error en stopt het script. Dit betekent dat code onder de error niet wordt uitgevoerd. (Als je dan de HTML goed hebt staan, valt de website automatisch terug naar de laag die het wel goed doet!)
 
 
 ### Opdracht Feature Detection
