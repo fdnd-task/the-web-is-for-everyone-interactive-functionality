@@ -52,13 +52,13 @@ Bijvoorbeeld CSS `nesting` is sinds 2023 in de fase _Baseline Newly_, het wordt 
 
 #### Baseline bestaat uit 3 fases: 
 
-##### Limited
+##### Limited Availability
 Als een techniek nieuw is en nog niet door veel browser wordt ondersteund. Je kan de techniek als _enhancement_ gebruiken voor je website. Het zou kunnen dat de techniek en hoe de browsers het implementeren nog gaat veranderen.
 
-##### Newly
+##### Newly Available
 Een technische feature wordt ondersteund door de grote browsers Chrome, Edge, Safari and Firefox. Je kan de techniek als _enhancement_ gebruiken voor je website.
 
-##### Widely
+##### Widely Available
 Als een feature meer dan 30 maanden wordt ondersteund door de grote browsers kan je de techniek veilig gebruiken.
 
 
