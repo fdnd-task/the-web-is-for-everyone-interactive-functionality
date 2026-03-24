@@ -42,7 +42,7 @@ Bovenop de laag met HTML en Server-Side rendering voeg je eerst de Baseline CSS 
 
 ### Web Platform Baseline
 
-Met de _Web Platform Baseline_ kan je bepalen hoe je technieken kan gebruiken voor je website. Op [caniuse.com](https://caniuse.com/?search=Nesting) kan je bekijken wat de baseline van een technische feature is. 
+Met de _Web Platform Baseline_ kan je bepalen hoe je technieken kan gebruiken voor je website. Op [caniuse.com](https://caniuse.com/?search=Nesting) kan je bekijken wat de Baseline van een technische feature is. 
 Bijvoorbeeld CSS `nesting` is sinds 2023 in de fase _Baseline Newly_, het wordt nu 27 maanden ondersteund in alle grote browsers ... nog 3 maanden en je kan dit veilig gebruiken in produktie:
 ![Baseline voor CSS nesting is sinds 2023 'newly'](basline-nesting.png)
 
@@ -68,20 +68,15 @@ Als een feature meer dan 30 maanden wordt ondersteund door de grote browsers kan
 
 
 
-### Opdracht 
+### Opdracht Baseline CSS
 
-<!--
+Je hebt in semster 1 al geleerd om te beginnen met een HTML prototype en daarna een _One Column Layout_ te bouwen in de huisstijl, met de styling voor de kleuren, typografie en formulier elementen.
 
-Hoe maak je de Baseline css? 
-Basic CSS voor de huisstijl uitzoeken of het Baseline is. 
+Om ervoor te zorgen dat zoveel mogelijk browsers de huisstijl goed laten zien moet je ervoor zorgen dat deze CSS voldoet aan _Baseline Widely Available_.
 
-Comments toevoegen met dates en acceptatiecriteria?
-En in de opdracht voor de leertaak de Baseline uitleggen?
+Onderzoek de elementen in jouw stylesheet voor de huisstijl op de Baseline. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen, formulier elementen en interactieve elementen met link-related pseudo-classes (`:hover`, `:link`, `:visited`, `:active`, `:focus`)
 
-de Baseline opdracht: Onderzoek voor de one column layout huisstijl styling de CSS die je hebt gebruikt en check of het Baseline Widely is. Zo niet maak een issue dat je hier iets aan moet doen. Comment in de CSS de Baseline voor de One Column Layout styling >> hier gaan ze tegen het probleem van nesting aanlopen. Goed idee? Nesting is op 27 vd 30 maanden, dus …
-
--->
-
+Voldoet een selector, property, value, unit of ander onderdeel van de CSS niet aan de _Basline Widely_ maak dan een issue aan om te onderzoeken hoe je dit beter toegankelijk kan maken.
 
 
 ## Feature detection
