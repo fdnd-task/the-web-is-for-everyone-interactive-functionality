@@ -1,13 +1,12 @@
 # Interactive functionality
 
-## Browsers en Feature detection 
+## Browsers en Feature detection
 
 In Sprint 3 heb je geleerd dat er veel verschillende mensen zijn, en waarom je dus rekening moet houden met _Toegankelijkheid_. In deze sprint leer je dat er ook veel verschillende browsers zijn, en hoe je daar rekening mee kunt houden tijdens het ontwerpen en coderen.
 
-
 ### Aanpak
 
-Deze sprint hebben we ons wat meer verdiept in _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Vandaag gaan we meer leren over _Baseline CSS_ en _feature detection_ en dit toepassen op de leertaak. Komende vrijdag krijg je hierop een code review.
+Deze sprint hebben we ons wverdiept in _Progressive Enhancement_; een coding strategie waarmee je er voor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. Vandaag gaan we meer leren over _Baseline CSS_ en _feature detection_ en dit toepassen op de leertaak. Komende vrijdag krijg je hierop een code review.
 
 
 ## Browsers en engines
@@ -18,8 +17,7 @@ Deze sprint hebben we ons wat meer verdiept in _Progressive Enhancement_; een co
 
 -->
 
-
-In het college van vandaag kwamen onderstaande bronnen langs.
+In het college van vandaag over Browsers kwamen onderstaande bronnen langs.
 
 - [Rendering Engine @ MDN](https://developer.mozilla.org/en-US/docs/Glossary/Engine/Rendering)
 - [How browser rendering works – behind the scenes](https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/)
@@ -27,7 +25,6 @@ In het college van vandaag kwamen onderstaande bronnen langs.
 - [WorldWideWeb Rebuild](https://worldwideweb.cern.ch/)
 - [Lynx](https://lynx.browser.org/)
 - [BrowserStack for GitHub Students](https://www.browserstack.com/github-students)
-
 
 
 ## Baseline
@@ -38,27 +35,27 @@ Als je je website ontwerpt en bouwt volgens het principe van Progressive Enhance
 2) Voeg Baseline CSS voor de huisstijl toe​
 3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience
 
-Bovenop de laag met HTML en Server-Side rendering voeg je eerst de Baseline CSS toe voor de huisstijl. Daarna ga je features toevoegen als enhancements. De Baseline CSS bestaat uit CSS die door alle grote browsers goed worden ondersteund en dus _widely_ ondersteund zijn. 
+Bovenop de laag met HTML en Server-Side rendering voeg je de Baseline CSS toe voor de huisstijl. Daarna ga je features toevoegen als enhancements. De Baseline CSS bestaat uit CSS die door alle grote browsers goed worden ondersteund en dus _widely_ ondersteund zijn.
 
 ### Web Platform Baseline
 
-Met de _Web Platform Baseline_ kan je bepalen hoe je technieken kan gebruiken voor je website. Op [caniuse.com](https://caniuse.com/?search=Nesting) kan je bekijken wat de Baseline van een technische feature is. 
+Met de _Web Platform Baseline_ kan je bepalen hoe je technieken kan gebruiken voor je website. Op [caniuse.com](https://caniuse.com/?search=Nesting) kan je bekijken wat de Baseline van een technische feature is.
+
 Bijvoorbeeld CSS `nesting` is sinds 2023 in de fase _Baseline Newly_, het wordt nu 27 maanden ondersteund in alle grote browsers ... nog 3 maanden en je kan dit veilig gebruiken in produktie:
 ![Baseline voor CSS nesting is sinds 2023 'newly'](basline-nesting.png)
 
 <!-- Bijvoorbeeld het HTML `popover` element is sinds 2025 in de fase _Baseline Newly_, het wordt nu 13 maanden ondersteund in de grote browsers ... nog 17 maanden en je kan dit veilig gebruiken:
 ![Baseline voor het HTML popover element is sinds 2025 'newly'](basline-popover.png)  -->
 
+### Baseline bestaat uit 3 fases: 
 
-#### Baseline bestaat uit 3 fases: 
-
-##### Limited Availability
+#### Limited Availability
 Als een techniek nieuw is en nog niet door veel browser wordt ondersteund. Je kan de techniek als _enhancement_ gebruiken voor je website. Het zou kunnen dat de techniek en hoe de browsers het implementeren nog gaat veranderen.
 
-##### Newly Available
+#### Newly Available
 Een technische feature wordt ondersteund door de grote browsers Chrome, Edge, Safari and Firefox. Je kan de techniek als _enhancement_ gebruiken voor je website.
 
-##### Widely Available
+#### Widely Available
 Als een feature meer dan 30 maanden wordt ondersteund door de grote browsers kan je de techniek veilig gebruiken.
 
 
@@ -66,28 +63,26 @@ Als een feature meer dan 30 maanden wordt ondersteund door de grote browsers kan
 - [What is Baseline?](https://web-platform-dx.github.io/web-features/)
 - [How to use Baseline](https://web.dev/how-to-use-baseline)
 
-
-
 ### Opdracht Baseline CSS
 
 Je hebt in semster 1 al geleerd om te beginnen met een HTML prototype en daarna een _One Column Layout_ te bouwen in de huisstijl, met de styling voor de kleuren, typografie en formulier elementen.
 
 Om ervoor te zorgen dat zoveel mogelijk browsers de huisstijl goed laten zien moet je ervoor zorgen dat deze CSS voldoet aan _Baseline Widely Available_.
 
-Onderzoek de elementen in jouw stylesheet voor de huisstijl op de Baseline. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen, formulier elementen en interactieve elementen met link-related pseudo-classes (`:hover`, `:link`, `:visited`, `:active`, `:focus`)
+Onderzoek de elementen in jouw stylesheet voor de huisstijl voldoet aan de Baseline. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen, formulier elementen en interactieve elementen met link-related pseudo-classes (`:hover`, `:link`, `:visited`, `:active`, `:focus`). Hoe zit het met het gebruik van _Custom Properties_? En kan je _Nesting_ al veilig gebruiken? 
 
-Voldoet een selector, property, value, unit of ander onderdeel van de CSS niet aan de _Basline Widely_ maak dan een issue aan om te onderzoeken hoe je dit beter toegankelijk kan maken.
+Voldoet een selector, property, value, unit of ander onderdeel van de CSS niet aan de _Basline Widely_? Maak dan een issue aan om later te onderzoeken hoe je dit beter kan maken.
 
 
 ## Feature detection
 
-Als je je website robuust hebt opgezet in HTML en Server-Side Rendering, en je hebt je ​Baseline CSS goed staan, kan je je code _geleidelijk_ uitbreiden voor een betere User Experience. Deze 3e stap noemen we _enhancen_. 
+Als je je website robuust hebt opgezet in HTML en Server-Side Rendering, en je hebt je ​Baseline CSS goed staan voor de huisstijl, kan je je code _geleidelijk_ uitbreiden voor een betere User Experience. Deze 3e stap noemen we _enhancen_.
 
 Je wil natuurlijk een website die goede feedback geeft met subtiele animaties en prettige interacties. Alleen kunnen niet alle browser dit laten zien. Daarom kun je in de 3e laag _feature detection_ gebruiken om te checken of een browser een bepaalde CSS of JS techniek kan uitvoeren. Als dit niet zo is, dan valt de website terug naar een laag die het wel goed doet. Misschien niet zo mooi, fancy en flitsend, maar het werkt wel ... 
 
 ### Strategieën
 
-Er zijn verschillende strategieën voor feature detection. 
+Er zijn verschillende strategieën voor _feature detection_. 
 
 - Gebruik binnen HTML zelf Progressive Enhancement
 - CSS Cascade
@@ -96,6 +91,8 @@ Er zijn verschillende strategieën voor feature detection.
 - Feature detection in JS
 - Verberg UI waar je JS voor nodig hebt, en toon deze met JS
 - Polyfills
+
+
 
 
 <!--
