@@ -121,6 +121,12 @@ Verdeel deze CSS technieken met je tafel, zorg ervoor dat jullie alle technieken
 - Masonry layout
 - Scroll-button() CSS pseudo-element
 
+<!--
+toevoegen
+- Custom select 
+check ook https://wpt.fyi/interop-2026
+-->
+
 💪 Probeer de CSS als enhancement te coderen met behulp van een van de Feature detection strategieën.
 
 
