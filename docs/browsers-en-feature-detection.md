@@ -75,7 +75,7 @@ Hoe zit het met het gebruik van _Custom Properties_?
 En kan je _Nesting_ al veilig gebruiken? 
 
 Schrijf per _selector_, _property_, _value_, _unit_ of ander onderdeel van de CSS een comment in je stylesheet met de Baseline fase.
-Vdoet het niet aan de _Basline Widely_? Maak dan een issue aan om later te onderzoeken hoe je dit beter kan maken.
+Voldoet het niet aan de _Basline Widely_? Maak dan een issue aan om later te onderzoeken hoe je dit beter kan maken.
 
 
 ## Feature detection
