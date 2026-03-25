@@ -101,7 +101,7 @@ Deze strategieën zijn uitgelegd in de deeltaak over [Progressive Enhancement](h
 #### Verschil HTML, CSS, JS
 Het is belangrijk om te begrijpen dat browsers anders omgaan met HTML, CSS en JS. 
 
-Als een HTML element niet wordt herkend door een browser zal standaard een `<div>` worden gerenderd.
+Als een HTML element niet wordt herkend door een browser zal standaard een `<span>` worden gerenderd, de content wordt getoond. Een onbekend HTML attibuut zal worden genegeeerd. 
 
 Als een browser CSS niet ondersteunt zal dit worden genegeerd. (Daarom is de Cascade ook zo'n goede strategie om toe te passen als je moderne CSS technieken wil gebruiken)
 
