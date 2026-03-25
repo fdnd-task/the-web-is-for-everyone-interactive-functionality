@@ -69,9 +69,13 @@ Je hebt in semster 1 al geleerd om te beginnen met een HTML prototype en daarna 
 
 Om ervoor te zorgen dat zoveel mogelijk browsers de huisstijl goed laten zien moet je ervoor zorgen dat deze CSS voldoet aan _Baseline Widely Available_.
 
-Onderzoek of de elementen in jouw stylesheet voor de huisstijl voldoen aan de Baseline. Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen, formulier elementen en interactieve elementen met link-related pseudo-classes (`:hover`, `:link`, `:visited`, `:active`, `:focus`). Hoe zit het met het gebruik van _Custom Properties_? En kan je _Nesting_ al veilig gebruiken? 
+Onderzoek of de elementen in jouw stylesheet voor de huisstijl voldoen aan de Baseline. 
+Denk bijvoorbeeld aan kleuren, font-sizes, borders, breedtes en/of hoogtes van elementen, formulier elementen en interactieve elementen met link-related pseudo-classes (`:hover`, `:link`, `:visited`, `:active`, `:focus`). 
+Hoe zit het met het gebruik van _Custom Properties_? 
+En kan je _Nesting_ al veilig gebruiken? 
 
-Voldoet een _selector_, _property_, _value_, _unit_ of ander onderdeel van de CSS niet aan de _Basline Widely_? Maak dan een issue aan om later te onderzoeken hoe je dit beter kan maken.
+Schrijf per _selector_, _property_, _value_, _unit_ of ander onderdeel van de CSS een comment in je stylesheet met de Baseline fase.
+Vdoet het niet aan de _Basline Widely_? Maak dan een issue aan om later te onderzoeken hoe je dit beter kan maken.
 
 
 ## Feature detection
