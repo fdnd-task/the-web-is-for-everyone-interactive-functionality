@@ -35,7 +35,7 @@ Als je je website ontwerpt en bouwt volgens het principe van Progressive Enhance
 2) Voeg Baseline CSS voor de huisstijl toe​
 3) Enhance de functionaliteit _geleidelijk_ voor een betere User Experience
 
-Bovenop de laag met HTML en Server-Side rendering voeg je de Baseline CSS toe voor de huisstijl. Daarna ga je features toevoegen als enhancements. De Baseline CSS bestaat uit CSS die door alle grote browsers goed wordt ondersteund en dus _Widely Available_ zijn.
+Bovenop de laag met HTML en Server-Side rendering voeg je de Baseline CSS toe voor de huisstijl. Daarna ga je features toevoegen als enhancements. De Baseline CSS bestaat uit CSS die door alle grote browsers goed wordt ondersteund.
 
 ### Web Platform Baseline
 
