@@ -111,8 +111,6 @@ Als een browser JS niet ondersteunt of er zit een bug in de code, krijg je een e
 
 Onderzoek met je tafel onderstaande moderne CSS technieken. Bouw een demo in je Learning Journal en test deze op de browsers die jullie op het whiteboard hebben geschreven. Schrijf een ✅ achter de browser die een feature ondersteunt, schrijf een ❌ als een browser de feature niet ondersteunt. 
 
-💪 Probeer de CSS als enhancement te coderen met behulp van een van de Feature detection strategieën.
-
 Verdeel deze CSS technieken met je tafel, zorg ervoor dat jullie alle technieken hebben uitgeprobeerd en getest:
 
 - Attr() CSS function 
@@ -122,6 +120,8 @@ Verdeel deze CSS technieken met je tafel, zorg ervoor dat jullie alle technieken
 - Styling Details
 - Masonry layout
 - Scroll-button() CSS pseudo-element
+
+💪 Probeer de CSS als enhancement te coderen met behulp van een van de Feature detection strategieën.
 
 
 <!--
