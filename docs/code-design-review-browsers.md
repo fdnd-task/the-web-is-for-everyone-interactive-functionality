@@ -54,8 +54,11 @@ Maak voor elk probleem dat je tegenkomt een issue aan:
 ### Dilemma's noteren
 Schrijf tot slot op het whiteboard een of meerdere dilemma's waar jullie nu nog geen antwoord op hebben. Deze gaan we volgende week behandelen.
 bijvoorbeeld: 
-Wat te doen met moderne HTML uit 2024?
-Hoe kan je 'flexbox' toepassen zonder dat een website stuk gaat met een oude browser?
-Bestaat er een goede fallback voor de 'rgba()' functie?
+- ❓Wat te doen met moderne HTML uit 2024?
+- ❓CSS Nesting heeft bijna _Widely Available_ status, nog 3 maanden, wat nu?
+- ❓Bestaat er een goede fallback voor de 'rgba()' functie?
+
+  
+
 
 
