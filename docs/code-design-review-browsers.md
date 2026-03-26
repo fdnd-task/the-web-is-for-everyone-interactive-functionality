@@ -2,32 +2,30 @@
 
 ## Code/Design Review - Browsers
 
-Deze week heb je geleerd over _Progressive Enhancement_ en hoe je jouw website in lagen kan opbouwen. Woensdag heb je meer geleerd over de tweede laag, de _Baseline CSS_ en _feature detection_. 
-
-<!-- In de deeltaak _progressive-enhancement_ heb je geleerd hoe je een UI component kunt ontwerpen en bouwen met behulp van _PE_, zodat deze voor iedereen toegankelijk is. -->
-
-<!-- Geen device lab, maar browsers.. Baseline (opdracht van woensdag), check op baseline CSS (Hoe dat simpel maken, op caniuse checken is al gedaan.. vergelijken met elkaar?) En functionaliteiten zelf testen. Weer een user test doen. Kan dat beter? En daarnaast is er een practicum: POST en Filter/Get   -->
+Deze week heb je geleerd over _Progressive Enhancement_ en hoe je een website opbouwt in lagen. Op woensdag heb je ingezoomd op de tweede laag: _Baseline CSS_. Daarnaast hebben we ook één van de strategieën verder besproken voor de enhancements van de derde laag: _feature detection_.
 
 ### Aanpak
 
-Vandaag heb je de mogelijkheid om het programma af te stemmen op jouw wensen. Je kiest zelf of je aansluit bij het reguliere programma of extra uitleg volgt in de vorm van een practicum. Bepaal wat het beste past bij jouw ontwikkeling. Het reguliere programma wordt hieronder toegelicht. Er zijn twee rondes: de eerste is van 10:00 tot 11:00 en de tweede is van 11:00 tot 12:00. Om 12:00 ronden we plenair af waarin we de dilemma's bespreken met elkaar. 
+Vandaag heb je de mogelijkheid om het programma af te stemmen op jouw wensen. Je kiest zelf of je aansluit bij het reguliere programma of extra uitleg volgt in de vorm van een practicum. Bepaal wat het beste past bij jouw ontwikkeling. Het reguliere programma wordt hieronder toegelicht. Je hebt twee keer de mogelijkheid om een eigen programma te kiezen:
 
-Vandaag ga je in een groepje een code review uitvoeren op elkaars werk voor de opdrachtgever. De review doe je in een groep van maximaal van studenten. De groepen worden gebaseerd op de gebruikte strategie voor enhancements. 
+🕙 Ronde 1: 10:00 – 11:00
+🕚 Ronde 2: 11:00 – 12:00
+🕛 Plenaire afsluiting: 12:00
 
-<!--
-Baseline browser test
-Feature detection onderwerp/review
-Practicum POST?
--->
+Tijdens de afsluiting bespreken we gezamenlijke de dilemma’s die naar voren zijn gekomen bij de code review.
 
 ## Code Review  
 
-### Live zetten 
+Vandaag ga je in een groepje een code review uitvoeren op elkaars werk voor de opdrachtgever. De review doe je in een groep van maximaal vier studenten. De groepen worden ingedeeld op basis van de gekozen enhancement-strategie, die benoemd werden in de [workshop van maandag](https://github.com/fdnd-task/progressive-enhancement/blob/main/docs/INSTRUCTIONS.md#strategie%C3%ABn-en-voorbeelden-voor-verschillende-enhancements).
+
+### Live zetten en bepalen welke enhancements je hebt gebruikt
 
 Zorg er allereerst voor dat de laatste aanpassingen op GitHub staan voor de leertaak _the-web-is-for-everyone-interactive-functionality_ en dat de live link werkt. Zonder live link kan je niet testen...
-<!--Zet ook je issues aan, mocht je dit nog niet hebben gedaan.-->
+
+Bekijk vervolgens jouw code. Welke strategieën voor enhancements (laag 3) heb jij toegepast? Je kunt maximaal twee strategieën bespreken in twee verschillende rondes.
 
 ### Reviewen op toepassing van de strategie
+
 Ga met elkaar in kaart brengen welke voorbeelden er te vinden zijn van de gekozen strategie. Schrijf deze cases op het whiteboard. Ga nu met elkaar per voorbeeld naar de code kijken. Gebruik hier voor de drie lagen:
 1. Begin bij de HTML, zorgt de HTML ervoor dat het doet wat het moet doen..
 2. Bekijk de Baseline CSS. Welke CSS regels zijn dat? En bekijk of hier toch niet per ongeluk CSS gebruikt wordt die nog niet Widely Available heen is. Onthoud deze css properties of values, hier komen we later bij terug.
