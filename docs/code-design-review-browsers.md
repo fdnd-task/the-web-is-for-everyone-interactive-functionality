@@ -18,7 +18,7 @@ Tijdens de afsluiting bespreken we gezamenlijke de dilemma’s die naar voren zi
 
 ## Code Review  
 
-Vandaag ga je in een groepje een code review uitvoeren op elkaars werk voor de opdrachtgever. De review doe je in een groep van maximaal vier studenten. De groepen worden ingedeeld op basis van een door jullie zelf gekozen [enhancement-strategie](https://github.com/fdnd-task/progressive-enhancement/blob/main/docs/INSTRUCTIONS.md#strategie%C3%ABn-en-voorbeelden-voor-verschillende-enhancements) die je hebt toegepast.
+Vandaag ga je in een groepje een code review uitvoeren op het werk voor de opdrachtgever. De review doe je in een groep van maximaal vier studenten. De groepen worden ingedeeld op basis van een door jullie zelf gekozen [enhancement-strategie](https://github.com/fdnd-task/progressive-enhancement/blob/main/docs/INSTRUCTIONS.md#strategie%C3%ABn-en-voorbeelden-voor-verschillende-enhancements) die je hebt toegepast.
 
 ### Voorbereiden
 
