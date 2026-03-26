@@ -3,13 +3,20 @@
 ## Code/Design Review - Browsers
 
 Deze week heb je geleerd over _Progressive Enhancement_ en over de Baseline, in hoeverre web technieken door browsers worden ondersteund.
-In de deeltaak _progressive-enhancement_ heb je geleerd hoe je een UI component kunt ontwerpen en bouwen met behulp van _PE_, zodat deze voor iedereen toegankelijk is. 
+<!-- In de deeltaak _progressive-enhancement_ heb je geleerd hoe je een UI component kunt ontwerpen en bouwen met behulp van _PE_, zodat deze voor iedereen toegankelijk is. -->
 
 <!-- Geen device lab, maar browsers.. Baseline (opdracht van woensdag), check op baseline CSS (Hoe dat simpel maken, op caniuse checken is al gedaan.. vergelijken met elkaar?) En functionaliteiten zelf testen. Weer een user test doen. Kan dat beter? En daarnaast is er een practicum: POST en Filter/Get   -->
 
 ### Aanpak
 
-Je laat jouw website voor de leertaak vandaag door drie peers testen. Je kiest zelf drie testpersonen die jouw website gaan testen op verschillende devices en browsers.  
+Je laat jouw website voor de leertaak vandaag door drie peers testen. Je kiest zelf drie testpersonen die jouw website gaan testen op verschillende devices en browsers.
+
+<--
+Baseline browser test
+Feature detection onderwerp/review
+Practicum POST?
+
+-->
 
 ## Code Review  
 
@@ -37,7 +44,7 @@ Maak voor elk probleem dat je tegenkomt een issue aan:
   - ❌ *"Gebruik CSS Nesting niet meer."*  
   
   maar
-  - ✅ *"CSS Nesting zorgt ervoor dat jouw core-functionaliteit niet meer werkt. Zorg ervoor dat de CSS die essentieel is voor de core-functionaliteit niet genest is. Eventuele enhancements kunnen wel genest worden."*  
+  - ✅ *"CSS Nesting heeft nog geen _Widely Available_ status. Zorg ervoor dat de CSS die essentieel is voor de core-functionaliteit niet genest is. Eventuele enhancements kunnen wel genest worden."*  
 - Voeg waar nodig bronnen toe om je oplossing te verduidelijken.  
 
 <!-- **Tip:** Kun je moeilijk achterhalen waarom iets niet werkt? Je kunt een apparaat uit het Device Lab aansluiten op je computer om het te inspecteren. Let erop dat je het device eerst in de developersmodus zet voordat je het aansluit op jouw laptop. -->
