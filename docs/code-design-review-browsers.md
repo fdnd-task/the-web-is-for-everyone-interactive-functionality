@@ -41,7 +41,7 @@ Schrijf je naam op het whiteboard met daarachter de 2 strategieën die je wil be
 
 Ga per ronde aan de tafel zitten met de door jouw gekozen strategie. 
 
-Breng eerst gezamenlijk in kaart welke voorbeelden er te vinden zijn van de gekozen strategie in jullie code. Schrijf deze cases op het whiteboard. 
+Breng eerst gezamenlijk in kaart welke voorbeelden er te vinden zijn van de gekozen strategie in jullie code. Schrijf deze voorbeelden op het whiteboard. 
 
 Ga nu met elkaar per voorbeeld naar de code kijken. Gebruik hier voor de drie lagen:
 1. Begin bij de HTML, zorgt de HTML ervoor dat het doet wat het moet doen..
