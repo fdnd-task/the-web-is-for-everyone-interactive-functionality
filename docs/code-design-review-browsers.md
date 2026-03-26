@@ -1,8 +1,8 @@
 # Interactive Functionality
 
-## Code/Design Review - Device Lab
+## Code/Design Review - Browsers
 
-Deze week heb je geleerd over _Progressive Enhancement_; een codeerstrategie waarmee je ervoor kunt zorgen dat zoveel mogelijk mensen jouw werk kunnen gebruiken. 
+Deze week heb je geleerd over _Progressive Enhancement_ en over de Baseline, in hoeverre web technieken door browsers worden ondersteund.
 In de deeltaak _progressive-enhancement_ heb je geleerd hoe je een UI component kunt ontwerpen en bouwen met behulp van _PE_, zodat deze voor iedereen toegankelijk is. 
 
 <!-- Geen device lab, maar browsers.. Baseline (opdracht van woensdag), check op baseline CSS (Hoe dat simpel maken, op caniuse checken is al gedaan.. vergelijken met elkaar?) En functionaliteiten zelf testen. Weer een user test doen. Kan dat beter? En daarnaast is er een practicum: POST en Filter/Get   -->
