@@ -39,7 +39,7 @@ Schrijf je naam op het whiteboard met daarachter de 2 strategieën die je wil be
 
 ### Reviewen op toepassing van de strategie
 
-Ga per ronde aan de tafel zitten met de door jouw gekozen strategie. 
+Ga per ronde aan een tafel zitten met de door jouw gekozen strategie. 
 
 Breng eerst gezamenlijk in kaart welke voorbeelden er te vinden zijn van de gekozen strategie in jullie code. Schrijf deze cases op het whiteboard. 
 
