@@ -9,7 +9,7 @@ Deze week heb je geleerd over _Progressive Enhancement_ en over de Baseline, in 
 
 ### Aanpak
 
-Je laat jouw website voor de leertaak vandaag door drie peers testen. Je kiest zelf drie testpersonen die jouw website gaan testen op verschillende devices en browsers.
+Vandaag ga je je verder verdiepein in de Baseline CSS Je laat jouw website voor de leertaak vandaag door drie peers testen. Je kiest zelf drie testpersonen die jouw website gaan testen op verschillende devices en browsers.
 
 <!--
 Baseline browser test
