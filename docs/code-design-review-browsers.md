@@ -51,7 +51,7 @@ Ga nu met elkaar per voorbeeld naar de code kijken. Gebruik hier voor de drie la
 Ga zo elk voorbeeld langs en geef elkaar feedback. Interessante inzichten op gedaan? Verwerk deze in issues. 
 
 ### Dilemma's
-Schrijf op het whiteboard een of meerdere dilemma's waar jullie nu nog geen antwoord op hebben. Deze gaan we straks plenair behandelen.
+Schrijf op het whiteboard een of meerdere dilemma's waar jullie nu nog geen antwoord op hebben. Deze gaan we plenair behandelen.
 bijvoorbeeld: 
 - ❓Wat te doen met moderne HTML uit 2024?
 - ❓CSS Nesting heeft bijna _Widely Available_ status, nog 3 maanden, wat nu?
