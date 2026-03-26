@@ -40,7 +40,7 @@ Maak voor elk probleem dat je tegenkomt een issue aan:
   - ✅ *"CSS Nesting zorgt ervoor dat jouw core-functionaliteit niet meer werkt. Zorg ervoor dat de CSS die essentieel is voor de core-functionaliteit niet genest is. Eventuele enhancements kunnen wel genest worden."*  
 - Voeg waar nodig bronnen toe om je oplossing te verduidelijken.  
 
-**Tip:** Kun je moeilijk achterhalen waarom iets niet werkt? Je kunt een apparaat uit het Device Lab aansluiten op je computer om het te inspecteren. Let erop dat je het device eerst in de developersmodus zet voordat je het aansluit op jouw laptop.
+<!-- **Tip:** Kun je moeilijk achterhalen waarom iets niet werkt? Je kunt een apparaat uit het Device Lab aansluiten op je computer om het te inspecteren. Let erop dat je het device eerst in de developersmodus zet voordat je het aansluit op jouw laptop. -->
 
 #### Bronnen  
 - [Remote debugging met Chrome DevTools](https://developer.chrome.com/docs/devtools/remote-debugging?hl=nl)
