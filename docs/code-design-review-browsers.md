@@ -34,18 +34,18 @@ Bekijk vervolgens jouw code. Welke van onderstaande strategieën voor enhancemen
 - Media Queries in CSS: @media
 - Gebruik binnen HTML zelf Progressive Enhancements
 
-Schrijf je naam op het whiteboard met daarachter de 2 strategieën die je wil bespreken.
+Er zijn vandaag maximaal twee rondes waaraan je kan meedoen. Per ronde bespreken we één strategie. Kies welke (maximaal twee) strategieën jij wilt bespreken met een groepje studenten. 
 
 
 ### Reviewen op toepassing van de strategie
 
-Ga per ronde aan de tafel zitten met de door jouw gekozen strategie. 
+Ga per ronde aan de tafel zitten met de door jouw gekozen strategie. Dit doe je in een groepje van maximaal vier studenten. 
 
-Breng eerst gezamenlijk in kaart welke voorbeelden er te vinden zijn van de gekozen strategie in jullie code. Schrijf deze voorbeelden op het whiteboard. 
+Breng eerst gezamenlijk in kaart welke voorbeelden er te vinden zijn van de gekozen strategie in jullie code. Schrijf deze voorbeelden op het whiteboard. Dus: stel je hebt de strategie _De Cascade_ gekozen. Ga dan door elkaars code heen en bekijk waar je de cascade hebt ingezet om een enhancement te realiseren. 
 
-Ga nu met elkaar per voorbeeld naar de code kijken. Gebruik hier voor de drie lagen:
-1. Begin bij de HTML, zorgt de HTML ervoor dat het doet wat het moet doen..
-2. Bekijk de Baseline CSS. Welke CSS regels zijn dat? En bekijk of hier toch niet per ongeluk CSS gebruikt wordt die nog niet _Widely Available_ heen is. Wat kan je hiermee doen? Bedenk samen een oplossing.
+Ga nu met elkaar alle voorbeelden reviewen. Gebruik hier voor de drie lagen:
+1. Begin bij de HTML, zorgt de HTML ervoor dat het doet wat het moet doen? 
+2. Bekijk de _Baseline CSS_. Welke CSS regels zijn dat? En bekijk of hier toch niet per ongeluk CSS gebruikt wordt die nog niet _Widely Available_ is. Wat kan je hiermee doen? Bedenk samen een oplossing.
 3. Bekijk hoe de enhancement strategie is gedaan en test dit allemaal op verschillende browsers. Bespreek met elkaar hoe deze strategie precies werkt. Is het juist geïmplementeerd? Of zou er misschien een andere strategie beter toegepast kunnen worden?
 
 Ga zo elk voorbeeld langs en geef elkaar feedback. Interessante inzichten op gedaan? Verwerk deze in issues. 
