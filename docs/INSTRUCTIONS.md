@@ -36,7 +36,7 @@ Deze leertaak wordt behandeld in Sprint 9. Er worden verschillende workshops aan
 - [Code/Design-Review - UI states](code-design-review-ui-states.md)
 - [Deeltaak Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement/)
 - [Browsers en Feature detection](browsers-en-feature-detection.md)
-- [Code/Design-Review - Device Lab](code-design-review-device-lab.md)
+- [Code/Design-Review - Browsers](code-design-review-browsers.md)
 - [User Preferences](user-preferences.md)
 - [Wrap-up](wrap-up.md)
 
