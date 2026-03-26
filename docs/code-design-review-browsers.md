@@ -26,9 +26,8 @@ Kies vervolgens drie testpersonen. Houd bij je keuze rekening met de devices en 
 
 Test de drie websites die jij gaat beoordelen één voor één en kijk waar iets kapot gaat. Let daarbij op het volgende:  
 
-- Test eerst de website op je eigen devices (bijvoorbeeld laptop, telefoon, tablet). Gebruik de browsers die je normaal gesproken gebruikt. Wat valt op?  
-- Test vervolgens op browsers die je minder vaak gebruikt. Misschien moet je daarvoor een nieuwe browser installeren, zoals [Lynx](https://lynx.browser.org/).  
-- Kies minimaal één device uit het Device Lab waarop je de website test.  
+- Test eerst de website op je eigen devices (bijvoorbeeld laptop, telefoon, tablet). Test op alle browsers die je normaal gesproken gebruikt. Wat valt op?
+- Test vervolgens op browsers die je minder vaak gebruikt, of wat oudere browsers. Misschien moet je daarvoor een nieuwe browser installeren, zoals [Lynx](https://lynx.browser.org/).  
 
 Maak voor elk probleem dat je tegenkomt een issue aan:  
 
