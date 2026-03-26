@@ -11,11 +11,10 @@ Deze week heb je geleerd over _Progressive Enhancement_ en over de Baseline, in 
 
 Je laat jouw website voor de leertaak vandaag door drie peers testen. Je kiest zelf drie testpersonen die jouw website gaan testen op verschillende devices en browsers.
 
-<--
+<!--
 Baseline browser test
 Feature detection onderwerp/review
 Practicum POST?
-
 -->
 
 ## Code Review  
