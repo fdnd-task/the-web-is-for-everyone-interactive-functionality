@@ -154,7 +154,8 @@ Scroll-State Queries & Anchor https://css-carousel-gallery.netlify.app/horizonta
 #### Bronnen
 
 Om meer te leren over wat mogelijk is met feature detection kan je deze bronnen lezen: 
-- [Implementing feature detection @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection)
-- [@supports in CSS @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports)
-- [Feature detection in JavaScript @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection#javascript)
+- [Implementing feature detection op MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection)
+- [@supports in CSS op MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports)
+- [Feature detection in JavaScript op MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection#javascript)
 - [Can I Use...](https://caniuse.com/)
+<!-- - [Progressive enhancement as a benefit of CSS Nesting](https://kilianvalkhof.com/2026/css-html/progressive-enhancement-as-a-benefit-of-css-nesting/) -->
