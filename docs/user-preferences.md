@@ -96,7 +96,7 @@ In de level 5 _user preference media features_ kan je in CSS rekening houden met
 Om goed rekening te houden met de instelling _prefers-reduced-motion_ zal je eerst je website of component **zonder** animatie moeten tonen. De animatie kan je als _enhancement_ in de _media query_ schrijven. Zo zorg je ervoor dat er geen animaties worden getoond als de gebruiker dat heeft ingesteld. 
 
 Dit voorbeeld laat zien hoe je animaties als _enhancement_ kan implementeren. 
-De flip card animatie staat in de media query zodat een gebruiker het niet te zien krijgt als die geen anamtie wil:
+De flip card animatie staat in de media query zodat een gebruiker het niet te zien krijgt als die geen animatie wil:
 
 ```css
 @media (prefers-reduced-motion: no-preference){ 
