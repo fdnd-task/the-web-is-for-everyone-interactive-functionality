@@ -6,17 +6,17 @@ Responsive web design <!-- anno 2025 --> is een website die zich aanpast aan de 
 
 Responsive web design is moeilijk. Er bestaan al veel apparaten met verschillende schermen en er komen steeds meer apparaten bij met afwijkende schermformaten. Kleine ronde schermen zoals smart watches, schermen die in- en uitklapbaar zijn (foldables) of die je om je arm kan dragen... wot?
 
-Met CSS kan je ook rekening houden met gebruikersinstellingen van het apparaat zoals light/dark modes, wel of geen animaties of high contrast. Je kan websites maken die zich aanpassen aan de gebruikerinstellingen, de _User Preferences_.
+Behalve met schermformaten kan je in CSS ook rekening houden met gebruikersinstellingen zoals light/dark modes, wel of geen animaties of high contrast. Je kan websites maken die zich aanpassen aan de gebruikerinstellingen, de _User Preferences_.
 
 
 ### Aanpak 
 
-Vandaag ga je leren hoe je Media Queries kan gebruiken om rekening te houden met gebruikersinstellingen en gaan we design ideeën bedenken voor opvouwbare schermen. 
+Vandaag ga je leren hoe je _media queries_ kan gebruiken om rekening te houden met gebruikersinstellingen en gaan we design ideeën bedenken voor opvouwbare schermen. 
 
 <!-- ![](the-new-responsive-circle.png) -->
 
 ## Foldable screens
-Door de uitvinding van flexibele schermen kunnen handhelds gevouwen worden. Bijvoorbeeld Samsung is hiermee bezig. Sommige studenten hebben een smartphone met gevouwen scherm. Dit wordt ook wel Flexponsive Design genoemd. 
+Door de uitvinding van flexibele schermen kunnen _handhelds_ gevouwen worden. Bijvoorbeeld Samsung is hiermee bezig. Sommige studenten hebben al een smartphone met gevouwen scherm. Dit wordt ook wel Flexponsive Design genoemd. 
 
 <!--
 > Flexponsive Design
@@ -29,7 +29,7 @@ Door de uitvinding van flexibele schermen kunnen handhelds gevouwen worden. Bijv
 Dit is een Design prototype voor de Samsug S Fold:
 ![](the-new-responsive-samsung-s-fold.webp)<br>
 
-Om hier layouts voor te maken zijn _Viewport Segments API_ bedacht. Dit is nog in de experimentele fase, het is _Limited Available_, nog niet alle moderne browsers ondersteunen dit. Dit komt eraan! https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API
+Om hier layouts voor te maken is de _Viewport Segments API_ bedacht. Dit is nog in de experimentele fase, het is _Limited Available_, nog niet alle moderne browsers ondersteunen dit. Dit komt eraan! https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API
 
 ### 👉 Opdracht Foldable screens
 
@@ -55,7 +55,7 @@ Maak een issue aan met de design ideeën, voeg inspiratie toe en bronnen hoe je 
 
 ## User preference media features
 
-Om ervoor te zorgen dat je website het goed doet op verschillende browser gebruiken we Progressive Enhancement als coding strategie en de Baseling om te bepalen of techniek goed wordt ondersteund. Om rekening te houden met je gebruikers kan je met _media queries_ onder andere _user preference media features_ gebruiken in je CSS. 
+Om ervoor te zorgen dat je website het goed doet op verschillende browsers gebruiken we Progressive Enhancement als coding strategie en de Baseling om te bepalen of techniek goed wordt ondersteund. Om rekening te houden met je gebruikers kan je met _media queries_ onder andere _user preference media features_ gebruiken in je CSS. 
 
 Een _media query_ ‘luistert’ naar de instellingen van de gebruiker. Zo kan je een andere layout of kleurenschema laten zien als gebruikers dit hebben ingesteld. 
 
@@ -69,7 +69,7 @@ Deze _media query_ gebruikt de viewport-width om een andere layout te tonen:
  }
 ```
 
-Deze _media query_ gebruikt een ander kleuren schema als de _dark mode_ aan staat:
+Deze _media query_ gebruikt een ander kleuren schema als  _dark mode_ aan staat:
 ```css
 @media screen and (prefers-color-scheme: dark){ 
     body { 
@@ -118,7 +118,7 @@ Dit voorbeeld laat zien hoe je animaties als _enhancement_ kan implementeren:
 
 Om uit te proberen hoe deze technieken werken maak je voor alle _media features_ van hierboven een demo in je learning journal. 
 
-Bespreek de demo's met je tafel en bedenk hoe je de _media features_ goed kan coderen. Hoe kan je animaties, transparantie, contrast en kleur als enhancement kan bouwen?
+Bespreek de demo's met je tafel en bedenk hoe je de _media features_ goed kan coderen. Hoe kan je animaties, transparantie, contrast en kleur als enhancement bouwen?
 
 Onderzoek ook hoe je de gebruikers instellingen kan testen en schrijf dit op jullie whiteboard.
 
@@ -130,7 +130,9 @@ Ontwerp je website voor verschillende _user preference media features_ zoals ani
 Test eerst je website voor de verschillende _media features_. Maak een issue aan als je problemen tegenkomt. Beschrijf het probleem en plak er een screenshot bij. 
 
 #### Ontwerpen
-Dupliceer een van de pagina's van je website in Figma en maak variaties op je design voor prefers-reduced-motion, prefers-reduced-transparency, prefers-contrast, prefers-color-scheme (light/dark mode) en inverted-colors. Zorg dat je ontwerp voldoet aan de instellingen van de gebruiker ... Maak per nieuw ontwerp een issue aan om er later aan te werken. Beschrijf in het issue de _media feature_, leg het ontwerp uit en maak aantekeningen hoe je de het kan coderen.
+Dupliceer een van de pagina's van je website in Figma en maak variaties op je design voor prefers-reduced-motion, prefers-reduced-transparency, prefers-contrast, prefers-color-scheme (light/dark mode) en inverted-colors. Zorg dat je ontwerp voldoet aan de instellingen van de gebruiker ... 
+
+Maak per nieuw ontwerp een issue aan om er later aan te werken. Beschrijf in het issue de _media feature_, leg het ontwerp uit en maak aantekeningen hoe je de het kan coderen.
 
 
 
