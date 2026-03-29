@@ -11,7 +11,7 @@ Met CSS kan je ook rekening houden met gebruikersinstellingen van het apparaat z
 
 ### Aanpak 
 
-Vandaag ga je meer over leren en gaan we design ideeen bedenken voor opvouwbare schermen. 
+Vandaag ga je leren hoe je Media Queries kan gebruiken om rekening te houden met gebruikersinstellingen en gaan we design ideeën bedenken voor opvouwbare schermen. 
 
 <!-- ![](the-new-responsive-circle.png) -->
 
@@ -39,7 +39,7 @@ Bekijk met je tafel de voorbeeld video voor _foldable screens_ op https://web.de
 
 Zoek design inspiratie voor foldable schermen en bewaar voorbeelden in je Figma document. Bijvoorbeeld op Dribbble of Pinterest. 
 
-Maak in je Figma een template voor verschillende _fold_ schermen en werk een paar ideeën lo-fi uit. 
+Maak in je Figma een template voor verschillende _fold_ schermen en werk een paar ideeën lo-fi uit. Post je ideeen en een korte uitleg in het Teams kanaal. 
 
 <!-- Lees met je tafel de bron [Screen configurations](https://web.dev/learn/design/screen-configurations/) op Web.dev en doe de quiz aan het eind van het artikel: _Test your knowledge of screen configurations_ -->
 
@@ -47,9 +47,102 @@ Maak in je Figma een template voor verschillende _fold_ schermen en werk een paa
 Maak een issue aan met de design ideeën, voeg inspiratie toe en bronnen hoe je dit zou kunnen maken. Voeg het label 'could have' toe ...
 
 ### Bronnen 
-- [Building Web Layouts For Dual-Screen And Foldable Devices](https://www.smashingmagazine.com/2022/03/)
-- [Responsive Design / Screen configurations](https://web.dev/learn/design/screen-configurations/)
-- [Viewport Segments API](https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API)
+- [Building Web Layouts For Dual-Screen And Foldable Devices op Smashing Magazine](https://www.smashingmagazine.com/2022/03/building-web-layouts-dual-screen-foldable-devices/)
+- [Responsive Design - Screen configurations op Web.dev](https://web.dev/learn/design/screen-configurations/)
+- [Viewport Segments API op MDN](https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API)
 
 
 
+## User preference media features
+
+Om ervoor te zorgen dat je website het goed doet op verschillende browser gebruiken we Progressive Enhancement als coding strategie en de Baseling om te bepalen of techniek goed wordt ondersteund. Om rekening te houden met je gebruikers kan je met _media queries_ onder andere _user preference media features_ gebruiken in je CSS. 
+
+Een _media query_ ‘luistert’ naar de instellingen van de gebruiker. Zo kan je een andere layout of kleurenschema laten zien als gebruikers dit hebben ingesteld. 
+
+Deze _media query_ gebruikt de viewport-width om een andere layout te tonen:
+```css
+@media screen and (width >= 35rem) { 
+    main { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+ }
+```
+
+Deze _media query_ gebruikt een ander kleuren schema als de _dark mode_ aan staat:
+```css
+@media screen and (prefers-color-scheme: dark){ 
+    body { 
+        background-color: #111; 
+        color: #efefef;
+    }
+ }
+ ```
+
+### Media Queries Level 5
+
+In de level 5 _user preference media features_ kan je in CSS rekening houden met verschillende gebruikersinstellingen, zoals:  
+
+- prefers-reduced-motion
+- prefers-reduced-transparency
+- prefers-contrast
+- forced-colors
+- prefers-color-scheme
+- prefers-reduced-data
+- inverted-colors (color media features)
+
+#### Media feature 'animation' als enhancement
+
+Om goed rekening te houden met de instelling _prefers-reduced-motion_ zal je eerst je website of component **zonder** animatie moeten tonen. De animatie kan je als _enhancement_ in de _media query_ schrijven. Zo zorg je ervoor dat er geen animaties worden getoond als de gebruiker dat heeft ingesteld. 
+
+Dit voorbeeld laat zien hoe je animaties als _enhancement_ kan implementeren: 
+
+```css
+@media (prefers-reduced-motion: no-preference){ 
+  .face {
+    backface-visibility: hidden ;
+  }
+  .back {
+    transform: rotateY(180deg) ;
+    opacity: 1;
+  }
+  .card:focus, 
+  .card:focus-within, 
+  .card:hover {
+    transform: rotateY(180deg) ;
+  }
+}
+```
+
+### 👉 Opdracht Media Queries testen
+
+Om uit te proberen hoe deze technieken werken maak je voor alle _media features_ van hierboven een demo in je learning journal. 
+
+Bespreek de demo's met je tafel en bedenk hoe je de _media features_ goed kan coderen. Hoe kan je animaties, transparantie, contrast en kleur als enhancement kan bouwen?
+
+Onderzoek ook hoe je de gebruikers instellingen kan testen en schrijf dit op jullie whiteboard.
+
+
+### 👉 Opdracht User preference media features ontwerpen
+Ontwerp je website voor verschillende _user preference media features_ zoals animaties, transparantie, contrast en kleur. 
+
+#### Testen
+Test eerst je website voor de verschillende _media features_. Maak een issue aan als je problemen tegenkomt. Beschrijf het probleem en plak er een screenshot bij. 
+
+#### Ontwerpen
+Dupliceer een van de pagina's van je website in Figma en maak variaties op je design voor prefers-reduced-motion, prefers-reduced-transparency, prefers-contrast, prefers-color-scheme (light/dark mode) en inverted-colors. Zorg dat je ontwerp voldoet aan de instellingen van de gebruiker ... Maak per nieuw ontwerp een issue aan om er later aan te werken. Beschrijf in het issue de _media feature_, leg het ontwerp uit en maak aantekeningen hoe je de het kan coderen.
+
+
+
+
+### Bronnen 
+- [Media Queries Level 5 - W3C](https://www.w3.org/TR/mediaqueries-5/)
+- [Responsive to the User op Web Dev](https://web.dev/articles/new-responsive#responsive_to_the_user)
+<!-- Bronnen per user preference media features -->
+- [prefers-reduced-motion: Sometimes less movement is more](https://web.dev/articles/prefers-reduced-motion)
+- [CSS prefers-reduced-transparency](https://developer.chrome.com/blog/css-prefers-reduced-transparency)
+- [Improve Accessibility by Respecting Users’ Contrast Preferences with prefers-contrast](https://browserux.com/blog/articles/css-accessibility-prefers-contrast.html)
+- [Forced colors explained: A practical guide](https://polypane.app/blog/forced-colors-explained-a-practical-guide/)
+- [prefers-color-scheme: Hello darkness, my old friend](https://web.dev/articles/prefers-color-scheme)
+- [Creating websites with prefers-reduced-data](https://polypane.app/blog/creating-websites-with-prefers-reduced-data/)
+- [inverted-colors (color media features)](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/inverted-colors)
