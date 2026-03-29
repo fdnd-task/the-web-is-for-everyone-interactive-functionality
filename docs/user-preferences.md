@@ -124,15 +124,24 @@ Onderzoek ook hoe je de gebruikers instellingen kan testen en schrijf dit op jul
 
 
 ### 👉 Opdracht User preference media features ontwerpen
-Ontwerp je website voor verschillende _user preference media features_ zoals animaties, transparantie, contrast en kleur. 
+Ontwerp je website voor de verschillende _user preference media features_ zoals animaties, transparantie, contrast en kleur. 
 
 #### Testen
-Test eerst je website voor de verschillende _media features_. Maak een issue aan als je problemen tegenkomt. Beschrijf het probleem en plak er een screenshot bij. 
+Test eerst je website voor de verschillende _user preference media features_. 
+Maak een issue aan als je problemen tegenkomt. 
+Beschrijf het probleem en plak er een screenshot bij. 
+
+#### Onderzoeken
+Onderzoek voor alle _user preference media features_ waar je rekening mee moet houden als een gebruiker het als voorkeur heeft ingesteld.
+Gebruik o.a. onderstaande bronnen om het te onderzoeken. 
+
 
 #### Ontwerpen
-Dupliceer een van de pagina's van je website in Figma en maak variaties op je design voor prefers-reduced-motion, prefers-reduced-transparency, prefers-contrast, prefers-color-scheme (light/dark mode) en inverted-colors. Zorg dat je ontwerp voldoet aan de instellingen van de gebruiker ... 
+Dupliceer een van de pagina's van je website in Figma en maak variaties op je design voor prefers-reduced-motion, prefers-reduced-transparency, prefers-contrast, prefers-color-scheme (light/dark mode) en inverted-colors. 
+Zorg dat je ontwerp voldoet aan de instellingen van de gebruiker ... 
 
-Maak per nieuw ontwerp een issue aan om er later aan te werken. Beschrijf in het issue de _media feature_, leg het ontwerp uit en maak aantekeningen hoe je de het kan coderen.
+Maak per nieuw ontwerp een issue aan met uitleg zodat je er later aan kan werken. 
+Beschrijf in het issue de _media feature_, leg het ontwerp uit en maak aantekeningen wat voor code je nodig hebt en voeg bronnen toe.
 
 
 
