@@ -29,17 +29,23 @@ Door de uitvinding van flexibele schermen kunnen _handhelds_ gevouwen worden. Bi
 Dit is een Design prototype voor de Samsug S Fold:
 ![](the-new-responsive-samsung-s-fold.webp)<br>
 
-Om hier layouts voor te maken is de _Viewport Segments API_ bedacht. Dit is nog in de experimentele fase, het is _Limited Available_, nog niet alle moderne browsers ondersteunen dit. Dit komt eraan! https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API
+Om hier layouts voor te maken is de _Viewport Segments API_ bedacht. 
+Dit is nog in de experimentele fase, het is _Limited Available_, nog niet alle moderne browsers ondersteunen dit. 
+Maar dit komt eraan en je zou dit als enhancement kunnen toevoegen aan je website. 
+https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API
 
 ### 👉 Opdracht Foldable screens
 
-Bekijk jullie website in de devtools van Chrome op de _Galaxy Z Fold_ en _Asus Zenbook Fold_. Klopt de layout nog? Wat zou je nog meer kunnen bedenken en maken voor _foldables_?
+Bekijk jullie website in de devtools van Chrome op de _Galaxy Z Fold_ en _Asus Zenbook Fold_. 
+Klopt de layout nog? Wat zou je nog meer kunnen bedenken en maken voor _foldables_?
 
 Bekijk met je tafel de voorbeeld video voor _foldable screens_ op https://web.dev/articles/new-responsive#responsive_to_the_form_factor
 
-Zoek design inspiratie voor foldable schermen en bewaar voorbeelden in je Figma document. Bijvoorbeeld op Dribbble of Pinterest. 
+Zoek design inspiratie voor foldable schermen en bewaar voorbeelden in je Figma document. 
+Bijvoorbeeld op Dribbble of Pinterest. 
 
-Maak in je Figma een template voor verschillende _fold_ schermen en werk een paar ideeën lo-fi uit. Post je ideeen en een korte uitleg in het Teams kanaal. 
+Maak in je Figma een template voor verschillende _fold_ schermen en werk een paar ideeën lo-fi uit. 
+Post je ideeen en een korte uitleg in het Teams kanaal van sprint 09.
 
 <!-- Lees met je tafel de bron [Screen configurations](https://web.dev/learn/design/screen-configurations/) op Web.dev en doe de quiz aan het eind van het artikel: _Test your knowledge of screen configurations_ -->
 
@@ -129,19 +135,18 @@ Ontwerp je website voor de verschillende _user preference media features_ zoals 
 
 #### Testen
 Test eerst je website voor de verschillende _user preference media features_. 
-Maak een issue aan als je problemen tegenkomt. 
-Beschrijf het probleem en plak er een screenshot bij. 
+Maak een issue aan voor de _media features_. 
+geef uitleg wat je hebt getest en plak er een screenshot bij. 
 
 #### Onderzoeken
 Onderzoek voor alle _user preference media features_ waar je rekening mee moet houden als een gebruiker het als voorkeur heeft ingesteld.
 Gebruik o.a. onderstaande bronnen om het te onderzoeken. 
 
-
 #### Ontwerpen
-Dupliceer een van de pagina's van je website in Figma en maak variaties op je design voor prefers-reduced-motion, prefers-reduced-transparency, prefers-contrast, prefers-color-scheme (light/dark mode) en inverted-colors. 
+Dupliceer een van de pagina's van je website in Figma en maak voor prefers-reduced-motion, prefers-reduced-transparency, prefers-contrast, prefers-color-scheme (light/dark mode) en inverted-colors een alternatief ontwerp.
 Zorg dat je ontwerp voldoet aan de instellingen van de gebruiker ... 
 
-Maak per nieuw ontwerp een issue aan met uitleg zodat je er later aan kan werken. 
+Voeg de alternatieve ontwerpen toe aan het issue  met uitleg zodat je er later aan kan werken. 
 Beschrijf in het issue de _media feature_, leg het ontwerp uit en maak aantekeningen wat voor code je nodig hebt en voeg bronnen toe.
 
 
