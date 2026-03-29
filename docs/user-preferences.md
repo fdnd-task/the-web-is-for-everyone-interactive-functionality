@@ -121,7 +121,7 @@ De flip card animatie staat in de media query zodat een gebruiker het niet te zi
 }
 ```
 
-### 👉 Opdracht Media Queries testen
+### 👉 Opdracht user preference media queries uitproberen
 
 Om uit te proberen hoe deze technieken werken maak je voor alle _media features_ van hierboven een demo in je learning journal. 
 
@@ -130,7 +130,7 @@ Bespreek de demo's met je tafel en bedenk hoe je de _media features_ goed kan co
 Onderzoek ook hoe je de gebruikers instellingen kan testen en schrijf dit op jullie whiteboard.
 
 
-### 👉 Opdracht User preference media features ontwerpen
+### 👉 Opdracht user preference media features ontwerpen
 Ontwerp je website voor de verschillende _user preference media features_ zoals animaties, transparantie, contrast en kleur. 
 
 #### Testen
