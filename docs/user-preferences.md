@@ -61,7 +61,7 @@ Maak een issue aan met de design ideeën, voeg inspiratie toe en bronnen hoe je 
 
 ## User preference media features
 
-Om ervoor te zorgen dat je website het goed doet op verschillende browsers gebruiken we Progressive Enhancement als coding strategie en de Baseling om te bepalen of techniek goed wordt ondersteund. Om rekening te houden met je gebruikers kan je met _media queries_ onder andere _user preference media features_ gebruiken in je CSS. 
+Om ervoor te zorgen dat je website het goed doet op verschillende browsers gebruiken we Progressive Enhancement als coding strategie en de Baseline om te bepalen of techniek goed wordt ondersteund. Om rekening te houden met je gebruikers kan je met _media queries_ onder andere _user preference media features_ gebruiken in je CSS. 
 
 Een _media query_ ‘luistert’ naar de instellingen van de gebruiker. Zo kan je een andere layout of kleurenschema laten zien als gebruikers dit hebben ingesteld. 
 
