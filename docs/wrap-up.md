@@ -50,4 +50,4 @@ Bespreek met de groep wat je van plan bent aan de opdrachtgever te laten zien en
 
 👉 Bedenk met elkaar een logische volgorde voor het bespreken van jullie websites. Wie laat wat wanneer zien? Welke vragen hebben jullie? 
 
-👉 Voeg aan de readme van het project op de [Agency](https://github.com/fdnd-agency) de links toe van de repo's en live links. Zo kan de opdrachtgever het werk makkelijk terugvinden en bekijken.
+👉 Check of jullie repo links goed staan op de [Agency](https://github.com/fdnd-agency) pagina van julie project. Zo kan de opdrachtgever het werk makkelijk terugvinden en bekijken.
