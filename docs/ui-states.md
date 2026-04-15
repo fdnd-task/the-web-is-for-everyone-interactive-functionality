@@ -32,8 +32,6 @@ Hoe ver ben je met de opzet van je opdracht en de POST interactie? Schrijf op he
 7. ...
 
 
-
-
 ## UI-Stack onderzoeken
 
 Voor het ontwerpen van states met dynamische data gebruiken we de UI-Stack. 
@@ -95,7 +93,7 @@ Voeg de states toe in Figma en geef ze een duidelijke titel en korte uitleg.
 Omdat dit states zijn van dezelfde pagina teken je ze niet in de flow van de interactie. 
 Dat ziet er bijvoorbeeld zo uit: 
 
-![UI-stack Wireflow](UI-stack-wireflow.png) 
+![UI-stack Wireflow](wireflow-ui-stack-states.heic) 
 
 
 
